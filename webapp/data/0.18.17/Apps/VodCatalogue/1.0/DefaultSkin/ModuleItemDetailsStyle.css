@@ -1,0 +1,225 @@
+.vodCatItemDetModuleItemDetailsStyle {
+    top: 276px;
+    left: 384px;
+    width: 783px;
+    height: 390px;
+}
+
+.ItemDetRectInfoStyle {
+    top: 30px;
+    left: 13px;
+    width: 539px;
+    height: 300px;
+    background: #00274d;
+    border-radius: 4px;
+}
+
+.ItemDetRectInfoFocusOffStyle,
+.ItemDetRectInfoFocusOnStyle {
+    width: 529px;
+    height: 290px;
+    background: transparent;
+    border: 5px solid transparent;
+    border-radius: 4px;
+}
+
+.ItemDetRectInfoFocusOnStyle {
+    border: 5px solid #24730d;
+}
+
+.ItemDetTitleTxtStyle {
+    top: 38px;
+    left: 24px;
+    width: 513px;
+    height: 51px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.ItemDetDescTxtStyle {
+    top: 38px;
+    left: 24px;
+    width: 516px;
+    height: 286px;
+    color: #ccc;
+    background-color: transparent;
+    font-size: 22px;
+    text-align: left;
+    line-height: 26px;
+}
+
+.ItemDetDescTxtStyleDecorStyle {
+}
+
+.ItemDetRightImgStyle {
+    top: 150px;
+    left: 774px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_right.png") no-repeat;
+}
+
+.ItemDetLeftImgStyle {
+    top: 150px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_left.png") no-repeat;
+}
+
+.ItemDetCoverImgStyle {
+    top: 30px;
+    left: 569px;
+    width: 200px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.ItemDetUpImgStyle {
+    top: 17px;
+    left: 257px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat;
+}
+
+.ItemDetDownImgStyle {
+    top: 335px;
+    left: 257px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat;
+}
+
+/* Info number element in ott section */
+.itemDetInfoContentMeerTv {
+    top: 0px;
+    left: 13px;
+    color: #ccc;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8;*/
+}
+
+/*Vertical*/
+
+.ItemDetModuleItemDetailsGrid {
+    top: 30px;
+    left: 13px;
+    width: 755px;
+    height: 280px;
+}
+
+.ItemDetModuleItemDetailsGridItemCont {
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.ItemDetModuleItemDetailsGridItemImg {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.ItemDetModuleItemDetailsGridItemSelect {
+    width: 108px;
+    height: 108px;
+    border: 16px solid #24730d;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0
+}
+
+.ItemDetModuleItemDetailsGridItemTxt {
+    width: 99%;
+    height: 25px;
+    color: #ccc;
+    top: 40%;
+    font-size: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.ItemDetGridArrowDownImgStyle {
+    top: 318px;
+    left: 729px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat;
+}
+
+.ItemDetGridArrowUpImgStyle {
+    top: 14px;
+    left: 729px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat;
+}
+
+/*Vertical*/
+
+.VodCatModulePerZenderGridItemContImg {
+    display: table-cell;
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+}
+
+/*Horizontal Grid*/
+
+.styleHorizontalGridCont {
+    top: 30px;
+    left: 13px;
+    width: 755px;
+    height: 126px;
+}
+
+.ItemDetModuleItemDetailsHorizontalGridItemCont {
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: transparent;
+    float: right;
+    margin: 5px;
+}
+
+.ItemDetModuleItemDetailsHorizontalGridItemSelect {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #24730d;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0px;
+}
+
+.ItemDetModuleItemDetailsHorizontalGridItemImg {
+    width: 120px;
+    height: 120px;
+    position: static !important;
+    vertical-align: middle;
+}
+
+.ItemDetModuleItemDetailsHorizontalGridItemTxt {
+
+}
+
+.HorizontalGridArrowRightImgStyle {
+    top: 79px;
+    left: 774px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_right.png") no-repeat;
+}
+

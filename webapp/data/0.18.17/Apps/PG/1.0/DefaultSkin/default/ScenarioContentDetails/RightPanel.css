@@ -1,0 +1,257 @@
+.tvoyItemDetModuleItemDetailsStyle {
+    top: 276px;
+    left: 384px;
+    width: 805px;
+    height: 340px
+}
+
+/*
+.tvoyItemDetBackgroundRectStyleSelect {
+    width: 526px;
+    height: 287px;
+    border: 5px solid #54b42f
+}
+
+.tvoyItemDetBackgroundRectStyleUnselect {
+    width: 536px;
+    height: 280px;
+    border: 0
+}
+
+.tvoyItemDetBackgroundRectStyleSelect,
+.tvoyItemDetBackgroundRectStyleUnselect {
+    top: 13px;
+    left: 13px;
+    background: #CCC;
+    border-radius: 10px
+}*/
+
+.tvoyItemDetRectInfoStyle {
+    top: 30px;
+    left: 13px;
+    width: 536px;
+    height: 280px;
+    /*background: #00274d;*/
+    background: #00274d;
+    /*border-radius: 10px;*/
+    border-radius: 4px;
+}
+
+.tvoyItemDetRectInfoFocusOffStyle,
+.tvoyItemDetRectInfoFocusOnStyle {
+    width: 526px;
+    height: 270px;
+    background: transparent;
+    border: 5px solid transparent;
+    /*border-radius: 10px;*/
+    border-radius: 4px;
+}
+
+.tvoyItemDetRectInfoFocusOnStyle {
+    border: 5px solid #24730d;
+}
+
+.tvoyItemDetTitleTxtStyle {
+    top: 38px;
+    left: 24px;
+    width: 513px;
+    font-weight: 700;
+    font-size: 22px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 51px;
+}
+
+.tvoyItemDetDescTxtStyle {
+    top: 38px;
+    left: 24px;
+    width: 516px;
+    height: 260px;
+    color: #cccccc;
+    background-color: transparent;
+    font-size: 22px;
+    text-align: left;
+    line-height: 26px;
+}
+
+/*
+.tvoyItemDetDescTxtStyle {
+    top: 51px;
+    left: 24px;
+    width: 501px;
+    height: 235px;
+    background-color: transparent;
+    font-size: 22px;
+    text-align: left
+}
+*/
+
+.tvoyItemDetRightImgStyle {
+    left: 774px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_right.png") no-repeat
+}
+
+.tvoyItemDetLeftImgStyle {
+    left: 0px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_left.png") no-repeat
+}
+
+.tvoyItemDetRightImgStyle,
+.tvoyItemDetLeftImgStyle {
+    top: 141px;
+    width: 24px;
+    height: 24px
+}
+
+/*
+    con loc grande.. ma non come da SPEC paragrafo 7.5 pag 122 uispec 1.4
+*/
+.tvoyItemDetCoverImgStyle {
+    top: 30px;
+    left: 565px;
+    width: 200px;
+    height: 280px;
+    /*background: url("../../../../../Common/Resources/Images/1.0/empty_poster_pg.png") no-repeat;*/
+    /*opacity:0.7;*/
+    background-repeat: no-repeat;
+}
+
+.tvoyItemDetUpImgStyle {
+    top: 0px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat
+}
+
+.tvoyItemDetDownImgStyle {
+    top: 325px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat
+}
+
+.tvoyItemDetUpImgStyle,
+.tvoyItemDetDownImgStyle {
+    left: 257px;
+    width: 24px;
+    height: 24px;
+}
+
+.tvoyItemDetTitleTxtStyle,
+.tvoyItemDetDescTxtStyle {
+    /*color: #f6f3f4*/
+    color: #cccccc;
+}
+
+.tvoyItemDetInfoContentMeerTv {
+    top: 0px;
+    left: 13px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8;*/
+}
+
+.tvoyItemDetModuleItemDetailsGrid {
+    top: 30px;
+    left: 13px;
+    width: 755px;
+    height: 280px;
+}
+
+.tvoyItemDetModuleItemDetailsGridItemCont {
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.tvoyItemDetModuleItemDetailsGridItemSelect {
+    width: 108px;
+    height: 108px;
+    border: 16px solid #24730d;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0
+}
+
+.tvoyItemDetModuleItemDetailsGridItemTxt {
+    width: 99%;
+    height: 25px;
+    color: #fff;
+    top: 40%;
+    font-size: 20px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.tvoyItemDetModuleItemDetailsGridItemImg {
+    width: 120px;
+    height: 120px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+.tvoyItemDetGridArrowDownImgStyle {
+    top: 318px;
+    left: 729px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat;
+}
+
+.tvoyItemDetGridArrowUpImgStyle {
+    top: 14px;
+    left: 729px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat;
+}
+
+/*Horizontal Grid*/
+
+.tvoyStyleHorizontalGridCont {
+    top: 30px;
+    left: 13px;
+    width: 755px;
+    height: 126px;
+}
+
+.tvoyItemDetModuleItemDetailsHorizontalGridItemCont {
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: transparent;
+    float: right;
+    margin: 5px;
+}
+
+.tvoyItemDetModuleItemDetailsHorizontalGridItemSelect {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #24730d;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0px;
+}
+
+.tvoyItemDetModuleItemDetailsHorizontalGridItemImg {
+    width: 120px;
+    height: 120px;
+    position: static !important;
+    vertical-align: middle;
+}
+
+.tvoyItemDetModuleItemDetailsHorizontalGridItemTxt {
+
+}
+
+.tvoyHorizontalGridArrowRightImgStyle {
+    top: 79px;
+    left: 774px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_right.png") no-repeat;
+}

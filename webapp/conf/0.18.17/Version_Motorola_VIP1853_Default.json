@@ -1,0 +1,83 @@
+{
+  "versioning": [
+    {
+      "rule": {
+        "min": "3.0.5"
+      },
+      "values": {
+        "Framework": "1.0",
+        "UpdateMode": "normal",
+        "VodCatalogue": {
+          "version": "1.0",
+          "isPrecached": "true",
+          "requiredPkgs": [
+            {
+              "pkType": "VOD",
+              "pkSubtype": "VOD"
+            }
+          ],
+          "applicationTypes": [
+            "vodSearchResult",
+            "vodDetailsLcdi",
+            "vodDetailsIml",
+            "vodCategory",
+            "playVodLcdi",
+            "playVodIml",
+            "playVodOtt"
+          ]
+        },
+        "PG": {
+          "version": "1.0",
+          "isPrecached": "true",
+          "requiredPkgs": [
+            {
+              "pkType": "VOD",
+              "pkSubtype": "TVOY"
+            }
+          ],
+          "applicationTypes": [
+            "pgSearchResult"
+          ]
+        },
+        "Messages": {
+          "version": "1.0",
+          "isPrecached": "false",
+          "applicationTypes": [
+            "showMessageDetails",
+            "showMessagesList"
+          ]
+        },
+        "Popup": {
+          "version": "1.0",
+          "isPrecached": "true"
+        },
+        "Overlay": {
+          "version": "1.0",
+          "isPrecached": "true"
+        },
+        "RentedItems": {
+          "version": "1.0",
+          "isPrecached": "false"
+        },
+        "Help": {
+          "version": "1.0",
+          "isPrecached": "true",
+          "applicationTypes": [
+            "help"
+          ]
+        },
+        "HelpVodCatalogue": {
+          "version": "1.0",
+          "isPrecached": "false",
+          "applicationTypes": [
+            "helpVideos"
+          ]
+        },
+        "PPV": {
+          "version": "1.0",
+          "isPrecached": "false"
+        }
+      }
+    }
+  ]
+}

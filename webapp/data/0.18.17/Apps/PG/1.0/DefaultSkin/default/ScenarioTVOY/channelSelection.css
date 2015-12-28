@@ -1,0 +1,21 @@
+.tvoyCatChanNumTxt {
+    left: 190px
+}
+
+.tvoyItemChanNumTxt {
+    left: 200px
+}
+
+.tvoyCatChanNumTxt,
+.tvoyItemChanNumTxt {
+    top: 100px;
+    width: 90px;
+    font-weight: 700;
+    background: #00274d;
+    /*color:#fff;*/
+    color: #cccccc;
+    font-size: 30px;
+    text-align: center;
+    text-underline-position: auto;
+    border-radius: 10px
+}

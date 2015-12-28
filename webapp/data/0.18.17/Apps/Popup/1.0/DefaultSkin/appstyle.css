@@ -1,0 +1,2221 @@
+/*@font-face {
+    font-family: 'myriad';
+    src: url('./Apps/Common/Resources/Fonts/1.0/myriad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+.appStylePopup {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+.bgStylePopup {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+    opacity: 0.5;
+}
+
+/* START scenario ScenarioMessagePopupLow */
+.ScenarioMessagePopupLowStyle {
+    top: 70px;
+    left: 120px;
+    width: 438px;
+    height: 295px;
+}
+
+.MsgLowPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 438px;
+    height: 295px;
+    opacity: 0.92;
+}
+
+.MsgLowPopupTitleTxt {
+    top: 0px;
+    left: 17px;
+    width: 404px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: left;
+}
+
+.MsgLowPopupMessageTxt {
+    top: 40px;
+    left: 17px;
+    height: 200px;
+    width: 404px;
+    color: #ccc;
+    font-size: 25px;
+    text-align: left;
+}
+
+.MsgLowPopupCloseBtnCont {
+    top: 248px;
+    left: 17px;
+    width: 404px;
+    height: 34px;
+}
+
+.MsgLowPopupCloseBtnBgSelect {
+    width: 404px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.MsgLowPopupCloseBtnBgUnSelect {
+    width: 404px;
+    height: 32px;
+    background-color: #00274d;
+    border: 0px solid #00274d;
+    border-radius: 4px;
+}
+
+.MsgLowPopupCloseBtnBgSelected {
+    width: 404px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.MsgLowPopupCloseBtnTxtSelect {
+    width: 404px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.MsgLowPopupCloseBtnTxtUnSelect {
+    width: 404px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.MsgLowPopupCloseBtnTxtSelected {
+    width: 404px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* END scenario ScenarioMessagePopupLow */
+
+/* START scenario ScenarioMessagePopup original - top:232*/
+.ScenarioMessagePopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 260px; /*p edit   original_value: 256 - my_edit: 260*/
+}
+
+.ScenarioMessageLargePopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 359px; /*p edit   original_value: 256 - my_edit: 260*/
+}
+
+.MsgPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 260px; /*p edit   original_value: 256 - my_edit: 260*/
+}
+
+.MsgPopupTitleTxt {
+    top: 0px;
+    left: 17px;
+    width: 580px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: left;
+}
+
+.MsgPopupMessageTxt {
+    top: 40px;
+    left: 17px;
+    height: 200px; /*p edit   original_value: 100 - my_edit: 120*/
+    width: 580px;
+    color: #ccc;
+    font-size: 26px; /*p edit   original_value: 22 - my_edit: 20*/
+    text-align: left;
+}
+
+.MsgPopupCloseBtnCont {
+    top: 205px; /*p edit   original_value: 200 - my_edit: 205*/
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.MsgPopupCloseBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.MsgPopupCloseBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.MsgPopupCloseBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.MsgPopupCloseBtnTxtSelect {
+    width: 580px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.MsgPopupCloseBtnTxtUnSelect {
+    width: 580px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.MsgPopupCloseBtnTxtSelected {
+    width: 580px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/* END scenario ScenarioMessagePopup */
+
+/* START scenario ScenarioInteractivePopup */
+.ScenarioInteractivePopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 260px;
+}
+
+.IntPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 260px;
+}
+
+.IntPopupLargeBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 359px;
+}
+
+.IntPopupTitleTxt {
+    top: 5px;
+    left: 17px;
+    width: 580px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+
+.IntPopupMessageLargeTxt,
+.IntPopupMessageTxt {
+    top: 40px;
+    left: 17px;
+    height: 130px;
+    width: 580px;
+    color: #ccc;
+    font-size: 26px;
+    text-align: left;
+}
+
+.IntPopupMessageLargeTxt {
+    height: 240px;
+    font-size: 25px;
+}
+
+.IntPopupOKBtnLargeCont,
+.IntPopupOKBtnCont {
+    top: 170px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.IntPopupOKBtnLargeCont {
+    top: 277px;
+}
+
+.IntPopupOKBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.IntPopupOKBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.IntPopupOKBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.IntPopupOKBtnTxtSelect {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IntPopupOKBtnTxtUnSelect {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IntPopupOKBtnTxtSelected {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 8px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IntPopupKOBtnLargeCont,
+.IntPopupKOBtnCont {
+    top: 207px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.IntPopupKOBtnLargeCont {
+    top: 315px;
+}
+
+.IntPopupKOBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.IntPopupKOBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;;
+}
+
+.IntPopupKOBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.IntPopupKOBtnTxtSelect {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IntPopupKOBtnTxtUnSelect {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.IntPopupKOBtnTxtSelected {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 8px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* END scenario ScenarioInteractivePopup */
+
+/* START scenario ScenarioCreateReminderPopup */
+.ScenarioCreateReminderPopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 260px;
+}
+
+.RemPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 260px;
+}
+
+.RemPopupIcon {
+    top: 3px;
+    left: 3px;
+}
+
+.RemPopupTitleTxt {
+    top: 5px;
+    left: 34px;
+    width: 576px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.RemPopupPrgTitleTxt {
+    top: 40px;
+    left: 17px;
+    height: 25px;
+    width: 580px;
+    color: #ccc;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemPopupPrgTimeTxt {
+    top: 74px;
+    left: 17px;
+    height: 22px;
+    width: 145px;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemPopupPrgDateTxt {
+    top: 74px;
+    left: 162px;
+    height: 22px;
+    width: 145px;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemPopupPrgChanTxt {
+    top: 72px;
+    left: 307px;
+    height: 22px;
+    width: 290px;
+    color: #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemPopupSwitchImmLblTxt {
+    top: 100px;
+    right: 315px;
+    height: 22px;
+    width: 290px;
+    color: #ccc;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.RemPopupSwitchImmTxt {
+    top: 100px;
+    left: 365px;
+    height: 22px;
+    width: 174px;
+    color: #ccc;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.RemPopupTimeStartLblTxt {
+    top: 136px;
+    right: 315px;
+    height: 22px;
+    width: 290px;
+    color: #ccc;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.RemPopupTimeStartMinTxt {
+    top: 136px;
+    left: 365px;
+    height: 22px;
+    width: 290px;
+    color: #ccc;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemPopupSwitchImmLeftBtnCont {
+    top: 96px;
+    left: 307px;
+    width: 50px;
+    height: 34px;
+}
+
+.RemPopupSwitchImmLeftBtnBgSelect {
+    width: 50px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemPopupSwitchImmLeftBtnBgUnSelect {
+    width: 50px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RemPopupSwitchImmLeftBtnBgSelected {
+    width: 50px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemPopupSwitchImmLeftBtnTxtSelect {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupSwitchImmLeftBtnTxtUnSelect {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupSwitchImmLeftBtnTxtSelected {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupSwitchImmRightBtnCont {
+    top: 96px;
+    left: 547px;
+    width: 50px;
+    height: 34px;
+}
+
+.RemPopupSwitchImmRightBtnBgSelect {
+    width: 50px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemPopupSwitchImmRightBtnBgUnSelect {
+    width: 50px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RemPopupSwitchImmRightBtnBgSelected {
+    width: 50px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemPopupSwitchImmRightBtnTxtSelect {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupSwitchImmRightBtnTxtUnSelect {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupSwitchImmRightBtnTxtSelected {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupTimeStartBtnCont {
+    top: 133px;
+    left: 307px;
+    width: 50px;
+    height: 34px;
+}
+
+.RemPopupTimeStartBtnBgSelect {
+    width: 50px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemPopupTimeStartBtnBgUnSelect {
+    width: 50px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RemPopupTimeStartBtnBgSelected {
+    width: 50px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemPopupTimeStartBtnTxtSelect {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupTimeStartBtnTxtUnSelect {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupTimeStartBtnTxtSelected {
+    width: 50px;
+    height: 32px;
+    top: 3px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: center;
+}
+
+.RemPopupTimeStartBtnHighlighted {
+    height: 24px;
+    top: 4px;
+    background-color: #0066FF;
+    opacity: 0.6;
+}
+
+.RemPopupTimeStartBtnHighlightedCursor {
+    height: 24px;
+    top: 4px;
+    background-color: white;
+}
+
+.RemPopupOKBtnCont {
+    top: 170px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.RemPopupOKBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemPopupOKBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RemPopupOKBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemPopupOKBtnTxtSelect {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemPopupOKBtnTxtUnSelect {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemPopupOKBtnTxtSelected {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 5px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemPopupKOBtnCont {
+    top: 207px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.RemPopupKOBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemPopupKOBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RemPopupKOBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemPopupKOBtnTxtSelect {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemPopupKOBtnTxtUnSelect {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemPopupKOBtnTxtSelected {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 5px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+/* END scenario ScenarioCreateReminderPopup */
+
+/* START scenario ScenarioReminderConflictPopup */
+.ScenarioReminderConflictPopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 260px;
+}
+
+.RemConfPopupIcon {
+    top: 3px;
+    left: 3px;
+}
+
+.RemConfPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 260px;
+}
+
+.RemConfPopupTitleTxt {
+    top: 5px;
+    left: 34px;
+    width: 576px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+    text-align: left;
+}
+
+.RemConfPopupPrgTimeTxt {
+    top: 74px;
+    left: 17px;
+    height: 22px;
+    width: 145px;
+    color: #ccc;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemConfPopupPrgDateTxt {
+    top: 74px;
+    left: 162px;
+    height: 22px;
+    width: 145px;
+    color: #ccc;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemConfPopupPrgTitleTxt {
+    top: 72px;
+    left: 287px;
+    height: 22px;
+    width: 196px;
+    color: #ccc;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemConfPopupPrgChanTxt {
+    top: 72px;
+    left: 488px;
+    height: 22px;
+    width: 108px;
+    color: #ccc;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.RemConfPopupLabel1Txt {
+    top: 40px;
+    left: 17px;
+    height: 27px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 21px;
+    text-align: left;
+}
+
+.RemConfPopupLabel2Txt {
+    top: 112px;
+    left: 17px;
+    height: 52px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 21px;
+    text-align: left;
+}
+
+.RemConfPopupOKBtnCont {
+    top: 170px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.RemConfPopupOKBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemConfPopupOKBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RemConfPopupOKBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemConfPopupOKBtnTxtSelect {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemConfPopupOKBtnTxtUnSelect {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemConfPopupOKBtnTxtSelected {
+    width: 580px;
+    height: 32px;
+    top: 3px;
+    left: 5px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemConfPopupKOBtnCont {
+    top: 207px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.RemConfPopupKOBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RemConfPopupKOBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;;
+}
+
+.RemConfPopupKOBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RemConfPopupKOBtnTxtSelect {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemConfPopupKOBtnTxtUnSelect {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 5px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.RemConfPopupKOBtnTxtSelected {
+    width: 580px;
+    height: 34px;
+    top: 3px;
+    left: 5px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+/* END scenario ScenarioReminderConflictPopup */
+
+/* START scenario ScenarioPincodePopup */
+.ScenarioPincodePopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 330px;
+}
+
+.PinPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 330px;
+}
+
+.PinPopupTitleTxt {
+    top: 0px;
+    left: 17px;
+    width: 576px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 26px;
+    text-align: left;
+}
+
+.PinPopupLabelTxt {
+    top: 40px;
+    left: 17px;
+    height: 70px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 26px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.PinPopupPincodeBtnCont {
+    top: 112px;
+    left: 17px;
+    width: 580px;
+    height: 30px;
+}
+
+.PinPopupPincodeBtnBgSelect {
+    width: 580px;
+    height: 30px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.PinPopupPincodeBtnBgUnSelect {
+    width: 580px;
+    height: 30px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.PinPopupPincodeBtnBgSelected {
+    width: 580px;
+    height: 30px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.PinPopupPincodeBtnTxtSelect {
+    top: 0px;
+    left: 8px;
+    width: 580px;
+    height: 30px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.PinPopupPincodeBtnTxtUnSelect {
+    top: 0px;
+    left: 8px;
+    width: 580px;
+    height: 30px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.PinPopupPincodeBtnTxtSelected {
+    top: 0px;
+    left: 8px;
+    width: 580px;
+    height: 30px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.PinPopupPincodeBtnitemStartMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.PinPopupPincodeBtnitemEndMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.PinPopupPincodeBtnitemMiddleMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.PinPopupPincodeBtnitemStartMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.PinPopupPincodeBtnitemEndMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.PinPopupPincodeBtnitemMiddleMaskImgUnselect {
+    left: 8px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.PinPopupPincodeBtnitemMaskTxtSelect {
+    top: 2px;
+    left: 8px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.PinPopupPincodeBtnitemMaskTxtUnSelect {
+    top: 2px;
+    left: 8px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.PinPopupCancelBtnCont {
+    top: 250px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.PinPopupCancelBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.PinPopupCancelBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;;
+}
+
+.PinPopupCancelBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.PinPopupCancelBtnTxtSelect {
+    width: 580px;
+    height: 34px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.PinPopupCancelBtnTxtUnSelect {
+    width: 580px;
+    height: 34px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.PinPopupCancelBtnTxtSelected {
+    width: 580px;
+    height: 34px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.PinPopupHelpImg {
+    top: 290px;
+    left: 505px;
+    width: 24px;
+    height: 24px;
+}
+
+.PinPopupHelpTxt {
+    top: 290px;
+    left: 535px;
+    width: 66px;
+    height: 30px;
+    color: #ccc;
+
+    font-size: 22px;
+    text-align: left;
+}
+
+/* END scenario ScenarioPincodePopup */
+
+/* START scenario ScenarioVoucherPopup */
+.ScenarioVoucherPopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 330px;
+}
+
+.VouchPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 330px;
+}
+
+.VouchPopupTitleTxt {
+    top: 0px;
+    left: 17px;
+    width: 576px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 25px;
+    text-align: left;
+}
+
+.VouchPopupLabelTxt {
+    top: 90px;
+    left: 17px;
+    height: 70px;
+    width: 300px;
+    color: #ccc;
+
+    font-size: 22px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.VouchPopupPincodeBtnCont {
+    top: 43px;
+    left: 34px;
+    width: 273px;
+    height: 30px;
+}
+
+.VouchPopupPincodeBtnBgSelect {
+    width: 273px;
+    height: 30px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.VouchPopupPincodeBtnBgUnSelect {
+    width: 273px;
+    height: 30px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.VouchPopupPincodeBtnBgSelected {
+    width: 273px;
+    height: 30px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.VouchPopupPincodeBtnTxtSelect {
+    top: 2px;
+    left: 5px;
+    width: 273px;
+    height: 30px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.VouchPopupPincodeBtnTxtUnSelect {
+    top: 2px;
+    left: 5px;
+    width: 273px;
+    height: 30px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.VouchPopupPincodeBtnTxtSelected {
+    top: 2px;
+    left: 5px;
+    width: 273px;
+    height: 30px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.VouchPopupPincodeBtnitemStartMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.VouchPopupPincodeBtnitemEndMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.VouchPopupPincodeBtnitemMiddleMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.VouchPopupPincodeBtnitemStartMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.VouchPopupPincodeBtnitemEndMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.VouchPopupPincodeBtnitemMiddleMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.VouchPopupPincodeBtnitemMaskTxtSelect {
+    top: 2px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.VouchPopupPincodeBtnitemMaskTxtUnSelect {
+    top: 2px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.VouchPopupCaseBtnCont {
+    top: 239px;
+    left: 367px;
+    width: 70px;
+    height: 38px;
+}
+
+.VouchPopupLowerCaseBtnBgSelect {
+    width: 70px;
+    height: 38px;
+    /*background: linear-gradient(to bottom, #54b42f 50%,#399913 50%); /* W3C */
+    /*background: -webkit-linear-gradient(top,#54b42f 50%,#399913 50%); /* Chrome10+,Safari5.1+ */
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_switch_lower_F.png");
+    border-radius: 4px;
+}
+
+.VouchPopupLowerCaseBtnBgUnSelect {
+    width: 70px;
+    height: 38px;
+    /*background-color: #dee1e7;*/
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_switch_lower_NF.png");
+    border-radius: 4px;;
+}
+
+.VouchPopupLowerCaseBtnBgSelected {
+    width: 70px;
+    height: 38px;
+    /*background-color: #333333;*/
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_switch_lower_F.png");
+    border-radius: 4px;
+}
+
+.VouchPopupUpperCaseBtnBgSelect {
+    width: 70px;
+    height: 38px;
+    /*background: linear-gradient(to bottom, #54b42f 50%,#399913 50%); /* W3C */
+    /*background: -webkit-linear-gradient(top,#54b42f 50%,#399913 50%); /* Chrome10+,Safari5.1+ */
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_switch_upper_F.png");
+    border-radius: 4px;
+}
+
+.VouchPopupUpperCaseBtnBgUnSelect {
+    width: 70px;
+    height: 38px;
+    /*background-color: #dee1e7;*/
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_switch_upper_NF.png");
+    border-radius: 4px;
+}
+
+.VouchPopupUpperCaseBtnBgSelected {
+    width: 70px;
+    height: 38px;
+    /*background-color: #333333;*/
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_switch_upper_F.png");
+    border-radius: 4px;
+}
+
+.VouchPopupCancBtnCont {
+    top: 239px;
+    left: 447px;
+    width: 70px;
+    height: 38px;
+}
+
+.VouchPopupCancBtnBgSelect {
+    width: 70px;
+    height: 38px;
+    /*background: linear-gradient(to bottom, #54b42f 50%,#399913 50%); /* W3C */
+    /*background: -webkit-linear-gradient(top,#54b42f 50%,#399913 50%); /* Chrome10+,Safari5.1+ */
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_delete_F.png");
+    border-radius: 4px;
+}
+
+.VouchPopupCancBtnBgUnSelect {
+    width: 70px;
+    height: 38px;
+    /*background-color: #dee1e7;*/
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_delete_NF.png");
+    border-radius: 4px;;
+}
+
+.VouchPopupCancBtnBgSelected {
+    width: 70px;
+    height: 38px;
+    /*background-color: #333333;*/
+    background: url("./Apps/Popup/1.0/DefaultSkin/images/button_delete_F.png");
+    border-radius: 4px;
+}
+
+.VouchPopupOKBtnCont {
+    top: 281px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.VouchPopupOKBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.VouchPopupOKBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.VouchPopupOKBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.VouchPopupOKBtnTxtSelect {
+    width: 580px;
+    height: 34px;
+    top: 2px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 25px;
+}
+
+.VouchPopupOKBtnTxtUnSelect {
+    width: 580px;
+    height: 34px;
+    top: 2px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 25px;
+}
+
+.VouchPopupOKBtnTxtSelected {
+    width: 580px;
+    height: 34px;
+    top: 2px;
+    left: 8px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 25px;
+}
+
+.VouchPopupKeyboardGrid {
+    top: 45px;
+    left: 367px;
+    width: 230px;
+    height: 181px;
+}
+
+.VouchPopupKeyboardGridCont {
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 26px;
+    text-align: center;
+}
+
+.VouchPopupKeyboardGridBtBgSelect {
+    width: 30px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #24730d;
+}
+
+.VouchPopupKeyboardGridBtBgUnSelect {
+    width: 30px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #00274d;
+}
+
+.VouchPopupKeyboardGridBtBgSelected {
+    width: 30px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #666e84;
+}
+
+.VouchPopupKeyboardGridBtTxtSelect {
+    width: 30px;
+    height: 26px;
+    font-weight: bold;
+    color: #ccc;
+    font-size: 22px;
+}
+
+.VouchPopupKeyboardGridBtTxtUnSelect {
+    width: 30px;
+    height: 26px;
+    font-weight: bold;
+    color: #ccc;
+    font-size: 22px;
+}
+
+.VouchPopupKeyboardGridBtTxtSelected {
+    width: 30px;
+    height: 26px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* END scenario ScenarioVoucherPopup */
+
+/* START scenario ScenarioDiscountPopup */
+.ScenarioDiscountPopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 330px;
+}
+
+.DiscPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    /*  width: 614px;
+   height: 330px;*/
+}
+
+.DiscPopupTitleTxt {
+    top: 0px;
+    left: 17px;
+    width: 576px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 25px;
+    text-align: left;
+}
+
+.DiscPopupLabel1Txt {
+    top: 40px;
+    left: 17px;
+    height: 25px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 23px;
+    text-align: left;
+
+}
+
+.DiscPopupLabel2Txt {
+    top: 140px;
+    left: 17px;
+    height: 25px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 22px;
+    text-align: left;
+
+}
+
+.DiscPopupItemTitleTxt {
+    top: 72px;
+    left: 17px;
+    height: 25px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 23px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.DiscPopupPriceTxt {
+    top: 105px;
+    left: 90px;
+    height: 25px;
+    width: 430px;
+    color: #24730d;
+
+    font-size: 23px;
+    text-align: left;
+}
+
+.DiscPopupPriceLblTxt {
+    top: 105px;
+    left: 34px;
+    height: 25px;
+    width: 55px;
+    color: #24730d;
+
+    font-size: 23px;
+    text-align: left;
+}
+
+.DiscPopupPincodeBtnCont {
+    top: 172px;
+    left: 17px;
+    width: 580px;
+    height: 32px;
+}
+
+.DiscPopupPincodeBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #24730d;
+
+    border-radius: 4px;
+}
+
+.DiscPopupPincodeBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.DiscPopupPincodeBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.DiscPopupPincodeBtnTxtSelect {
+    line-height: 30px;
+    vertical-align: middle;
+    left: 8px;
+    width: 580px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.DiscPopupPincodeBtnTxtUnSelect {
+    line-height: 30px;
+    vertical-align: middle;
+    left: 8px;
+    width: 580px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.DiscPopupPincodeBtnTxtSelected {
+    line-height: 30px;
+    vertical-align: middle;
+    left: 8px;
+    width: 580px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.DiscPopupPincodeBtnitemStartMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.DiscPopupPincodeBtnitemEndMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.DiscPopupPincodeBtnitemMiddleMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.DiscPopupPincodeBtnitemStartMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.DiscPopupPincodeBtnitemEndMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.DiscPopupPincodeBtnitemMiddleMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png");
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+.DiscPopupPincodeBtnitemMaskTxtSelect {
+    top: 2px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.DiscPopupPincodeBtnitemMaskTxtUnSelect {
+    top: 2px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 22px;
+}
+
+.DiscPopupCancelBtnCont {
+    top: 210px;
+    left: 17px;
+    width: 580px;
+    height: 32px;
+}
+
+.DiscPopupCancelBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.DiscPopupCancelBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;;
+}
+
+.DiscPopupCancelBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.DiscPopupCancelBtnTxtSelect {
+    width: 580px;
+    height: 32px;
+    left: 8px;
+    color: #ccc;
+    line-height: 32px;
+    vertical-align: middle;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.DiscPopupCancelBtnTxtUnSelect {
+    width: 580px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.DiscPopupCancelBtnTxtSelected {
+    width: 580px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    left: 8px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.DiscPopupHelpImg {
+    top: 290px;
+    left: 505px;
+    width: 24px;
+    height: 24px;
+}
+
+.DiscPopupHelpTxt {
+    top: 290px;
+    left: 535px;
+    width: 66px;
+    height: 30px;
+    color: #ccc;
+
+    font-size: 22px;
+    text-align: left;
+}
+
+/* END scenario ScenarioDiscountPopup */
+
+/* START scenario ScenarioRentConfirmPopup */
+.ScenarioRentConfirmPopupStyle {
+    top: 147px;
+    left: 333px;
+    width: 614px;
+    height: 330px;
+}
+
+.RentConfPopupBkgImg {
+    top: 0px;
+    left: 0px;
+    width: 614px;
+    height: 330px;
+}
+
+.RentConfPopupTitleTxt {
+    top: 0px;
+    left: 17px;
+    width: 576px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 26px;
+    text-align: left;
+}
+
+.RentConfPopupItemTitleTxt {
+    top: 70px;
+    left: 17px;
+    height: 30px;
+    width: 580px;
+    color: #ccc;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.RentConfPopupLabel1Txt {
+    top: 40px;
+    left: 17px;
+    height: 30px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 26px;
+    text-align: left;
+}
+
+.RentConfPopupLabel2Txt {
+    top: 112px;
+    left: 17px;
+    height: 60px;
+    width: 580px;
+    color: #ccc;
+
+    font-size: 26px;
+    text-align: left;
+}
+
+.RentConfPopupNowBtnCont {
+    top: 241px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.RentConfPopupNowBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RentConfPopupNowBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.RentConfPopupNowBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RentConfPopupNowBtnTxtSelect {
+    width: 580px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.RentConfPopupNowBtnTxtUnSelect {
+    width: 580px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.RentConfPopupNowBtnTxtSelected {
+    width: 580px;
+    height: 32px;
+    top: 0px;
+    left: 8px;
+    color: #000000;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.RentConfPopupLaterBtnCont {
+    top: 278px;
+    left: 17px;
+    width: 580px;
+    height: 34px;
+}
+
+.RentConfPopupLaterBtnBgSelect {
+    width: 580px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.RentConfPopupLaterBtnBgUnSelect {
+    width: 580px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;;
+}
+
+.RentConfPopupLaterBtnBgSelected {
+    width: 580px;
+    height: 32px;
+    background-color: #666e84;
+    border-radius: 4px;
+}
+
+.RentConfPopupLaterBtnTxtSelect {
+    width: 580px;
+    height: 34px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.RentConfPopupLaterBtnTxtUnSelect {
+    width: 580px;
+    height: 34px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+.RentConfPopupLaterBtnTxtSelected {
+    width: 580px;
+    height: 34px;
+    top: 0px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+
+    font-size: 26px;
+}
+
+/* END scenario ScenarioRentConfirmPopup */
+
+
+
+
+

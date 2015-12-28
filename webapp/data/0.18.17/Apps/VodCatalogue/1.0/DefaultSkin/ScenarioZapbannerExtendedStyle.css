@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+.vodCatModuleZapBannerExtendedStyle {
+    top: 180px
+}
+
+.ModuleZapBannerExtendedStyleOutOfScreen {
+    top: 800px
+}
+
+.ModuleZapBannerExtendedStyle,
+.ModuleZapBannerExtendedStyleOutOfScreen {
+    left: 112px;
+    width: 1064px;
+    height: 479px;
+    /*  border-radius: 4px */
+}
+
+.zapBannerExtTitleStyle {
+    font-size: 22px;
+    height: 50px;
+    left: 300px;
+    top: 25px;
+    width: 730px;
+    font-weight: bold;
+}
+
+.zapBannerExtVodDescStyle {
+    height: 210px
+    /**/
+}
+
+.zapBannerExtVodAddInfoStyle {
+    height: 60px
+}
+
+.zapBannerExtVodDescStyle,
+.zapBannerExtVodAddInfoStyle {
+    font-size: 22px;
+    left: 300px;
+    top: 90px;
+    width: 743px; /*744*/
+}
+
+.zapBannerExtBg {
+    width: 1064px;
+    height: 479px;
+    background-image: url("../../../Common/Resources/Images/1.0/zapBanner/zapbanner_bg_large.png")
+}
+
+.zapBannerExtVodRectStyle {
+    top: 20px;
+    left: 293px;
+    width: 755px;
+    height: 295px;
+    background: #00274d;
+    border: 0;
+    border-radius: 4px
+}
+
+.zapBannerExtVodRectFocusOnStyle,
+.zapBannerExtVodRectFocusOffStyle {
+    top: 0px;
+    left: 0px;
+    width: 745px;
+    height: 285px;
+    background: transparent;
+    border: 5px solid transparent;
+    border-radius: 4px
+}
+
+.zapBannerExtVodRectFocusOnStyle {
+    border: 5px solid #24730d;
+}
+
+.zapBannerExtMenuListStyle {
+    top: 167px;
+    left: 130px;
+    width: 248px;
+    height: 360px
+}
+
+.zapBannerModuleMenuListGrid {
+    top: 33px;
+    width: 248px;
+    height: 296px
+}
+
+.zapBannerModuleMenuListGridItemBgSelect {
+    width: 248px;
+    height: 30px;
+    border: 0;
+    border-radius: 4px
+}
+
+.zapBannerModuleMenuListGridItemBgSelect {
+    /*background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+    background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d;
+}
+
+.zapBannerModuleMenuListGridItemBgUnSelect {
+    background: #00274d
+}
+
+.zapBannerModuleMenuListGridItemBgSelected {
+    background: #666e84
+}
+
+.zapBannerModuleMenuListGridItemBgUnSelect,
+.zapBannerModuleMenuListGridItemBgSelected {
+    border: 0;
+    border-radius: 4px
+}
+
+.zapBannerModuleMenuListGridItemCont,
+.zapBannerModuleMenuListGridItemBgUnSelect,
+.zapBannerModuleMenuListGridItemBgSelected {
+    width: 248px;
+    height: 30px
+}
+
+.zapBannerModuleMenuListGridTitleTxtSelected,
+.zapBannerModuleMenuListGridTitleTxtUnSelect,
+.zapBannerModuleMenuListGridTitleTxtSelect {
+    width: 228px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.zapBannerpinButtonitemMaskTxtUnSelect {
+    width: 21px;
+    height: 21px
+}
+
+.zapBannerpinButtonitemStartMaskImgSelect {
+    left: 0;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png") no-repeat;
+    border-image: none
+}
+
+.zapBannerpinButtonitemEndMaskImgSelect {
+    width: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png") no-repeat
+}
+
+.zapBannerpinButtonitemMiddleMaskImgSelect {
+    width: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png") no-repeat
+}
+
+.zapBannerpinButtonitemStartMaskImgUnselect {
+    width: 27px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_first_element_unselect_sbs6.png") no-repeat
+}
+
+.zapBannerpinButtonitemEndMaskImgUnselect {
+    width: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_last_element_unselect_sbs6.png") no-repeat
+}
+
+.zapBannerpinButtonitemMiddleMaskImgUnselect {
+    width: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_middle_element_unselect_sbs6.png") no-repeat
+}
+
+.zapBannertpinButtonitemEndMaskImgSelect,
+.zapBannerpinButtonitemMiddleMaskImgSelect,
+.zapBannerpinButtonitemStartMaskImgUnselect,
+.zapBannerpinButtonitemEndMaskImgUnselect,
+.zapBannerpinButtonitemMiddleMaskImgUnselect {
+    left: 5px;
+    top: 5px;
+    height: 24px;
+    border-image: none
+}
+
+.zapBannerExtTitleStyle,
+.zapBannerExtVodDescStyle,
+.zapBannerExtVodAddInfoStyle,
+.zapBannerModuleMenuListGridTitleTxtUnSelect,
+.zapBannerModuleMenuListGridTitleTxtSelect,
+.zapBannerModuleMenuListGridTitleTxtSelected,
+.zapBannerpinButtonitemMaskTxtUnSelect {
+    color: #ccc
+}
+
+.zapBannerModuleMenuListGridTitleTxtSelect,
+.zapBannerModuleMenuListGridTitleTxtUnSelect,
+.zapBannerModuleMenuListGridTitleTxtSelected,
+.zapBannerpinButtonitemMaskTxtUnSelect {
+    left: 7px;
+    font-weight: bold;
+    font-size: 23px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.vodCataloguezapBannerExtIconImg1Style {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px
+}
+
+.vodCatalogueItemContRatingStyleZapbanner {
+    height: 32px;
+    left: 750px;
+    top: 55px;
+    width: 389px
+}

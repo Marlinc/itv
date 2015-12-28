@@ -1,0 +1,98 @@
+{
+  "applicationProp": {
+    "id": "Overlay",
+    "style": "appOverlayStyle"
+  },
+  "startScenario": "",
+  "scenarios": {
+    "ScenarioOptionMenu": {
+      "id": "ScenarioOptionMenu",
+      "parent": "Overlay",
+      "preventDestroy": false,
+      "background": "",
+      "style": "ScenarioOverlayOptionMenuStyle"
+    }
+  },
+  "precachedScenarios": [
+    "ScenarioOptionMenu"
+  ],
+  "backgrounds": [
+    {
+      "id": "backgroundOverlay",
+      "style": "bgStyleOverlay",
+      "url": "./Apps/Common/Resources/Images/1.0/backgrounds/backgroundPopup1pixel.png",
+      "isPrecached": "Y"
+    }
+  ],
+  "ScenarioOptionMenuConf": {
+    "slideTime": 500,
+    "menuH": 380,
+    "menuW": 384,
+    "autoAddHelpButton": true,
+    "optMenuDefaultMenu": {
+      "menuElement": [
+        {
+          "label": "Watch TV",
+          "status": "WatchTV"
+        }
+      ],
+      "hasLiveVideo": "Y"
+    },
+    "bgImage": {
+      "style": "ScenarioOverlayOptionMenuBgStyle",
+      "url": "./Apps/Common/Resources/Images/1.0/backgrounds/commonOverlayBkg.png"
+    },
+    "OptMenuList": {
+      "style": "optOverlayMenuLeftMenuMessages",
+      "distHorImgageGrid": 0,
+      "distVerImgageGrid": 5,
+      "numRowsToScroll": 1,
+      "timeToScroll": 0,
+      "numColumnInRow": 1,
+      "numVisibleRows": 8,
+      "timeToUpdateCursor": 0,
+      "isScrollBarShow": false,
+      "item": {
+        "styleItemCont": {
+          "style": "optOverlayMenuLeftMenuBtCont",
+          "x": 0,
+          "y": 0,
+          "w": 246,
+          "h": 32
+        },
+        "styleItemBgSelect": {
+          "style": "optOverlayMenuLeftMenuBtBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "optOverlayMenuLeftMenuBtBgUnSelect"
+        },
+        "styleItemTxtSelect": {
+          "style": "optOverlayMenuLeftMenuBtTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "optOverlayMenuLeftMenuBtTxtUnSelect"
+        }
+      },
+      "scrollBar": {
+        "style": "gridScrollBar",
+        "scrollBarContent": ""
+      }
+    },
+    "arrowDown": {
+      "style": "optOverlayMenuArrowDown",
+      "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+    },
+    "arrowUp": {
+      "style": "optOverlayMenuArrowUp",
+      "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+    },
+    "toonOpties": {
+      "style": "optOverlayMenuToonOpties",
+      "url": "./Apps/Common/Resources/Images/1.0/button_blue.png"
+    },
+    "toonOptiesTxt": {
+      "style": "optOverlayMenuToonOptiesTxt"
+    },
+    "toonOptiesTxtText": "toon_opties_txt"
+  }
+}

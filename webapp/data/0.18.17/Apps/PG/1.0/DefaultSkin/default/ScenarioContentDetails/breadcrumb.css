@@ -1,0 +1,31 @@
+.tvoyItemDetbreadcrumbStyleItemCont {
+    top: 59px;
+    left: 405px;
+    width: 100%;
+    height: 30px;
+}
+
+.tvoyItemDetbreadcrumbStyleItemText {
+    color: #cccccc;
+    font-size: 18pt;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.tvoyItemDetbreadcrumbStyleItemImg {
+    width: 28px;
+    height: 28px;
+    border-image: none;
+    background: url("../../../../../Common/Resources/Images/1.0/nav_back.png") no-repeat;
+}
+
+.tvoyItemDetbreadcrumbStyleItemText {
+    top: 0px;
+    left: 0px;
+}
+
+.tvoyItemDetbreadcrumbStyleItemImg {
+    top: 1px;
+    left: 1px;
+}

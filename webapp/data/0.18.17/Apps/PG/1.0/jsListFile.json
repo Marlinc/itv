@@ -1,0 +1,18 @@
+{
+  "jsFileList": [
+    "./Apps/PG/1.0/PG.js",
+    "./Apps/PG/1.0/ScenarioTVOY.js",
+    "./Apps/PG/1.0/ModulePerZender.js",
+    "./Apps/PG/1.0/ModuleList.js",
+    "./Apps/PG/1.0/ModuleEpisodesList.js",
+    "./Apps/Common/Scenarios/1.0/ScenarioZapbanner.js",
+    "./Apps/Common/Modules/1.0/ModuleMenuList.js",
+    "./Apps/Common/Modules/1.0/ModuleMenuDetailList.js",
+    "./Apps/Common/Modules/1.0/ModuleItemDetails.js",
+    "./Apps/Common/Scenarios/1.0/ScenarioItemDetail.js",
+    "./Apps/Common/Modules/1.0/ModuleZapbannerExtended.js",
+    "./Apps/Common/Modules/1.0/ModuleZapbannerMini.js",
+    "./Apps/Common/Modules/1.0/ModuleItemInfo.js",
+    "./Apps/Common/Modules/1.0/ModuleZapbannerNotification.js"
+  ]
+}

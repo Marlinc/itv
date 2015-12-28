@@ -1,0 +1,205 @@
+.tvoyCatModuleCatalogListStyle {
+    height: 330px;
+    left: 401px;
+    top: 276px;
+    width: 780px
+}
+
+.tvoyCatListGrid {
+    height: 375px;
+    left: 0;
+    top: 30px;
+    width: 526px
+}
+
+.tvoyCatListGridItemCont {
+    height: 30px;
+    left: 0;
+    top: 0;
+    width: 526px
+}
+
+.tvoyCatListGridItemBgSelect,
+.tvoyCatListGridItemBgUnSelect {
+    border: 0;
+    /*border-radius: 10px;*/
+    border-radius: 4px;
+    height: 30px;
+    width: 526px
+}
+
+.tvoyCatListGridTitleTxtSelect,
+.tvoyCatListGridTitleTxtUnSelect,
+.tvoyCatListGridYearTxtSelect,
+.tvoyCatListGridYearTxtUnSelect {
+    font-size: 22px;
+    height: 30px;
+    top: 3px;
+    width: 218px
+}
+
+.tvoyCatListGridTitleTxtSelect,
+.tvoyCatListGridTitleTxtUnSelect {
+    left: 5px
+}
+
+.tvoyCatListGridYearTxtSelect,
+.tvoyCatListGridYearTxtUnSelect {
+    left: 308px
+}
+
+.tvoyCatstyleRating {
+    height: 15px;
+    left: 400px;
+    top: 8px;
+    width: 15px
+}
+
+.tvoyCatListCoverImage {
+    border-radius: 10px;
+    height: 298px;
+    left: 550px;
+    top: 30px;
+    width: 201px
+}
+
+.tvoyCatListArrowDown {
+    top: 345px
+}
+
+.ModuleEpisodesArrowDown {
+    top: 318px
+}
+
+.tvoyCatListArrowDown,
+.ModuleEpisodesArrowDown {
+    background: url(../../../../../Common/Resources/Images/1.0/arrow_down.png) no-repeat;
+    height: 8px;
+    left: 720px;
+    width: 23px
+}
+
+.tvoyCatListArrowUp,
+.tvoyCatListArrowDown {
+    border-image: none
+}
+
+.tvoyCatListArrowUp,
+.ModuleEpisodesArrowUp {
+    background: url(../../../../../Common/Resources/Images/1.0/arrow_up.png) no-repeat;
+    height: 8px;
+    left: 720px;
+    top: 10px;
+    width: 23px
+}
+
+.ModuleEpisodesGridStyle {
+    height: 293px;
+    left: 0;
+    top: 21px;
+    width: 780px
+}
+
+.ModuleEpisodesGridItemCont {
+    height: 32px;
+    left: 0;
+    top: 0;
+    width: 780px
+}
+
+.tvoyCatItemPosition,
+.ModuleEpisodesItemPosition {
+    font-size: 22px;
+    left: 0;
+    /*opacity: 0.8;*/
+    text-align: left;
+    top: 0
+}
+
+.tvoyCatListGridItemBgSelect,
+.ModuleEpisodesGridItemBgSelect {
+    /*background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+    background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d;
+}
+
+.tvoyCatListGridItemBgUnSelect,
+.ModuleEpisodesGridItemBgUnSelect {
+    background: #00274d;
+}
+
+.ModuleEpisodesGridItemBgSelected {
+    /*background: #333*/
+    background: #666E84;
+}
+
+.ModuleEpisodesGridItemBgSelect,
+.ModuleEpisodesGridItemBgUnSelect,
+.ModuleEpisodesGridItemBgSelected {
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px;
+    height: 32px;
+    width: 755px
+}
+
+.ModuleEpisodesGridItemLeftTxtUnSelect,
+.ModuleEpisodesGridItemLeftTxtSelect,
+.ModuleEpisodesGridItemLeftTxtSelected {
+    font-size: 22px;
+    font-weight: 700;
+    height: 33px;
+    left: 123px;
+    text-overflow: ellipsis;
+    top: 3px;
+    white-space: nowrap;
+    width: 500px
+}
+
+.ModuleEpisodesGridItemRightTxtSelect,
+.ModuleEpisodesGridItemRightTxtUnSelect,
+.ModuleEpisodesGridItemRightTxtSelected {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    height: 33px;
+    left: 655px;
+    text-overflow: ellipsis;
+    top: 3px;
+    white-space: nowrap;
+    width: 91px
+}
+
+.tvoyCatItemPosition,
+.ModuleEpisodesItemPosition,
+.tvoyCatListGridYearTxtSelect,
+.tvoyCatListGridTitleTxtSelect,
+.ModuleEpisodesGridItemLeftTxtSelect,
+.ModuleEpisodesGridItemLeftTxtSelected,
+.ModuleEpisodesGridItemRightTxtSelect,
+.ModuleEpisodesGridItemRightTxtSelected,
+.ModuleEpisodesGridItemSchedTxtSelect,
+.ModuleEpisodesGridItemSchedTxtSelected {
+    /*color: #ffffff*/
+    color: #cccccc;
+}
+
+.tvoyCatListGridYearTxtUnSelect,
+.tvoyCatListGridTitleTxtUnSelect,
+.ModuleEpisodesGridItemLeftTxtUnSelect,
+.ModuleEpisodesGridItemRightTxtUnSelect,
+.ModuleEpisodesGridItemSchedTxtUnSelect {
+    /*color: #F6F6F6*/
+    color: #cccccc;
+}
+
+.ModuleEpisodesGridItemSchedTxtSelect,
+.ModuleEpisodesGridItemSchedTxtUnSelect,
+.ModuleEpisodesGridItemSchedTxtSelected {
+    font-size: 22px;
+    font-weight: 700;
+    height: 33px;
+    left: 5px;
+    top: 3px;
+    width: 100px
+}

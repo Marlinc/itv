@@ -1,0 +1,89 @@
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ScenarioVodCatalogueStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleItemInfoVodCatalogStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleCatalogListStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleCatalogGridStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleMenuListVodCatalogStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ScenarioItemDetailStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleItemInfoDetailStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleMenuListDetailStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleItemDetailsStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ScenarioZapbannerMiniStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ScenarioZapbannerExtendedStyle.css");
+@import url("./Apps/VodCatalogue/1.0/DefaultSkin/ModuleZapbannerNotification.css");
+
+.vodCatModuleCatalogGridStyle {
+    left: 401px;
+    top: 59px;
+    width: 760px;
+    height: 600px
+}
+
+.vodCatModuleCatalogListStyle {
+    left: 394px;
+    top: 276px;
+    width: 780px;
+    height: 390px
+}
+
+.vodCatListGrid {
+    left: 0;
+    top: 30px;
+    width: 547px;
+    height: 300px
+}
+
+.vodCatItemDetModuleItemDetailsStyle {
+    top: 276px;
+    left: 381px;
+    width: 811px;
+    height: 390px
+}
+
+.vodCatItemDetModuleMenuListGrid {
+    left: 0;
+    top: 48px;
+    width: 248px;
+    height: 296px
+}
+
+.vodCatItemDetModuleMenuListStyle {
+    height: 360px
+}
+
+.vodCatModuleMenuListStyle {
+    height: 407px
+}
+
+.vodCatItemDetModuleMenuListStyle,
+.vodCatModuleMenuListStyle {
+    top: 258px;
+    left: 123px;
+    width: 248px
+}
+
+.vodCatModuleMenuListGrid {
+    top: 48px;
+    width: 248px;
+    height: 298px
+}
+
+.vodCatModuleZapBannerExtendedStyle {
+    top: 180px;
+    left: 112px;
+    width: 1064px;
+    height: 479px;
+}
+
+.appVodCatalogueStyle,
+.vodCatScenarioItemDetailStyle,
+.ScenarioVodCatalogueStyle,
+.vodCatScenarioZapbannerStyle,
+.backGroundStyle {
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px
+}
+
+
+

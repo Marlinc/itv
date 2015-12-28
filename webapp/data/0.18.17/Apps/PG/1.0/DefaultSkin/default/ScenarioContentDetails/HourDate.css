@@ -1,0 +1,17 @@
+.tvoyItemDetHourTxt {
+    left: 86px;
+}
+
+.tvoyItemDetDateTxt {
+    left: 275px;
+}
+
+.tvoyItemDetHourTxt,
+.tvoyItemDetDateTxt {
+    top: 60px;
+    width: 100px;
+    /*color: #FFF;*/
+    color: #cccccc;
+    font-size: 24px;
+    text-align: right;
+}

@@ -1,0 +1,156 @@
+.tvoyItemDetModuleInfoStyle {
+    top: 93px;
+    left: 394px;
+    width: 755px;
+    height: 140px;
+    /*background: #00274d;*/
+    background: #013264;
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px;
+}
+
+.tvoyItemDetItemInfoTitleTxtStyle {
+    top: 7px;
+    left: 8px;
+    font-size: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 655px;
+}
+
+.tvoyItemDetItemInfoTitleTxtStyle,
+.tvoyItemDetItemInfoDurationTxtStyle {
+    left: 8px
+}
+
+.tvoyItemDetItemInfoPriceLblTxtStyle {
+    left: 197px
+}
+
+.tvoyItemDetItemInfoPriceTxtStyle {
+    left: 261px
+}
+
+.tvoyItemDetItemInfoPriceValLblTxtStyle {
+    left: 269px
+}
+
+.tvoyItemDetItemInfoPriceValTxtStyle {
+    left: 317px
+}
+
+.tvoyItemDetItemInfoEndPurchValLblTxtStyle {
+    left: 210px
+}
+
+.tvoyItemDetItemInfoEndPurchValTxtStyle {
+    left: 525px
+}
+
+.tvoyItemDetItemInfoDurationTxtStyle,
+.tvoyItemDetItemInfoPriceLblTxtStyle,
+.tvoyItemDetItemInfoPriceTxtStyle,
+.tvoyItemDetItemInfoPriceValLblTxtStyle,
+.tvoyItemDetItemInfoPriceValTxtStyle,
+.tvoyItemDetItemInfoEndPurchValLblTxtStyle,
+.tvoyItemDetItemInfoEndPurchValTxtStyle {
+    top: 35px;
+    color: #cccccc;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left
+}
+
+.tvoyItemDetItemInfoEndValTxtSelectStyle {
+    left: 563px;
+    top: 35px;
+    /*color: #f6f3f4;*/
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left
+}
+
+/*Select Te huren tot*/
+
+.tvoyItemDetItemInfoEndValTxtStyle {
+    color: #cccccc;
+    top: 35px;
+    left: 558px;
+    font-size: 22px;
+    text-align: left
+}
+
+.tvoyItemDetItemInfoEndValLblTxtSelectStyle,
+.tvoyItemDetItemInfoEndValLblTxtStyle {
+    color: #cccccc;
+    top: 35px;
+    left: 431px;
+    font-size: 22px;
+    text-align: left;
+    width: 135px;
+}
+
+/*Select Te huren tot*/
+.tvoyItemDetItemInfoEndValLblTxtSelectStyle {
+    font-weight: bold;
+}
+
+.tvoyItemDetItemInfoTitleTxtStyle {
+    /*color: #f6f3f4;*/
+    color: #cccccc;
+    font-weight: 700
+}
+
+.tvoyItemDetItemInfoCastTxtStyle {
+    top: 60px;
+    left: 8px;
+    width: 615px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /*letter-spacing: 1px;*/
+}
+
+.tvoyItemDetItemInfoDesc2LinesTxtStyle {
+    top: 84px; /*68*/
+    left: 8px;
+    width: 615px;
+    height: 50px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    /* letter-spacing: 1px;*/
+}
+
+.tvoyItemDetItemInfoLogoImgStyle {
+    width: 106px;
+    height: 47px;
+    top: 5px;
+    left: 651px
+}
+
+.tvoyItemDetItemInfoRatingImgStyle {
+    top: 110px;
+    left: 10px
+}
+
+.tvoyItemContRatingStyle {
+    left: 641px;
+    top: 50px;
+    width: 120px;
+    height: 90px;
+}
+
+.tvoyItemDetItemInfoER1ImgStyle {
+    width: 28px;
+    height: 28px
+}

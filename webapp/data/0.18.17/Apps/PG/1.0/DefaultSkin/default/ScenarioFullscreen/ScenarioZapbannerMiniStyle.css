@@ -1,0 +1,254 @@
+.tvoyModuleZapBannerMiniStyle {
+    top: 180px;
+    left: 112px;
+    width: 1064px;
+    height: 479px;
+    /*border-radius: 10px*/
+}
+
+.tvoyzapBannerMiniTitleStyle {
+    top: 354px;
+    height: 34px;
+    /*color: #F6F6F6;*/
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold
+}
+
+.tvoyzapBannerMiniChannelNumberStyle {
+    left: 25px;
+    width: 200px
+}
+
+.tvoyzapBannerMiniChannelNameStyle {
+    left: 80px;
+    width: 170px
+}
+
+.tvoyzapBannerMiniChannelNumberStyle,
+.tvoyzapBannerMiniChannelNameStyle {
+    font-size: 23px;
+    font-weight: bold;
+    height: 30px;
+    top: 321px
+}
+
+.tvoyzapBannerMiniTitleStyle {
+    left: 309px;
+    width: 582px
+}
+
+.tvoyzapBannerMiniVodTimeStyle {
+    left: 300px;
+    width: 582px
+}
+
+.tvoyzapBannerMiniCurrPosStyle {
+    left: 910px;
+    width: 90px
+}
+
+.tvoyzapBannerMiniPlaySpeedStyle {
+    left: 1018px;
+    width: 40px;
+    top: 400px;
+    height: 30px;
+    /*color: #F6F6F6;*/
+    color: #cccccc;
+    font-size: 18px;
+}
+
+.tvoyzapBannerMiniTPImageStyle {
+    left: 988px;
+    top: 398px; /*397px;*/
+}
+
+.tvoyzapBannerMiniVodTimeStyle,
+.tvoyzapBannerMiniCurrPosStyle {
+    top: 400px;
+    height: 30px
+}
+
+.tvoyzapBannerMiniVodTimeStyle,
+.tvoyzapBannerMiniCurrPosStyle,
+.tvoyzapBannerMiniTPImageStyle {
+    /*color: #F6F6F6;*/
+    color: #cccccc;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.tvoyzapBannerMiniCHLogoImageStyle {
+    height: 66px;
+    width: 147px;
+    left: 70px;
+    top: 358px;
+}
+
+.tvoyzapBannerMiniTimeStyle {
+    left: 960px;
+    top: 444px;
+    width: 80px;
+    height: 30px;
+    font-size: 22px;
+    text-align: right
+}
+
+.tvoyzapBannerMiniBg {
+    width: 1064px;
+    height: 479px;
+    background-image: url(../../../../../Common/Resources/Images/1.0/zapBanner/zapbanner_bg_small_KPN.png)
+}
+
+.tvoyzapBannerMiniChannelRectStyle {
+    left: 20px;
+    width: 247px
+}
+
+.tvoyzapBannerMiniVodRectStyle {
+    left: 293px;
+    width: 755px
+}
+
+.tvoyzapBannerMiniChannelRectStyle,
+.tvoyzapBannerMiniVodRectStyle {
+    top: 350px;
+    height: 81px;
+    background: #00274d;
+    border: 0;
+    /*border-radius: 12px*/
+    border-radius: 4px;
+}
+
+.tvoyzapbannerImgPrevStyle {
+    background: url(../../../../../Common/Resources/Images/1.0/trickPlay/tp_rewind.png) no-repeat;
+    top: 1px;
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+}
+
+.tvoyzapbannerMinitxtContStyle {
+    font-size: 22px;
+    vertical-align: text-top;
+    left: 3px;
+}
+
+.tvoyzapbannerMiniImgNextStyle {
+    background: url(../../../../../Common/Resources/Images/1.0/trickPlay/tp_forward.png) no-repeat;
+    height: 28px;
+    width: 28px;
+    top: 1px;
+    vertical-align: middle;
+    left: 4px;
+}
+
+.tvoyzapBannerMiniProgressbarContainerStyle,
+.tvoyzapBannerMiniProgressbarRectStyle {
+    width: 477px
+}
+
+.tvoyzapBannerMiniSkipToTimeRectStyle {
+    top: 350px;
+    left: 898px;
+    /*border-radius: 12px;*/
+    border-radius: 4px;
+    font-size: 22px;
+    width: 150px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.tvoyzapBannerMiniProgressbarRectStyle,
+.tvoyzapBannerMiniProgressbarPastSpaceRectStyle {
+    left: 0;
+    height: 13px;
+    top: 2px
+}
+
+.tvoyzapBannerMiniProgressbarRectStyle {
+    background: #000;
+}
+
+.tvoyzapBannerMiniSkipToTimeRectStyle,
+.tvoyzapBannerMiniProgressbarPastSpaceRectStyle {
+    /*background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+    background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d;
+}
+
+.tvoyzapBannerMiniProgressbarContainerStyle {
+    top: 403px;
+    left: 421px;
+    height: 18px
+}
+
+.tvoyzapBannerMiniBg,
+.tvoyzapBannerMiniProgressbarCurrPosRectStyle {
+    top: 0;
+    left: 0
+}
+
+/* usato?? */
+.tvoycurrentTimeStyle {
+    left: 419px;
+    top: 583px;
+    border: 0
+}
+
+.tvoyzapBannerMiniProgressbarCurrPosRectStyle,
+.tvoycurrentTimeStyle {
+    height: 18px;
+    width: 3px;
+    /*background: #F6F6F6*/
+    background: #cccccc;
+}
+
+.tvoybuttonOkTxtStyleZapbannerMini {
+    left: 325px
+}
+
+.tvoybuttonOkStyleZapbannerMini {
+    left: 293px;
+    background: url(../../../../../Common/Resources/Images/1.0/nav_ok.png) no-repeat
+}
+
+.tvoybuttonYellowStyleZapbannerMini {
+    left: 17px;
+    background: url(../../../../../Common/Resources/Images/1.0/button_yellow.png) no-repeat
+}
+
+.tvoybuttonOkStyleZapbannerMini,
+.tvoybuttonYellowStyleZapbannerMini {
+    top: 443px;
+    width: 28px;
+    height: 28px
+}
+
+.tvoybuttonYellowTxtStyleZapbannerMini {
+    left: 47px
+}
+
+.tvoybuttonOkTxtStyleZapbannerMini,
+.tvoybuttonYellowTxtStyleZapbannerMini {
+    top: 443px;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8*/
+}
+
+.tvoyzapBannerMiniSkipToTimeRectStyle,
+.tvoybuttonOkTxtStyleZapbannerMini,
+.tvoybuttonYellowTxtStyleZapbannerMini,
+.tvoyzapbannerMinitxtContStyle,
+.tvoyzapBannerMiniChannelNumberStyle,
+.tvoyzapBannerMiniChannelNameStyle,
+.tvoyzapBannerMiniTimeStyle {
+    color: #cccccc
+}

@@ -1,0 +1,39 @@
+@import url("./Apps/PG/1.0/DefaultSkin/default/common.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/Banner.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/breadcrumb.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/channelSelection.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/FooterElements.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/General.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/ModuleChannels.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/ModuleDetailedInfo.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/ModuleMenuList.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/ModulePrograms.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioTVOY/ModuleEpisodesList.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/breadcrumb.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/channelSelection.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/Footer.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/General.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/HourDate.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/ModuleDetailedInfo.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/ModuleMenu.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioContentDetails/RightPanel.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioFullscreen/ScenarioZapbannerExtendedStyle.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioFullscreen/ScenarioZapbannerMiniStyle.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioFullscreen/General.css");
+@import url("./Apps/PG/1.0/DefaultSkin/default/ScenarioFullscreen/ModuleZapbannerNotification.css");
+
+.appTVOYStyle {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+.TVoYdefaultbgStyle {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+

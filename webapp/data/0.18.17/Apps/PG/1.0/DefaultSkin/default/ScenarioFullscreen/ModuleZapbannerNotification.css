@@ -1,0 +1,47 @@
+.tvoyModuleZapBannerNotificationStyle {
+    font-size: 1.2em;
+    /*color: #FFF;*/
+    color: #cccccc;
+    /*border-radius: 0 0 9px 0;*/
+    background: transparent url(../../../../../Common/Resources/Images/1.0/bg_notify.png) 401px 111px;
+    z-index: 1;
+    width: 402px;
+    height: 111px;
+    padding: 0px;
+    position: fixed;
+    /*top: 0px;*/
+    top: -5px;
+    left: -407px;
+    /*-moz-box-shadow: -2px 0 5px #aaa;
+    -webkit-box-shadow: -2px 0 5px #aaa;
+    box-shadow: 0 4px 10px #555*/
+}
+
+.tvoyNotificationIconMailStyle {
+    margin: 40px 74px 0 350px
+}
+
+.tvoyNotificationIconRedButton {
+    margin: 40px 140px;
+}
+
+.tvoyNotificationNewMsgTextStyle {
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+.tvoyNotificationHelpMsgTextStyle {
+    /*color: #bebebe;*/
+    color: #cccccc;
+    background: url(../../../../../Common/Resources/Images/1.0/nav_home.png) 0 50% no-repeat;
+    padding-left: 35px;
+    /*background-size: 20px auto*/
+}
+
+.tvoyNotificationOpenMsgTextStyle {
+    /*color: #bebebe;*/
+    color: #cccccc;
+    background: url(../../../../../Common/Resources/Images/1.0/help/nav_colorbutton_red.png) 0 50% no-repeat;
+    padding-left: 10px;
+}

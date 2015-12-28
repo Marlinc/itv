@@ -1,0 +1,15 @@
+{
+  "jsFileList": [
+    "./Apps/Popup/1.0/Popup.js",
+    "./Apps/Popup/1.0/ScenarioMessagePopup.js",
+    "./Apps/Popup/1.0/ScenarioMessageLargePopup.js",
+    "./Apps/Popup/1.0/ScenarioMessagePopupLow.js",
+    "./Apps/Popup/1.0/ScenarioInteractivePopup.js",
+    "./Apps/Popup/1.0/ScenarioCreateReminderPopup.js",
+    "./Apps/Popup/1.0/ScenarioReminderConflictPopup.js",
+    "./Apps/Popup/1.0/ScenarioPincodePopup.js",
+    "./Apps/Popup/1.0/ScenarioVoucherPopup.js",
+    "./Apps/Popup/1.0/ScenarioDiscountPopup.js",
+    "./Apps/Popup/1.0/ScenarioRentConfirmPopup.js"
+  ]
+}

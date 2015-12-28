@@ -1,0 +1,178 @@
+.tvoyItemDetModuleMenuListStyle {
+    top: 258px;
+    left: 123px;
+    width: 248px;
+    height: 360px
+}
+
+.tvoyItemDetModuleMenuListGrid {
+    top: 48px;
+    width: 248px;
+    height: 296px
+}
+
+.tvoyItemDetModuleMenuListGridItemCont {
+    width: 248px;
+    height: 30px
+}
+
+.tvoyItemDetModuleMenuListGridItemBgSelect,
+.tvoyItemDetModuleMenuListMenuListBottomElemItemBgSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemItemBgSelect {
+    background: #24730d;
+}
+
+.tvoyItemDetModuleMenuListMenuListBottomElemItemBgUnSelect,
+.tvoyItemDetModuleMenuListGridItemBgUnSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemItemBgUnSelect {
+    background: #00274d
+}
+
+.tvoyItemDetModuleMenuListMenuListBottomElemItemBgSelected,
+.tvoyItemDetModuleMenuListGridItemBgSelected,
+.tvoyItemDetModuleMenuListMenuListTopElemItemBgSelected {
+    background: #666E84;
+}
+
+.tvoyItemDetModuleMenuListMenuListBottomElemItemCont,
+.tvoyItemDetModuleMenuListMenuListBottomElemItemBgSelect,
+.tvoyItemDetModuleMenuListMenuListBottomElemItemBgUnSelect,
+.tvoyItemDetModuleMenuListMenuListBottomElemItemBgSelected {
+    height: 60px;
+    width: 248px;
+    border-radius: 4px;
+    width: 248px;
+    height: 64px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tvoyItemDetModuleMenuListGridItemBgSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemItemBgSelect,
+.tvoyItemDetModuleMenuListGridItemBgUnSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemItemBgUnSelect,
+.tvoyItemDetModuleMenuListGridItemBgSelected,
+.tvoyItemDetModuleMenuListMenuListTopElemItemBgSelected {
+    width: 248px;
+    height: 30px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.tvoyItemDetpinButtonitemEndMaskImgSelect {
+    background: url("../../../../../Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png") no-repeat
+}
+
+.tvoyItemDetpinButtonitemMiddleMaskImgSelect {
+    background: url("../../../../../Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png") no-repeat
+}
+
+.tvoyItemDetpinButtonitemStartMaskImgSelect {
+    left: 0;
+    background: url("../../../../../Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png") no-repeat
+}
+
+.tvoyItemDetpinButtonitemStartMaskImgSelect,
+.tvoyItemDetpinButtonitemStartMaskImgUnselect {
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    border-image: none
+}
+
+.tvoyItemDetpinButtonitemStartMaskImgUnselect {
+    left: 5px;
+    background: url("../../../../../Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png") no-repeat
+}
+
+.tvoyItemDetpinButtonitemEndMaskImgUnselect {
+    background: url("../../../../../Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png") no-repeat
+}
+
+.tvoyItemDetpinButtonitemMiddleMaskImgUnselect {
+    background: url("../../../../../Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png") no-repeat
+}
+
+.tvoyItemDetpinButtonitemEndMaskImgSelect,
+.tvoyItemDetpinButtonitemMiddleMaskImgSelect,
+.tvoyItemDetpinButtonitemEndMaskImgUnselect,
+.tvoyItemDetpinButtonitemMiddleMaskImgUnselect,
+.tvoyItemDetpinButtonitemMiddleMaskImgUnselect {
+    top: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    border-image: none
+}
+
+.tvoyItemDetModuleMenuListArrowDown {
+    top: 349px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat
+}
+
+.tvoyItemDetModuleMenuListArrowUp {
+    top: 35px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat
+}
+
+.tvoyItemDetModuleMenuListArrowDown,
+.tvoyItemDetModuleMenuListArrowUp {
+    left: 111px;
+    width: 23px;
+    height: 8px
+}
+
+.tvoyItemDetModuleMenuListMenuListTopElemItemCont {
+    width: 248px;
+    height: 30px
+}
+
+.tvoyItemDetpinButtonitemMaskTxtSelect,
+.tvoyItemDetpinButtonitemMaskTxtUnSelect {
+    top: 2px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.tvoyItemDetModuleMenuListGridTitleTxtSelect,
+.tvoyItemDetModuleMenuListGridTitleTxtUnSelect,
+.tvoyItemDetModuleMenuListGridTitleTxtSelected,
+.tvoyItemDetModuleMenuListMenuListTopElemTitleTxtSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemTitleTxtSelected {
+    left: 7px;
+    width: 248px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    vertical-align: middle;
+}
+
+.tvoyItemDetModuleMenuListGridTitleTxtSelect,
+.tvoyItemDetModuleMenuListGridTitleTxtSelected,
+.tvoyItemDetpinButtonitemMaskTxtSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemTitleTxtSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemTitleTxtSelected {
+    /*color: #ffffff;*/
+    color: #cccccc;
+}
+
+.tvoyItemDetModuleMenuListGridTitleTxtUnSelect,
+.tvoyItemDetpinButtonitemMaskTxtUnSelect,
+.tvoyItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect {
+    /*color: #F6F6F6*/
+    color: #cccccc;
+}
+
+.tvoyItemDetModuleMenuListMenuListBottomElemItemImage {
+    width: 56px;
+    height: 56px;
+    top: 4px;
+    right: 2px;
+    image-rendering: auto;
+}

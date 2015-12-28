@@ -1,0 +1,193 @@
+.HelpModuleZapBannerMiniStyle {
+    top: 180px;
+    left: 112px;
+    width: 1064px;
+    height: 479px;
+    border-radius: 10px
+}
+
+.HelpZapBannerMiniTitleStyle {
+    left: 295px;
+    top: 360px;
+    width: 605px;
+    height: 50px;
+    color: #1A9900;
+    font-weight: 700;
+    font-size: 21px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.HelpZapBannerMiniVodTimeStyle {
+    left: 295px;
+    top: 402px;
+    width: 357px;
+    height: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.HelpZapBannerMiniCurrPosStyle {
+    left: 905px;
+    top: 402px;
+    width: 357px;
+    height: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.HelpZapBannerMiniPlaySpeedStyle {
+    left: 997px;
+    top: 402px;
+    width: 40px;
+    height: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.HelpZapBannerMiniTPImageStyle {
+    left: 960px;
+    top: 399px;
+    width: 28px;
+    height: 28px;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.HelpZapBannerMiniTimeStyle {
+    left: 960px;
+    top: 444px;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right
+}
+
+.HelpZapBannerMiniBg {
+    top: 0;
+    left: 0;
+    width: 1064px;
+    height: 479px;
+    background: url("./Apps/Common/Resources/Images/1.0/zapBanner/zapbanner_bg_small_KPN.png")
+}
+
+.HelpZapBannerMiniChannelRectStyle {
+    left: 20px;
+    width: 247px
+}
+
+.HelpZapBannerMiniVodRectStyle {
+    left: 280px;
+    width: 764px
+}
+
+.HelpZapBannerMiniChannelRectStyle,
+.HelpZapBannerMiniVodRectStyle {
+    height: 81px;
+    background: #ccc;
+    border: 0;
+    border-radius: 12px
+}
+
+.HelpZapbannerImgPrevStyle {
+    background: url("./Apps/Common/Resources/Images/1.0/trickPlay/tp_rewind.png") no-repeat;
+    height: 28px;
+    width: 28px
+}
+
+.HelpZapbannerMinitxtContStyle {
+    color: #fff;
+    font-size: 20px
+}
+
+.HelpZapbannerMiniImgNextStyle {
+    background: url("./Apps/Common/Resources/Images/1.0/trickPlay/tp_forward.png") no-repeat;
+    height: 28px;
+    width: 28px
+}
+
+.HelpZapBannerMiniProgressbarRectStyle {
+    left: 0;
+    background: #000;
+    width: 500px;
+    height: 14px;
+    top: 2px
+}
+
+.HelpZapBannerMiniProgressbarContainerStyle {
+    top: 404px;
+    left: 400px;
+    width: 500px;
+    height: 18px
+}
+
+.HelpZapBannerMiniSkipToTimeRectStyle {
+    top: 350px;
+    left: 900px;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 145px
+}
+
+.HelpZapBannerMiniProgressbarPastSpaceRectStyle {
+    top: 2px;
+    left: 0;
+    height: 14px
+}
+
+.HelpZapBannerMiniSkipToTimeRectStyle,
+.HelpZapBannerMiniProgressbarPastSpaceRectStyle {
+    background: linear-gradient(to bottom, #54b42f 50%, #399913 50%); /* W3C */
+    /*  background:-webkit-linear-gradient(top,#54b42f 50%,#399913 50%);
+      background:-o-linear-gradient(top,#54b42f 50%,#399913 50%)*/
+}
+
+.HelpZapBannerMiniProgressbarCurrPosRectStyle {
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 18px;
+    background: #000
+}
+
+.HelpButtonOkStyleZapbannerMini {
+    top: 443px;
+    left: 279px;
+    width: 28px;
+    height: 28px;
+    background: url("./Apps/Common/Resources/Images/1.0/nav_ok.png") no-repeat
+}
+
+.HelpButtonYellowStyleZapbannerMini {
+    top: 443px;
+    left: 17px;
+    width: 28px;
+    height: 28px;
+    background: url("./Apps/Common/Resources/Images/1.0/button_yellow.png") no-repeat
+}
+
+.HelpButtonOkTxtStyleZapbannerMini {
+    left: 310px
+}
+
+.HelpButtonYellowTxtStyleZapbannerMini {
+    left: 47px
+}
+
+.HelpButtonOkTxtStyleZapbannerMini,
+.HelpButtonYellowTxtStyleZapbannerMini {
+    top: 443px;
+    color: #fff;
+    font-size: 22px;
+    text-align: left; /*opacity:0.8*/
+}

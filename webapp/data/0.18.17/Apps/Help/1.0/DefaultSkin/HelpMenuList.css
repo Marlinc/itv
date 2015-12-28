@@ -1,0 +1,99 @@
+.helpMenuListStyle {
+    top: 258px;
+    left: 123px;
+    width: 248px;
+    height: 360px
+}
+
+.helpMenuListGrid {
+    top: 48px;
+    width: 248px;
+    height: 296px
+}
+
+.helpMenuListGridItemCont {
+    width: 248px;
+    height: 30px
+}
+
+.helpMenuListArrowDown {
+    top: 328px;
+    left: 111px;
+    width: 23px;
+    height: 8px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat
+}
+
+.helpMenuListArrowUp {
+    top: 35px;
+    left: 111px;
+    width: 23px;
+    height: 8px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat
+}
+
+.helpMenuListMenuListTopElemItemCont {
+    top: 0;
+    left: 0;
+    width: 248px;
+    height: 30px
+}
+
+.helpMenuListGridItemBgSelect,
+.helpMenuListMenuListTopElemItemBgSelect {
+    background: #24730d;
+}
+
+.helpMenuListGridItemBgUnSelect,
+.helpMenuListMenuListTopElemItemBgUnSelect {
+    background: #00274d
+}
+
+.helpMenuListGridItemBgSelected,
+.helpMenuListMenuListTopElemItemBgSelected {
+    /*background:#787878*/
+    background: #666E84;
+}
+
+.helpMenuListGridItemBgSelect,
+.helpMenuListGridItemBgUnSelect,
+.helpMenuListGridItemBgSelected,
+.helpMenuListMenuListTopElemItemBgSelect,
+.helpMenuListMenuListTopElemItemBgUnSelect,
+.helpMenuListMenuListTopElemItemBgSelected {
+    width: 248px;
+    height: 30px;
+    border: 0; /*border-radius:10px*/
+    border-radius: 4px
+}
+
+.helpMenuListGridTitleTxtUnSelect,
+.helpMenuListMenuListTopElemTitleTxtUnSelect {
+    /*color:#F6F6F6*/
+    color: #cccccc;
+}
+
+.helpMenuListGridTitleTxtSelect,
+.helpMenuListGridTitleTxtSelected,
+.helpMenuListMenuListTopElemTitleTxtSelect,
+.helpMenuListMenuListTopElemTitleTxtSelected {
+    /*color:#FFF*/
+    color: #cccccc;
+}
+
+.helpMenuListGridTitleTxtSelect,
+.helpMenuListGridTitleTxtUnSelect,
+.helpMenuListGridTitleTxtSelected,
+.helpMenuListMenuListTopElemTitleTxtSelect,
+.helpMenuListMenuListTopElemTitleTxtUnSelect,
+.helpMenuListMenuListTopElemTitleTxtSelected {
+    top: 2px;
+    left: 5px;
+    width: 236px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 23px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

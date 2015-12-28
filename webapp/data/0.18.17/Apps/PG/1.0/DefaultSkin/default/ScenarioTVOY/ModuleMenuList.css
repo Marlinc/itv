@@ -1,0 +1,157 @@
+.tvoyCatModuleMenuListStyle {
+    height: 360px
+}
+
+.tvoyCatModuleMenuListGrid {
+    top: 48px;
+    width: 248px;
+    height: 296px
+}
+
+.tvoyCatModuleMenuListGridItemCont {
+    width: 248px;
+    height: 32px
+}
+
+.tvoyCatModuleMenuListArrowDown {
+    top: 349px;
+    background: url("../../../../../../Apps/Common/Resources/Images/1.0/arrow_down.png") no-repeat
+}
+
+.tvoyCatModuleMenuListArrowUp {
+    top: 35px;
+    background: url("../../../../../../Apps/Common/Resources/Images/1.0/arrow_up.png") no-repeat
+}
+
+.tvoyCatModuleMenuListArrowDown,
+.tvoyCatModuleMenuListArrowUp {
+    left: 111px;
+    width: 23px;
+    height: 8px
+}
+
+/* Left Menu Grid */
+.leftMenuTVoY {
+    top: 312px;
+    left: 123px;
+    width: 248px;
+    height: 260px
+}
+
+.leftMenuBtContTVoY {
+    height: 32px
+}
+
+.tvoyCatModuleMenuListMenuListTopElemItemCont,
+.leftMenuBtContTVoY {
+    top: 0;
+    left: 0;
+    width: 248px;
+}
+
+.tvoyCatModuleMenuListGridItemBgSelected,
+.tvoyCatModuleMenuListMenuListTopElemItemBgSelected,
+.leftMenuBtBgSelectedTVoY {
+    /*background: #787878*/
+    background: #666E84
+}
+
+.tvoyCatModuleMenuListGridItemBgSelect,
+.tvoyCatModuleMenuListGridItemBgUnSelect,
+.tvoyCatModuleMenuListGridItemBgSelected,
+.leftMenuBtBgSelectTVoY,
+.leftMenuBtBgUnSelectTVoY,
+.leftMenuBtBgSelectedTVoY {
+    width: 248px;
+    height: 32px;
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px;
+}
+
+.tvoyCatModuleMenuListMenuListTopElemItemCont,
+.buttonTVoYCont {
+    height: 31px
+}
+
+.tvoyCatModuleMenuListStyle,
+.buttonTVoYCont {
+    top: 258px;
+    left: 123px;
+    width: 248px
+}
+
+.tvoyCatModuleMenuListGridItemBgSelect,
+.leftMenuBtBgSelectTVoY,
+.tvoyCatModuleMenuListMenuListTopElemItemBgSelect,
+.buttonTVoYBgSelect {
+    /*background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+    background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d
+}
+
+.tvoyCatModuleMenuListGridItemBgUnSelect,
+.leftMenuBtBgUnSelectTVoY,
+.tvoyCatModuleMenuListMenuListTopElemItemBgUnSelect,
+.buttonTVoYBgUnSelect {
+    background: #00274d
+}
+
+.buttonTVoYBgSelected {
+    /*background: #333*/
+    background: #666E84
+}
+
+.tvoyCatModuleMenuListMenuListTopElemItemBgSelect,
+.tvoyCatModuleMenuListMenuListTopElemItemBgUnSelect,
+.tvoyCatModuleMenuListMenuListTopElemItemBgSelected,
+.buttonTVoYBgSelect,
+.buttonTVoYBgUnSelect,
+.buttonTVoYBgSelected {
+    width: 248px;
+    height: 31px;
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px
+}
+
+.tvoyCatModuleMenuListGridTitleTxtSelect,
+.tvoyCatModuleMenuListGridTitleTxtSelected,
+.tvoyCatModuleMenuListMenuListTopElemTitleTxtSelect,
+.tvoyCatModuleMenuListMenuListTopElemTitleTxtSelected,
+.leftMenuBtTxtSelectTVoY,
+.buttonTVoYTxtSelect,
+.buttonTVoYTxtSelected,
+.leftMenuBtTxtSelectedTVoY {
+    /*color: #ffffff*/
+    color: #cccccc
+}
+
+.tvoyCatModuleMenuListGridTitleTxtUnSelect,
+.tvoyCatModuleMenuListMenuListTopElemTitleTxtUnSelect,
+.leftMenuBtTxtUnSelectTVoY,
+.buttonTVoYTxtUnSelect {
+    /*color: #F6F6F6*/
+    color: #cccccc
+}
+
+.tvoyCatModuleMenuListGridTitleTxtSelect,
+.tvoyCatModuleMenuListGridTitleTxtUnSelect,
+.tvoyCatModuleMenuListGridTitleTxtSelected,
+.tvoyCatModuleMenuListMenuListTopElemTitleTxtSelect,
+.tvoyCatModuleMenuListMenuListTopElemTitleTxtUnSelect,
+.tvoyCatModuleMenuListMenuListTopElemTitleTxtSelected,
+.leftMenuBtTxtSelectTVoY,
+.leftMenuBtTxtUnSelectTVoY,
+.leftMenuBtTxtSelectedTVoY,
+.buttonTVoYTxtSelect,
+.buttonTVoYTxtUnSelect,
+.buttonTVoYTxtSelected {
+    left: 7px;
+    width: 248px;
+    height: 31px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    vertical-align: middle;
+}

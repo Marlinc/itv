@@ -1,0 +1,1801 @@
+{
+  "applicationProp": {
+    "id": "VodCatalogue",
+    "style": "appVodCatalogueStyle"
+  },
+  "startScenario": "",
+  "catalogScenarioList": {
+    "Catalogue": "ScenarioVodCatalogue",
+    "vodCategory": "ScenarioVodCatalogue",
+    "Detail": "ScenarioItemDetail",
+    "vodSearchResult": "ScenarioItemDetail",
+    "vodDetailsLcdi": "ScenarioItemDetail",
+    "vodDetailsIml": "ScenarioItemDetail",
+    "Play": "ScenarioZapbanner",
+    "playVodLcdi": "ScenarioZapbanner",
+    "playVodIml": "ScenarioZapbanner",
+    "playVodOtt": "ScenarioZapbanner"
+  },
+  "scenarios": {
+    "ScenarioVodCatalogue": {
+      "id": "ScenarioVodCatalogue",
+      "parent": "VodCatalogue",
+      "preventDestroy": true,
+      "preventSubSkin": true,
+      "skipHistory": false,
+      "background": "background_0",
+      "style": "ScenarioVodCatalogueStyle"
+    },
+    "ScenarioItemDetail": {
+      "id": "ScenarioItemDetail",
+      "parent": "VodCatalogue",
+      "preventDestroy": true,
+      "preventSubSkin": true,
+      "skipHistory": false,
+      "background": "background_0",
+      "style": "vodCatScenarioItemDetailStyle"
+    },
+    "ScenarioZapbanner": {
+      "id": "ScenarioZapbanner",
+      "parent": "VodCatalogue",
+      "preventDestroy": true,
+      "preventSubSkin": false,
+      "skipHistory": false,
+      "background": "",
+      "style": "vodCatScenarioZapbannerStyle"
+    }
+  },
+  "precachedScenarios": [
+    "ScenarioVodCatalogue",
+    "ScenarioItemDetail"
+  ],
+  "categorySortingConf": "Series",
+  "subskinCategoryConf": {
+    "timeoutCall": 5000,
+    "/Regular VOD/Videoland Unlimited": {
+      "bkgImgId": "background_Videoland",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleVideoland.css"
+    },
+    "/Regular VOD/Film1 On Demand": {
+      "bkgImgId": "background_Film1",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleFilm1.css"
+    },
+    "/Regular VOD/TV & Series/ABC TV On Demand": {
+      "bkgImgId": "background_ABC",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleABC.css"
+    },
+    "/Regular VOD/TV & Series/Red Bull On Demand": {
+      "bkgImgId": "background_RedBull",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleRedBull.css"
+    },
+    "/Regular VOD/Kids/Cartoon Network": {
+      "bkgImgId": "background_CartoonNetwork",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleCartoonNetwork.css"
+    },
+    "/Regular VOD/HBO On Demand": {
+      "bkgImgId": "background_HBO",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleHBO.css"
+    },
+    "/Regular VOD/Kids/Studio 100": {
+      "bkgImgId": "background_Studio100",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleStudio100.css"
+    },
+    "/Regular VOD/Discovery Channel": {
+      "bkgImgId": "background_DiscoveryChannel",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleDiscoveryChannel.css"
+    },
+    "/Regular VOD/TV & Series/Discovery On Demand": {
+      "bkgImgId": "background_DiscoveryChannel",
+      "cssFileToApply": "./Apps/VodCatalogue/1.0/DefaultSkin/appstyleDiscoveryChannel.css"
+    }
+  },
+  "ScenarioVodCatalogueConf": {
+    "breadcrumbVodCategoryDefault": [
+      "Start",
+      "VodCategory"
+    ],
+    "breadcrumbCatalogueDefault": [
+      "Start_label",
+      "VideoTheek_label"
+    ],
+    "setLastChosenContentOrder": false,
+    "defaultContentOrder": "BY_DATE_TIME_REVERSE",
+    "orderByDate": "BY_DATE_TIME_REVERSE",
+    "orderByName": "BY_NAME",
+    "hasLiveVideo": "Y",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "bannerConf": {
+      "/Regular VOD/Kids": {
+        "bannerToRetrieve": "Kids"
+      },
+      "/Regular VOD/Videoland": {
+        "bannerToRetrieve": "Videoland"
+      }
+    },
+    "label_MijnGehurdeCategory": "MijnGehuurde",
+    "rootCategory": "/Regular VOD",
+    "rootCategoryId": 37,
+    "Aanbienders": {
+      "enable": false,
+      "categoryPath": "/Regular VOD/Specials",
+      "vodCatDescrOtt_label": "vodCatDescrOtt_label"
+    },
+    "optionMenuConfAZList": [
+      "MoreInfo",
+      "WatchTV",
+      "OrderDate",
+      "GridView",
+      "SearchInAll"
+    ],
+    "optionMenuConfAZGrid": [
+      "MoreInfo",
+      "WatchTV",
+      "OrderDate",
+      "ListView",
+      "SearchInAll"
+    ],
+    "optionMenuConfDateList": [
+      "MoreInfo",
+      "WatchTV",
+      "OrderAZ",
+      "GridView",
+      "SearchInAll"
+    ],
+    "optionMenuConfDateGrid": [
+      "MoreInfo",
+      "WatchTV",
+      "OrderAZ",
+      "ListView",
+      "SearchInAll"
+    ],
+    "optionMenuConfFocusLeftAZGrid": [
+      "WatchTV",
+      "OrderDate",
+      "ListView",
+      "SearchInAll"
+    ],
+    "optionMenuConfFocusLeftAZList": [
+      "WatchTV",
+      "OrderDate",
+      "GridView",
+      "SearchInAll"
+    ],
+    "optionMenuConfFocusLeftDateGrid": [
+      "WatchTV",
+      "OrderAZ",
+      "ListView",
+      "SearchInAll"
+    ],
+    "optionMenuConfFocusLeftDateList": [
+      "WatchTV",
+      "OrderAZ",
+      "GridView",
+      "SearchInAll"
+    ],
+    "menuListTopElement": "Videotheek",
+    "specialCat": {
+      "Mijn_gehuurde_videos": {
+        "name": "Mijn gehuurde video\'s",
+        "displayName": "Mijn gehuurde video\'s",
+        "categoryId": "MijnGehuurde",
+        "specialCatId": "MijnGehuurde",
+        "path": "/Regular VOD/Mijn gehuurde video\'s",
+        "displayPath": "/Regular VOD/Mijn gehuurde video\'s"
+      },
+      "Netflix": {
+        "name": "Netflix",
+        "displayName": "Netflix",
+        "categoryId": "Netflix",
+        "specialCatId": "Netflix",
+        "path": "",
+        "displayPath": "",
+        "positionInMenu": 1
+      }
+    },
+    "popupNetFlixLegal": {
+      "title": "popupNetFlixLegalTitle",
+      "message": "popupNetFlixLegalMessage",
+      "okButton": "popupNetFlixLegalOkButton",
+      "koButton": "popupNetFlixLegalKOButton"
+    },
+    "vodCatHourTxt": {
+      "style": "vodCatHourTxt"
+    },
+    "vodCatDataTxt": {
+      "style": "vodCatDateTxt"
+    },
+    "vodCatLogoImg": {
+      "style": "vodCatLogoImg"
+    },
+    "vodCatBannerImg": {
+      "style": "vodCatBannerImg"
+    },
+    "vodCatChanNumTxt": {
+      "style": "vodCatChanNumTxt"
+    },
+    "vodCatBreadcrumb": {
+      "styleItemCont": {
+        "style": "vodCatbreadcrumbStyleItemCont",
+        "left": 410,
+        "h": 30,
+        "w": 650
+      },
+      "styleItemText": {
+        "style": "vodCatbreadcrumbStyleItemText",
+        "w": 80
+      },
+      "styleItemImg": {
+        "style": "vodCatbreadcrumbStyleItemImg",
+        "w": 28
+      },
+      "innerSpacing": 10
+    },
+    "footer": {
+      "styleItemCont": {
+        "style": "vodCatfooterStyleItemCont",
+        "x": 125,
+        "y": 625,
+        "h": 120,
+        "w": 500
+      },
+      "footerElements": [
+        {
+          "footerImg": {
+            "style": "vodCatblueButFooterStyleItemImg",
+            "x": 0,
+            "y": 0
+          },
+          "footerTxt": {
+            "style": "vodCatfooterStyleItemText",
+            "text": "Toon opties",
+            "x": 30,
+            "y": 2
+          }
+        },
+        {
+          "footerImg": {
+            "style": "vodCatokFooterStyleItemImg",
+            "x": 155,
+            "y": 2
+          },
+          "footerTxt": {
+            "style": "footerStyleItemText",
+            "text": ": Action",
+            "x": 185,
+            "y": 2
+          }
+        }
+      ]
+    },
+    "vodCatModuleInfo": {
+      "style": "vodCatModuleInfoStyle",
+      "id": "vodCatModule"
+    },
+    "vodCatModuleInfoConf": {
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_fullhd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fullhd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "label_Price_Gratis": "vodCatModuleInfo_price_gratis",
+      "label_PublicationValidity": "vodCatModuleInfo_label_PublicationValidity",
+      "label_PurchaseValidity": "vodCatModuleInfo_label_PurchaseValidity",
+      "label_min": "vodCatModuleInfo_label_min",
+      "label_minutes": "vodCatModuleInfo_label_minutes",
+      "label_hour": "vodCatModuleInfo_label_hour",
+      "label_per": "ItemDetModuleInfo_label_per",
+      "label_lday": "vodCatModuleInfo_label_lDay",
+      "label_ldays": "vodCatModuleInfo_label_lDays",
+      "label_lhour": "vodCatModuleInfo_label_lHour",
+      "label_lhours": "vodCatModuleInfo_label_lHours",
+      "label_lmin": "vodCatModuleInfo_label_lMin",
+      "label_lmins": "vodCatModuleInfo_label_lMins",
+      "label_euro": "vodCatModuleInfo_label_euro",
+      "label_met": "vodCatModuleInfo_label_met",
+      "label_regie": "vodCatModuleInfo_label_regie",
+      "catalogGrid_NoDesc": "catalogGrid_NoDesc",
+      "ItemInfoTitleTxt": {
+        "style": "vodCatItemInfoTitleTxtStyle"
+      },
+      "ItemInfoDurationTxt": {
+        "style": "vodCatItemInfoDurationTxtStyle"
+      },
+      "ItemInfoPriceLblTxt": {
+        "style": "vodCatItemInfoPriceLblTxtStyle"
+      },
+      "ItemInfoPriceTxt": {
+        "style": "vodCatItemInfoPriceTxtStyle"
+      },
+      "ItemInfoPriceValLblTxt": {
+        "style": "vodCatItemInfoPriceValLblTxtStyle"
+      },
+      "ItemInfoPriceValxt": {
+        "style": "vodCatItemInfoPriceValTxtStyle"
+      },
+      "ItemInfoEndPurchValLblTxt": {
+        "style": "vodCatItemInfoEndPurchValLblTxtStyle"
+      },
+      "ItemInfoEndPurchValTxt": {
+        "style": "vodCatItemInfoEndPurchValTxtStyle"
+      },
+      "daysValidityGapConf": 7,
+      "ItemInfoEndValLblTxt": {
+        "style": "vodCatItemInfoEndValLblTxtStyle"
+      },
+      "ItemInfoEndValLblSelectTxt": {
+        "style": "vodCatItemInfoEndValLblSelectTxtStyle"
+      },
+      "ItemInfoEndValTxt": {
+        "style": "vodCatItemInfoEndValTxtStyle"
+      },
+      "ItemInfoEndValSelectTxt": {
+        "style": "vodCatItemInfoEndValSelectTxtStyle"
+      },
+      "ItemInfoCastTxt": {
+        "style": "vodCatItemInfoCastTxtStyle"
+      },
+      "ItemInfoDesc2LinesTxt": {
+        "style": "vodCatItemInfoDesc2LinesTxtStyle"
+      },
+      "ItemInfoDesc3LinesTxt": {
+        "style": "vodCatItemInfoDesc3LinesTxtStyle"
+      },
+      "ItemInfoLogoImg": {
+        "style": "vodCatItemInfoLogoImgStyle"
+      },
+      "ItemInfoRating": {
+        "startPosition": 10,
+        "widthRatingImage": 25,
+        "style": "vodCatItemInfoRatingImgStyle"
+      },
+      "ItemInfoPCLockImg": {
+        "style": "vodCatItemInfoPCLockImgStyle"
+      },
+      "ItemInfoER1Img": {
+        "style": "vodCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoChannelBlocked": {
+        "style": "vodCatItemInfoChannelBlockedStyle"
+      },
+      "ItemInfoChannelSubscribed": {
+        "style": "vodCatItemInfoChannelSubscribedStyle"
+      },
+      "itemContRating": {
+        "style": "itemContRatingStyle"
+      }
+    },
+    "vodCatModuleCatalogList": {
+      "id": "vodCatModuleCatalogList",
+      "style": "vodCatModuleCatalogListStyle"
+    },
+    "vodCatModuleCatalogListConf": {
+      "loadingMessage": "vodCatalogLoadingMessage",
+      "noItemMessage": "vodCatalogNoItemMessage",
+      "grid": {
+        "style": "vodCatListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "isScrollBarShow": false,
+        "fastMode": {
+          "active": false,
+          "fastModeNumScroll": 8,
+          "fastModeDelayPressButton": 800,
+          "fastModeResetKeyTimer": 1000
+        },
+        "item": {
+          "styleItemCont": {
+            "style": "vodCatListGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 33
+          },
+          "styleItemBgSelect": {
+            "style": "vodCatListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "vodCatListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "vodCatListGridItemBgSelected"
+          },
+          "styleItemTitleTxtSelect": {
+            "defaultTitle": "VIDEO NIET BESCHIKBAAR",
+            "style": "vodCatListGridTitleTxtSelect"
+          },
+          "styleItemTitleTxtUnSelect": {
+            "defaultTitle": "VIDEO NIET BESCHIKBAAR",
+            "style": "vodCatListGridTitleTxtUnSelect"
+          },
+          "styleItemYearTxtSelect": {
+            "style": "vodCatListGridYearTxtSelect"
+          },
+          "styleItemYearTxtUnSelect": {
+            "style": "vodCatListGridYearTxtUnSelect"
+          },
+          "styleRating": {
+            "style": "vodCatstyleRating",
+            "height": 30,
+            "marginLeft": 420,
+            "marginTop": 2,
+            "colorFocusOn": "#ffffff",
+            /*"#e8e002",*/
+            "colorFocusOff": "#ffffff",
+            "colorSecondHalfFocusOn": "#000000",
+            /*"transparent",*/
+            "colorSecondHalfFocusOff": "#000000",
+            /*"transparent",*/
+            "leftOffset": 8,
+            "fullUnSelectStar": {
+              "url": "./Apps/Common/Resources/Images/1.0/rating/star_full_white_s.png",
+              "style": "starstyle"
+            },
+            "fullSelectStar": {
+              "url": "./Apps/Common/Resources/Images/1.0/rating/star_full_white_s.png",
+              "style": "starstyle"
+            },
+            "halfUnSelectStar": {
+              "url": "./Apps/Common/Resources/Images/1.0/rating/star_half_white_s.png",
+              "style": "starstyle"
+            },
+            "halfSelectStar": {
+              "url": "./Apps/Common/Resources/Images/1.0/rating/star_half_white_s.png",
+              "style": "starstyle"
+            },
+            "url_star_full_white": "./Apps/Common/Resources/Images/1.0/rating/star_full_white.png",
+            "url_star_full_black": "./Apps/Common/Resources/Images/1.0/rating/star_full_black.png",
+            "url_star_half_white": "./Apps/Common/Resources/Images/1.0/rating/star_half_white.png",
+            "url_star_half_black": "./Apps/Common/Resources/Images/1.0/rating/star_half_black.png"
+          }
+        },
+        "scrollBar": {
+        }
+      },
+      "gridOtt": {
+        "style": "vodCatListOttGrid",
+        "distHorImgageGrid": 33,
+        "distVerImgageGrid": 10,
+        "numRowsToScroll": 8,
+        "timeToScroll": 0,
+        "numColumnInRow": 6,
+        "numVisibleRows": 2,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": false,
+        "timeUpdateInfo": 0,
+        "item": {
+          "styleItemCont": {
+            "style": "vodCatListOttGridItemCont",
+            "h": 138,
+            "w": 100
+          },
+          "styleItemSelect": {
+            "style": "vodCatListOttGridItemSelect",
+            "styleOTT": "vodCatListOttGridItemSelectOTT"
+          },
+          "styleItemTxt": {
+            "isPresent": "true",
+            "label": "displayName",
+            "label2": "name",
+            "style": "vodCatListOttGridItemTxt"
+          },
+          "styleItemTxtWrapper": {
+            "style": "vodCatListOttGridItemTxtWrapper"
+          },
+          "styleItemImg": {
+            "label": "aanbienders",
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+            "style": "vodCatListOttGridItemImg",
+            "styleOTT": "vodCatListOttGridItemImgOTT",
+            "GridImgPrefPath": "./Apps/VodCatalogue/1.0/DefaultSkin/images/aanbienders/",
+            "GridImgExt": ".png",
+            "safeSetUrl": true
+          },
+          "styleItemContImg": {
+            "style": "vodCatListOttGridItemContImg",
+            "styleOTT": "vodCatListOttGridItemContImgOTT"
+          }
+        },
+        "scrollBar": {
+          "style": "",
+          "scrollBarContent": ""
+        }
+      },
+      "itemPosition": {
+        "style": "vodCatItemPosition"
+      },
+      "coverImage": {
+        "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+        "style": "vodCatListCoverImage",
+        "lockedUrl": "./Apps/Common/Resources/Images/1.0/locked_large.png",
+        "safeSetUrl": true
+      },
+      "arrowDown": {
+        "style": "vodCatListArrowDown"
+      },
+      "arrowUp": {
+        "style": "vodCatListArrowUp"
+      }
+    },
+    "vodCatModuleCatalogGrid": {
+      "id": "vodCatModuleCatalogGrid",
+      "style": "vodCatModuleCatalogGridStyle"
+    },
+    "vodCatModuleCatalogGridConf": {
+      "grid": {
+        "style": "vodCatModuleCatalogGrid",
+        "distHorImgageGrid": 50,
+        "distVerImgageGrid": 24,
+        "numColumnInRow": 4,
+        "numVisibleRows": 2,
+        "isScrollBarShow": true,
+        "fastMode": {
+          "active": true,
+          "fastModeNumScroll": 2,
+          "fastModeDelayPressButton": 800,
+          "fastModeResetKeyTimer": 1000
+        },
+        "item": {
+          "styleItemCont": {
+            "h": 245,
+            "w": 142
+          },
+          "styleItemSelect": {
+            "style": "vodCatModuleCatalogGridItemSelect"
+          },
+          "styleItemUnSelect": {
+            "style": "vodCatModuleCatalogGridItemUnSelect"
+          },
+          "styleItemImg": {
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/1pixelclear.png",
+            "defaultImgFill": "#FFFFFF",
+            "defaultImgFillAlpha": 0.3,
+            "defaultImgStyle": "vodCatModuleCatalogGridItemDefImg",
+            "style": "vodCatModuleCatalogGridItemImg",
+            "lockedUrl": "./Apps/Common/Resources/Images/1.0/locked_ico.png",
+            "top": 10,
+            "left": 6,
+            "width": 130,
+            "height": 183,
+            "safeSetUrl": true
+          },
+          "styleItemTxt": {
+            "styleFocusOff": "vodCatModuleCatalogGridItemTxtFocusOff",
+            "styleFocusOn": "vodCatModuleCatalogGridItemTxtFocusOn",
+            "defaultTxt": "catalogGrid_NoTitle"
+          },
+          "styleItemLock": {
+            "style": "vodCatModuleCatalogGridItemLockImg",
+            "url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png"
+          }
+        },
+        "scrollBar": {
+          "style": "vodCatModuleCatalogGridScrollBar",
+          "scrollBarSpace": 495,
+          "ScrollBarHeight": 14,
+          "startY": 9,
+          "arrowDown": {
+            "style": "vodCatModuleCatalogGridArrowDown",
+            "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+          },
+          "arrowUp": {
+            "style": "vodCatModuleCatalogGridArrowUp",
+            "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+          }
+        }
+      },
+      "catGridPosTxt": {
+        "style": "vodCatGridPosTxt"
+      }
+    },
+    "vodCatModuleMenuList": {
+      "id": "vodCatModuleMenuList",
+      "style": "vodCatModuleMenuListStyle"
+    },
+    "vodCatModuleMenuListConf": {
+      "grid": {
+        "style": "vodCatModuleMenuListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "styleItemCont": {
+            "nameLabelTxt": "displayName",
+            "nameLabelTxt2": "name",
+            "style": "vodCatModuleMenuListGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 33
+          },
+          "styleItemBgSelect": {
+            "style": "vodCatModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "vodCatModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "vodCatModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "vodCatModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "vodCatModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "vodCatModuleMenuListGridTitleTxtSelected"
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "vodCatModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "vodCatModuleMenuListArrowUp"
+      },
+      "MenuListTopElem": {
+        "styleItemCont": {
+          "style": "vodCatModuleMenuListMenuListTopElemItemCont"
+        },
+        "styleItemBgSelect": {
+          "style": "vodCatModuleMenuListMenuListTopElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "vodCatModuleMenuListMenuListTopElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "vodCatModuleMenuListMenuListTopElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": "vodCatModuleMenuListMenuListTopElemTitleTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "vodCatModuleMenuListMenuListTopElemTitleTxtUnSelect"
+        },
+        "styleItemTxtSelected": {
+          "style": "vodCatModuleMenuListMenuListTopElemTitleTxtSelected"
+        }
+      }
+    },
+    "FooterElementOpties": {
+      "itemCont": {
+        "style": "vodCatFooterElementOptiesItemContStyle"
+      },
+      "imgItem": {
+        "style": "vodCatFooterElementOptiesImgItemStyle"
+      },
+      "txtCont": {
+        "txt": "vodCatLabelFooterElementOpties",
+        "style": "vodCatFooterElementOptiesTxtContStyle"
+      }
+    },
+    "FooterElementOKLeft": {
+      "itemCont": {
+        "style": "vodCatFooterElementOkLeftItemContStyle"
+      },
+      "imgItem": {
+        "style": "vodCatFooterElementOkLeftImgItemStyle"
+      },
+      "txtCont": {
+        "style": "vodCatFooterElementOkLeftTxtContStyle",
+        "extStyle": "vodCatFooterElementOkLeftTxtContExtStyle"
+      }
+    },
+    "FooterElementOKRight": {
+      "itemCont": {
+        "style": "vodCatFooterElementOKRightItemContStyle"
+      },
+      "imgItem": {
+        "style": "vodCatFooterElementOKRightImgItemStyle"
+      },
+      "txtCont": {
+        "txt": "vodCatLabelFooterElementOKRight",
+        "style": "vodCatFooterElementOKRightTxtContStyle"
+      }
+    },
+    "FooterElementNav": {
+      "itemCont": {
+        "style": "vodCatFooterElementNavItemContStyle"
+      },
+      "imgItem": {
+        "style": "vodCatFooterElementNavImgItemStyle"
+      },
+      "txtCont": {
+        "txt": "vodCatLabelFooterElementNav",
+        "style": "vodCatFooterElementNavTxtContStyle"
+      }
+    },
+    "FooterElementYellow": {
+      "itemCont": {
+        "style": "vodCatFooterElementYellowItemContStyle"
+      },
+      "imgItem": {
+        "style": "vodCatFooterElementYellowImgItemStyle"
+      },
+      "txtCont": {
+        "txt": "vodCatLabelFooterElementYellow",
+        "ottTxt": "vodCatLabelFooterElementYellowOtt",
+        "style": "vodCatFooterElementYellowTxtContStyle"
+      }
+    }
+  },
+  "ScenarioItemDetailConf": {
+    "Context_sensitive_help": [
+      "scenariohelp",
+      "VOD",
+      "KijKen"
+    ],
+    "menuTopButton": {
+      "isPresent": false,
+      "txtButton": "top_button_menu_txt",
+      "inputObjTopButton": [
+        "Catalogue"
+      ]
+    },
+    "breadcrumbCatalogueDefault": [
+      "Start_label",
+      "VideoTheek_label"
+    ],
+    "popupInteractiveMessageBookMarkArray": [
+      "bookmark_popup_title",
+      "bookmark_popup_message",
+      "bookmark_popup_confirm_button",
+      "bookmark_popup_cancel_button"
+    ],
+    "footerElementsDetail": {
+      "ItemDetContFooter": {
+        "style": "ItemDetContFooterStyle"
+      },
+      "ItemDetTxtButtonBlue": {
+        "txt": "footer_opties_button",
+        "style": "ItemDetTxtBlueStyle"
+      },
+      "ItemDetButtonBlue": {
+        "isPresent": true,
+        "style": "ItemDetButtonBlueStyle"
+      },
+      "menuLeftCode": {
+        "txt": "footer_menu_left_txt",
+        "style": "menuLeftCodeStyle"
+      },
+      "menuLeftCodeCut": {
+        "txt": "footer_menu_left_txt",
+        "style": "menuLeftCodeCutStyle"
+      },
+      "buttonOk": {
+        "isPresent": true,
+        "style": "buttonOkStyle"
+      },
+      "buttonOkTxtCut": {
+        "style": "buttonOkTxtCutStyle"
+      },
+      "buttonOkTxt": {
+        "style": "buttonOkTxtStyle"
+      },
+      "buttonYellow": {
+        "isPresent": true,
+        "style": "buttonYellowStyle"
+      },
+      "buttonYellowTxt": {
+        "txt": "vodCatLabelFooterElementYellow",
+        "style": "buttonYellowTxtStyle"
+      },
+      "buttonNavigate": {
+        "isPresent": true,
+        "style": "buttonNavigateStyle"
+      },
+      "buttonNavigateTxt": {
+        "txt": "footer_button_navigate_txt",
+        "style": "buttonNavigateTxtStyle"
+      }
+    },
+    "showRatingIcons": true,
+    "hasLiveVideo": "Y",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "optionMenuConf": [
+      "WatchTV",
+      "SearchInVideotheek",
+      "SearchInAll"
+    ],
+    "label_bestel": "itemDet_label_bestel",
+    "label_Show": "itemDet_label_Show",
+    "label_Watch_Trailer": "itemDet_label_Watch_Trailer",
+    "label_Watch_Use_Voucher": "itemDet_label_Use_Voucher",
+    "label_Watch_Less_Info": "itemDet_label_Less_Info",
+    "label_SmartView_footer": "vodCatLabelFooterElementYellowOtt",
+    "label_SmartView": "label_SmartView",
+    "label_Therm": "label_Therm",
+    "Txt_Therm": "Txt_Therm",
+    "label_Programma_info": "label_Programma_info",
+    "label_SmartView_close": "label_SmartView_close",
+    "catalogGrid_NoTitle": "catalogGrid_NoTitle",
+    "catalogGrid_NoDesc": "catalogGrid_NoDesc",
+    "ItemDetHourTxt": {
+      "style": "ItemDetHourTxt"
+    },
+    "ItemDetDataTxt": {
+      "style": "ItemDetDateTxt"
+    },
+    "ItemDetLogoImg": {
+      "style": "ItemDetLogoImg"
+    },
+    "ItemDetChanNumTxt": {
+      "style": "ItemDetChanNumTxt"
+    },
+    "ItemDetBreadcrumb": {
+      "styleItemCont": {
+        "style": "ItemDetbreadcrumbStyleItemCont",
+        "left": 410,
+        "h": 30,
+        "w": 650
+      },
+      "styleItemText": {
+        "style": "ItemDetbreadcrumbStyleItemText",
+        "w": 80
+      },
+      "styleItemImg": {
+        "style": "ItemDetbreadcrumbStyleItemImg",
+        "w": 28
+      },
+      "innerSpacing": 10
+    },
+    "ItemDetModuleInfo": {
+      "style": "ItemDetModuleInfoStyle",
+      "id": "ItemDetModuleInfo"
+    },
+    "ItemDetModuleInfoConf": {
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_fullhd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fullhd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "label_Price_Gratis": "ItemDetModuleInfo_price_gratis",
+      "label_PublicationValidity": "ItemDetModuleInfo_label_PublicationValidity",
+      "label_PurchaseValidity": "ItemDetModuleInfo_label_PurchaseValidity",
+      "label_min": "ItemDetModuleInfo_label_min",
+      "label_minutes": "ItemDetModuleInfo_label_minutes",
+      "label_hour": "ItemDetModuleInfo_label_hour",
+      "label_per": "ItemDetModuleInfo_label_per",
+      "label_lday": "ItemDetModuleInfo_label_lDay",
+      "label_ldays": "ItemDetModuleInfo_label_lDays",
+      "label_lhour": "ItemDetModuleInfo_label_lHour",
+      "label_lhours": "ItemDetModuleInfo_label_lHours",
+      "label_lmin": "ItemDetModuleInfo_label_lMin",
+      "label_lmins": "ItemDetModuleInfo_label_lMins",
+      "label_euro": "ItemDetModuleInfo_label_euro",
+      "label_met": "ItemDetModuleInfo_label_met",
+      "label_regie": "ItemDetModuleInfo_label_regie",
+      "catalogGrid_NoDesc": "catalogGrid_NoDesc",
+      "ItemInfoTitleTxt": {
+        "style": "ItemDetItemInfoTitleTxtStyle"
+      },
+      "ItemInfoDurationTxt": {
+        "style": "ItemDetItemInfoDurationTxtStyle"
+      },
+      "ItemInfoPriceLblTxt": {
+        "style": "ItemDetItemInfoPriceLblTxtStyle"
+      },
+      "ItemInfoPriceTxt": {
+        "style": "ItemDetItemInfoPriceTxtStyle"
+      },
+      "ItemInfoPriceValLblTxt": {
+        "style": "ItemDetItemInfoPriceValLblTxtStyle"
+      },
+      "ItemInfoPriceValxt": {
+        "style": "ItemDetItemInfoPriceValTxtStyle"
+      },
+      "ItemInfoEndPurchValLblTxt": {
+        "style": "ItemDetItemInfoEndPurchValLblTxtStyle"
+      },
+      "ItemInfoEndPurchValTxt": {
+        "style": "ItemDetItemInfoEndPurchValTxtStyle"
+      },
+      "daysValidityGapConf": 7,
+      "ItemInfoEndValLblTxt": {
+        "style": "ItemDetItemInfoEndValLblTxtStyle"
+      },
+      "ItemInfoEndValLblSelectTxt": {
+        "style": "ItemDetItemInfoEndValLblSelectTxtStyle"
+      },
+      "ItemInfoEndValTxt": {
+        "style": "ItemDetItemInfoEndValTxtStyle"
+      },
+      "ItemInfoEndValSelectTxt": {
+        "style": "ItemDetItemInfoEndValSelectTxtStyle"
+      },
+      "ItemInfoCastTxt": {
+        "style": "ItemDetItemInfoCastTxtStyle"
+      },
+      "ItemInfoDesc2LinesTxt": {
+        "style": "ItemDetItemInfoDesc2LinesTxtStyle"
+      },
+      "ItemInfoDesc3LinesTxt": {
+        "style": "ItemDetItemInfoDesc3LinesTxtStyle"
+      },
+      "ItemInfoLogoImg": {
+        "style": "ItemDetItemInfoLogoImgStyle"
+      },
+      "ItemInfoRatingPng": {
+        "style": "ItemDetItemInfoStyleRating",
+        "ItemInfoRatingPngComposed": {
+          "style": "ItemDetItemInfoStyleRatingComposed",
+          "urlComposed": "./Apps/Common/Resources/Images/1.0/rating/composed/",
+          "urlComposedExtension": ".png",
+          "defaultImgUrl": "",
+          "safeSetUrl": false
+        },
+        "fullStar": {
+          "url": "./Apps/Common/Resources/Images/1.0/rating/star_full_white.png",
+          "style": "ItemDetItemInfoStarStyle"
+        },
+        "halfStar": {
+          "url": "./Apps/Common/Resources/Images/1.0/rating/star_half_white.png",
+          "style": "ItemDetItemInfoStarStyle"
+        }
+      },
+      "ItemInfoRating": {
+        "startPosition": 10,
+        "widthRatingImage": 25,
+        "style": "ItemDetItemInfoRatingImgStyle",
+        "colorSecondHalf": "#000000",
+        "color": "#ffffff",
+        "marginTop": 98,
+        "marginLeft": -10,
+        "height": 50,
+        "leftOffset": 8
+      },
+      "ItemInfoPCLockImg": {
+        "style": "ItemDetItemInfoPCLockImgStyle"
+      },
+      "ItemInfoER1Img": {
+        "style": "ItemDetItemInfoER1ImgStyle"
+      },
+      "ItemInfoChannelBlocked": {
+        "style": "ItemDetItemInfoChannelBlockedStyle"
+      },
+      "ItemInfoChannelSubscribed": {
+        "style": "ItemDetItemInfoChannelSubscribedStyle"
+      },
+      "itemContRating": {
+        "style": "itemContRatingStyle"
+      }
+    },
+    "ItemDetModuleMenuList": {
+      "id": "ItemDetModuleMenuList",
+      "style": "vodCatItemDetModuleMenuListStyle"
+    },
+    "ItemDetModuleMenuListConf": {
+      "grid": {
+        "style": "ItemDetModuleMenuListGrid",
+        "topMargin": 48,
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "hidePinStructure": true,
+          "numOfMiddleElements": 2,
+          "marginRightSide": 15,
+          "styleItemCont": {
+            "style": "ItemDetModuleMenuListGridItemCont",
+            "w": 246,
+            "h": 30
+          },
+          "styleItemBgSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ItemDetModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelected"
+          },
+          "styleItemStartMaskImgSelect": {
+            "style": "ItemDetpinButtonitemStartMaskImgSelect",
+            "width": 27
+          },
+          "styleItemEndMaskImgSelect": {
+            "style": "ItemDetpinButtonitemEndMaskImgSelect",
+            "width": 24
+          },
+          "styleItemMiddleMaskImgSelect": {
+            "style": "ItemDetpinButtonitemMiddleMaskImgSelect",
+            "width": 24
+          },
+          "styleItemStartMaskImgUnselect": {
+            "style": "ItemDetpinButtonitemStartMaskImgUnselect",
+            "width": 27
+          },
+          "styleItemEndMaskImgUnselect": {
+            "style": "ItemDetpinButtonitemEndMaskImgUnselect",
+            "width": 24
+          },
+          "styleItemMiddleMaskImgUnselect": {
+            "style": "ItemDetpinButtonitemMiddleMaskImgUnselect",
+            "width": 24
+          },
+          "styleItemMaskTxtSelect": {
+            "style": "ItemDetpinButtonitemMaskTxtSelect"
+          },
+          "styleItemMaskTxtUnselect": {
+            "style": "ItemDetpinButtonitemMaskTxtUnSelect"
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "ItemDetModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "ItemDetModuleMenuListArrowUp"
+      },
+      "MenuListTopElem": {
+        "styleItemCont": {
+          "style": "ItemDetModuleMenuListMenuListTopElemItemCont"
+        },
+        "styleItemBgSelect": {
+          "style": "ItemDetModuleMenuListMenuListTopElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "ItemDetModuleMenuListMenuListTopElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "ItemDetModuleMenuListMenuListTopElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect"
+        },
+        "styleItemTxtSelected": {
+          "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtSelected"
+        }
+      },
+      "MenuListBottomElem": {
+        "styleItemCont": {
+          "style": "ItemDetModuleMenuListMenuListBottomElemItemCont",
+          "h": 64
+        },
+        "styleItemBgSelect": {
+          "style": "ItemDetModuleMenuListMenuListBottomElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "ItemDetModuleMenuListMenuListBottomElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "ItemDetModuleMenuListMenuListBottomElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": ""
+        },
+        "styleItemTxtUnSelect": {
+          "style": ""
+        },
+        "styleItemTxtSelected": {
+          "style": ""
+        },
+        "styleItemImage": {
+          "style": "ItemDetModuleMenuListMenuListBottomElemItemImage",
+          "safeSetUrl": true,
+          "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty_apps.png"
+        }
+      }
+    },
+    "ItemDetModuleItemDetails": {
+      "id": "ItemDetModuleItemDetails",
+      "style": "vodCatItemDetModuleItemDetailsStyle"
+    },
+    "ItemDetModuleItemDetailsConf": {
+      "ItemDetInfoRect": {
+        "style": "ItemDetRectInfoStyle",
+        "styleFocusOn": "ItemDetRectInfoFocusOnStyle",
+        "styleFocusOff": "ItemDetRectInfoFocusOffStyle"
+      },
+      "ItemDetTitleTxt": {
+        "style": "ItemDetTitleTxtStyle"
+      },
+      "ItemDetDescTxt": {
+        "style": "ItemDetDescTxtStyle",
+        "styleDecor": "ItemDetDescTxtStyleDecorStyle",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "ItemDetRightImg": {
+        "style": "ItemDetRightImgStyle"
+      },
+      "ItemDetLeftImg": {
+        "style": "ItemDetLeftImgStyle"
+      },
+      "ItemDetUpImg": {
+        "style": "ItemDetUpImgStyle"
+      },
+      "ItemDetDownImg": {
+        "style": "ItemDetDownImgStyle"
+      },
+      "ItemDetCoverImg": {
+        "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+        "style": "ItemDetCoverImgStyle",
+        "safeSetUrl": true
+      },
+      "itemDetInfoContentMeerTv": {
+        "style": "itemDetInfoContentMeerTv",
+        "loadingMessage": "loadingMessageMeerTv",
+        "emptyMessage": "emptyMessageMeerTv"
+      },
+      "horizontalGrid": {
+        "style": "styleHorizontalGridCont",
+        "numVisibleImages": 4,
+        "item": {
+          "styleItemCont": {
+            "style": "ItemDetModuleItemDetailsHorizontalGridItemCont",
+            "h": 120,
+            "w": 120
+          },
+          "styleItemSelect": {
+            "style": "ItemDetModuleItemDetailsHorizontalGridItemSelect",
+            "styleOTT": "ItemDetModuleItemDetailsHorizontalGridItemSelect"
+          },
+          "styleItemTxt": {
+            "isPresent": false,
+            "label": "title",
+            "style": "ItemDetModuleItemDetailsHorizontalGridItemTxt"
+          },
+          "styleItemTxtWrapper": {
+            "style": ""
+          },
+          "styleItemImg": {
+            "label": "iconURL",
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+            "style": "ItemDetModuleItemDetailsHorizontalGridItemImg",
+            "safeSetUrl": true
+          },
+          "styleItemContImg": {
+            "style": ""
+          }
+        },
+        "arrowRightImg": {
+          "style": "HorizontalGridArrowRightImgStyle"
+        }
+      },
+      "grid": {
+        "style": "ItemDetModuleItemDetailsGrid",
+        "distHorImgageGrid": 14,
+        "distVerImgageGrid": 0,
+        "numRowsToScroll": 2,
+        "timeToScroll": 0,
+        "numColumnInRow": 5,
+        "numVisibleRows": 2,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": false,
+        "timeUpdateInfo": 0,
+        "item": {
+          "styleItemCont": {
+            "style": "ItemDetModuleItemDetailsGridItemCont",
+            "h": 140,
+            "w": 140
+          },
+          "styleItemSelect": {
+            "style": "ItemDetModuleItemDetailsGridItemSelect",
+            "styleOTT": "ItemDetModuleItemDetailsGridItemSelect"
+          },
+          "styleItemTxt": {
+            "isPresent": false,
+            "label": "title",
+            "style": "ItemDetModuleItemDetailsGridItemTxt"
+          },
+          "styleItemTxtWrapper": {
+            "style": "vodCatListOttGridItemTxtWrapper"
+          },
+          "styleItemImg": {
+            "label": "iconURL",
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty_apps.png",
+            "style": "ItemDetModuleItemDetailsGridItemImg",
+            "safeSetUrl": true
+          },
+          "styleItemContImg": {
+            "style": "VodCatvodCatListOttGridItemContImg"
+          }
+        },
+        "scrollBar": {
+          "style": "",
+          "scrollBarContent": ""
+        },
+        "arrowDownImg": {
+          "style": "ItemDetGridArrowDownImgStyle"
+        },
+        "arrowUpImg": {
+          "style": "ItemDetGridArrowUpImgStyle"
+        }
+      }
+    }
+  },
+  "ScenarioZapbannerConf": {
+    "hasLiveVideo": "N",
+    "startGidsTimeout": 400,
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "fullscreenVideoPosition": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "ItemDetHourTxt": {
+      "style": "ItemDetHourTxt"
+    },
+    "ItemDetDataTxt": {
+      "style": "ItemDetDateTxt"
+    },
+    "ItemDetLogoImg": {
+      "style": "ItemDetLogoImg"
+    },
+    "ItemDetChanNumTxt": {
+      "style": "ItemDetChanNumTxt"
+    },
+    "popupInteractiveMessageBookMarkArray": [
+      "bookmark_popup_title",
+      "bookmark_popup_message",
+      "bookmark_popup_confirm_button",
+      "bookmark_popup_cancel_button"
+    ],
+    "popupInteractiveMessageStopVodArray": [
+      "stopVod_popup_title",
+      "stopVod_popup_message",
+      "stopVod_popup_confirm_button",
+      "stopVod_popup_cancel_button"
+    ],
+    "popupInteractiveMessageWrongSkipTimeArray": [
+      "skipTime_popup_title",
+      "skipTime_popup_message",
+      "skipTime_popup_confirm_button"
+    ],
+    "leftRightSkipTimeValue": [
+      "00",
+      "00",
+      "30"
+    ],
+    "popupInteractiveMessageWrongShowTimer": 2000,
+    "ItemDetModuleMenuList": {
+      "id": "ItemDetModuleMenuList",
+      "style": "ItemDetModuleMenuListStyle"
+    },
+    "ItemDetModuleMenuListConf": {
+      "grid": {
+        "style": "vodCatItemDetModuleMenuListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "hidePinStructure": true,
+          "numOfMiddleElements": 2,
+          "marginRightSide": 15,
+          "styleItemCont": {
+            "style": "ItemDetModuleMenuListGridItemCont",
+            "w": 246,
+            "h": 30
+          },
+          "styleItemBgSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ItemDetModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelected"
+          },
+          "styleItemStartMaskImgSelect": {
+            "style": "ItemDetpinButtonitemStartMaskImgSelect",
+            "width": 27
+          },
+          "styleItemEndMaskImgSelect": {
+            "style": "ItemDetpinButtonitemEndMaskImgSelect",
+            "width": 24
+          },
+          "styleItemMiddleMaskImgSelect": {
+            "style": "ItemDetpinButtonitemMiddleMaskImgSelect",
+            "width": 24
+          },
+          "styleItemStartMaskImgUnselect": {
+            "style": "ItemDetpinButtonitemStartMaskImgUnselect",
+            "width": 27
+          },
+          "styleItemEndMaskImgUnselect": {
+            "style": "ItemDetpinButtonitemEndMaskImgUnselect",
+            "width": 24
+          },
+          "styleItemMiddleMaskImgUnselect": {
+            "style": "ItemDetpinButtonitemMiddleMaskImgUnselect",
+            "width": 24
+          },
+          "styleItemMaskTxtSelect": {
+            "style": "ItemDetpinButtonitemMaskTxtSelect"
+          },
+          "styleItemMaskTxtUnselect": {
+            "style": "ItemDetpinButtonitemMaskTxtUnSelect"
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "ItemDetModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "ItemDetModuleMenuListArrowUp"
+      }
+    },
+    "ModuleZapBannerMini": {
+      "id": "ModuleZapBannerMini",
+      "style": "ModuleZapBannerMiniStyle"
+    },
+    "ModuleZapBannerMiniConf": {
+      "zapBannerMiniChannelNumber": {
+        "style": "zapBannerMiniChannelNumberStyle"
+      },
+      "zapBannerMiniChannelName": {
+        "style": "zapBannerMiniChannelNameStyle"
+      },
+      "zapBannerMiniTitle": {
+        "style": "zapBannerMiniTitleStyle"
+      },
+      "zapBannerMiniVodTime": {
+        "style": "zapBannerMiniVodTimeStyle"
+      },
+      "zapBannerMiniCurrPos": {
+        "style": "zapBannerMiniCurrPosStyle"
+      },
+      "zapBannerMiniPlaySpeed": {
+        "style": "zapBannerMiniPlaySpeedStyle"
+      },
+      "zapBannerMiniPlaySpeedVisualArray": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "zapBannerMiniPlaySpeedArray": [
+        200,
+        400,
+        800,
+        1600,
+        3200,
+        6400
+      ],
+      "zapBannerMiniTime": {
+        "style": "zapBannerMiniTimeStyle"
+      },
+      "zapBannerMiniBg": {
+        "style": "zapBannerMiniBg"
+      },
+      "zapBannerMiniTPImage": {
+        "style": "zapBannerMiniTPImageStyle"
+      },
+      "zapBannerMiniChannelRect": {
+        "style": "zapBannerMiniChannelRectStyle"
+      },
+      "zapBannerMiniVodRect": {
+        "style": "zapBannerMiniVodRectStyle"
+      },
+      "zapBannerMiniSkipToTimeRect": {
+        "itemCont": {
+          "style": "zapBannerMiniSkipToTimeRectStyle"
+        },
+        "imgPrev": {
+          "style": "imgPrevStyle"
+        },
+        "txtCont": {
+          "style": "zapbannerMinitxtContStyle"
+        },
+        "imgNext": {
+          "style": "imgNextStyle"
+        }
+      },
+      "pbItemCont": {
+        "pbContainer": {
+          "style": "zapBannerMiniProgressbarContainerStyle"
+        },
+        "pbCont": {
+          "style": "zapBannerMiniProgressbarRectStyle",
+          "width": 477
+        },
+        "past": {
+          "style": "zapBannerMiniProgressbarPastSpaceRectStyle"
+        },
+        "currPos": {
+          "style": "zapBannerMiniProgressbarCurrPosRectStyle",
+          "width": 4
+        }
+      },
+      "zapBannerFooterConf": {
+        "buttonOkZapbannerMini": {
+          "style": "buttonOkStyleZapbannerMini"
+        },
+        "buttonOkTxtZapbannerMini": {
+          "style": "buttonOkTxtStyleZapbannerMini"
+        },
+        "buttonYellowZapbannerMini": {
+          "style": "buttonYellowStyleZapbannerMini"
+        },
+        "buttonYellowTxtZapbannerMini": {
+          "txt": "",
+          "style": "buttonYellowTxtStyleZapbannerMini"
+        },
+        "zapbannerFooterYellowButtonOpen": {
+          "label": "open_zapbanner_details"
+        },
+        "zapbannerFooterYellowButtonClose": {
+          "label": "close_zapbanner_details"
+        }
+      }
+    },
+    "ModuleZapBannerExtended": {
+      "id": "ModuleZapBannerExtended",
+      "style": "vodCatModuleZapBannerExtendedStyle"
+    },
+    "ModuleZapBannerExtendedConf": {
+      "zapBannerExtTitle": {
+        "style": "zapBannerExtTitleStyle"
+      },
+      "zapBannerExtVodTime": {
+        "style": "zapBannerExtVodTimeStyle"
+      },
+      "zapBannerExtVodDesc": {
+        "style": "zapBannerExtVodDescStyle",
+        "styleDecor": "",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "zapBannerExtVodAddInfo": {
+        "style": "zapBannerExtVodAddInfoStyle",
+        "styleDecor": "",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "zapBannerExtBg": {
+        "style": "zapBannerExtBg"
+      },
+      "zapBannerExtVodRectFocus": {
+        "style": "zapBannerExtVodRectStyle",
+        "styleFocusOn": "zapBannerExtVodRectFocusOnStyle",
+        "styleFocusOff": "zapBannerExtVodRectFocusOffStyle"
+      },
+      "zapBannerExtMenuList": {
+        "id": "zapBannerExtMenuList",
+        "style": "zapBannerExtMenuListStyle"
+      },
+      "zapBannerExtMenuListConf": {
+        "menuVoices": [
+          "watch_vod",
+          "rented_videos"
+        ],
+        "menuOptionalVoices": [
+          "more_info"
+        ],
+        "grid": {
+          "style": "zapBannerModuleMenuListGrid",
+          "distHorImgageGrid": 0,
+          "distVerImgageGrid": 5,
+          "numRowsToScroll": 1,
+          "timeToScroll": 0,
+          "numColumnInRow": 1,
+          "numVisibleRows": 6,
+          "timeToUpdateCursor": 40,
+          "isScrollBarShow": false,
+          "item": {
+            "hidePinStructure": true,
+            "numOfMiddleElements": 2,
+            "marginRightSide": 15,
+            "styleItemCont": {
+              "style": "zapBannerModuleMenuListGridItemCont",
+              "w": 246,
+              "h": 30
+            },
+            "styleItemBgSelect": {
+              "style": "zapBannerModuleMenuListGridItemBgSelect"
+            },
+            "styleItemBgUnSelect": {
+              "style": "zapBannerModuleMenuListGridItemBgUnSelect"
+            },
+            "styleItemBgSelected": {
+              "style": "zapBannerModuleMenuListGridItemBgSelected"
+            },
+            "styleItemTxtSelect": {
+              "style": "zapBannerModuleMenuListGridTitleTxtSelect"
+            },
+            "styleItemTxtUnSelect": {
+              "style": "zapBannerModuleMenuListGridTitleTxtUnSelect"
+            },
+            "styleItemTxtSelected": {
+              "style": "zapBannerModuleMenuListGridTitleTxtSelected"
+            },
+            "styleItemStartMaskImgSelect": {
+              "style": "zapBannerpinButtonitemStartMaskImgSelect",
+              "width": 27
+            },
+            "styleItemEndMaskImgSelect": {
+              "style": "zapBannerpinButtonitemEndMaskImgSelect",
+              "width": 24
+            },
+            "styleItemMiddleMaskImgSelect": {
+              "style": "zapBannerpinButtonitemMiddleMaskImgSelect",
+              "width": 24
+            },
+            "styleItemStartMaskImgUnselect": {
+              "style": "zapBannerpinButtonitemStartMaskImgUnselect",
+              "width": 27
+            },
+            "styleItemEndMaskImgUnselect": {
+              "style": "zapBannerpinButtonitemEndMaskImgUnselect",
+              "width": 24
+            },
+            "styleItemMiddleMaskImgUnselect": {
+              "style": "zapBannerpinButtonitemMiddleMaskImgUnselect",
+              "width": 24
+            },
+            "styleItemMaskTxtSelect": {
+              "style": "zapBannerpinButtonitemMaskTxtSelect"
+            },
+            "styleItemMaskTxtUnselect": {
+              "style": "zapBannerpinButtonitemMaskTxtUnSelect"
+            }
+          }
+        },
+        "MenuListArrowDown": {
+          "style": "zapBannerModuleMenuListArrowDown"
+        },
+        "MenuListArrowUp": {
+          "style": "zapBannerModuleMenuListArrowUp"
+        },
+        "MenuListTopElem": {
+          "styleItemCont": {
+            "style": "zapBannerModuleMenuListMenuListTopElemItemCont"
+          },
+          "styleItemBgSelect": {
+            "style": "zapBannerModuleMenuListMenuListTopElemItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "zapBannerModuleMenuListMenuListTopElemItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "zapBannerModuleMenuListMenuListTopElemItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "zapBannerModuleMenuListMenuListTopElemTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "zapBannerModuleMenuListMenuListTopElemTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "zapBannerModuleMenuListMenuListTopElemTitleTxtSelected"
+          }
+        }
+      },
+      "OptionMenuConf": {
+        "slideTime": 600,
+        "menuH": 380,
+        "menuW": 384,
+        "optMenu": {
+          "menuElement": [
+            {
+              "label": "option_menu_more_info",
+              "status": "MoreInfo"
+            },
+            {
+              "label": "option_menu_watch_video",
+              "status": "WatchVideo"
+            },
+            {
+              "label": "option_menu_rented_items",
+              "status": "RentedItems"
+            },
+            {
+              "label": "option_menu_watch_tv",
+              "status": "WatchTV"
+            },
+            {
+              "label": "option_menu_search_videotheek",
+              "status": "SearchInVideotheek"
+            }
+          ],
+          "hasLiveVideo": "Y"
+        },
+        "bgImage": {
+          "style": "ScenarioOptionMenuBgStyle",
+          "url": "./Apps/Common/Resources/Images/1.0/backgrounds/commonOverlayBkg.png"
+        },
+        "OptMenuList": {
+          "style": "optMenuLeftMenuMessages",
+          "distHorImgageGrid": 0,
+          "distVerImgageGrid": 5,
+          "numRowsToScroll": 1,
+          "timeToScroll": 0,
+          "numColumnInRow": 1,
+          "numVisibleRows": 8,
+          "timeToUpdateCursor": 0,
+          "isScrollBarShow": false,
+          "item": {
+            "styleItemCont": {
+              "style": "optMenuLeftMenuBtCont",
+              "x": 0,
+              "y": 0,
+              "w": 246,
+              "h": 32
+            },
+            "styleItemBgSelect": {
+              "style": "optMenuLeftMenuBtBgSelect"
+            },
+            "styleItemBgUnSelect": {
+              "style": "optMenuLeftMenuBtBgUnSelect"
+            },
+            "styleItemTxtSelect": {
+              "style": "optMenuLeftMenuBtTxtSelect"
+            },
+            "styleItemTxtUnSelect": {
+              "style": "optMenuLeftMenuBtTxtUnSelect"
+            }
+          },
+          "scrollBar": {
+            "style": "gridScrollBar",
+            "scrollBarContent": ""
+          }
+        },
+        "arrowDown": {
+          "style": "optMenuArrowDown",
+          "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+        },
+        "arrowUp": {
+          "style": "optMenuArrowUp",
+          "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+        },
+        "toonOpties": {
+          "style": "optMenuToonOpties",
+          "url": "./Apps/Common/Resources/Images/1.0/button_blue.png"
+        },
+        "toonOptiesTxt": {
+          "style": "optMenuToonOptiesTxt"
+        },
+        "toonOptiesTxtText": "toon_opties_txt"
+      },
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_fullhd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fullhd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "ItemInfoER1Img": {
+        "style": "vodCatalogueZapBannerExtIconImg1Style"
+      },
+      "zapBannerExtIconImg2": {
+        "style": "zapBannerExtIconImg2Style"
+      },
+      "zapBannerExtIconImg3": {
+        "style": "zapBannerExtIconImg3Style"
+      },
+      "zapBannerExtIconImg4": {
+        "style": "zapBannerExtIconImg4Style"
+      },
+      "zapBannerExtIconImg5": {
+        "style": "zapBannerExtIconImg5Style"
+      },
+      "zapBannerExtIconImg6": {
+        "style": "zapBannerExtIconImg6Style"
+      },
+      "zapBannerExtIconImg7": {
+        "style": "zapBannerExtIconImg7Style"
+      },
+      "zapBannerExtIconImg8": {
+        "style": "zapBannerExtIconImg8Style"
+      },
+      "zapBannerExtIconImg9": {
+        "style": "zapBannerExtIconImg9Style"
+      },
+      "zapBannerExtIconImg10": {
+        "style": "zapBannerExtIconImg10Style"
+      },
+      "itemContRating": {
+        "style": "vodCatalogueItemContRatingStyleZapbanner"
+      }
+    },
+    "ModuleZapBannerNotification": {
+      "id": "ModuleZapBannerNotification",
+      "style": "ModuleZapBannerNotificationStyle"
+    },
+    "ModuleZapBannerNotificationConf": {
+      "notificationIconMail": {
+        "style": "notificationIconMailStyle"
+      },
+      "notificationNewMsgText": {
+        "style": "notificationNewMsgTextStyle"
+      },
+      "notificationOpenMsgText": {
+        "style": "notificationOpenMsgTextStyle"
+      },
+      "notificationHelpMsgText": {
+        "style": "notificationOpenMsgTextStyle"
+      },
+      "notificationIconRedButton": {
+        "style": "notificationIconRedButtonStyle"
+      }
+    }
+  }
+}

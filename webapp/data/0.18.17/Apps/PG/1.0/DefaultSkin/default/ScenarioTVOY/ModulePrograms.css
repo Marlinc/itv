@@ -1,0 +1,205 @@
+.tvoyCatModuleCatalogListStyle {
+    left: 401px;
+    top: 276px;
+    width: 780px;
+    height: 330px
+}
+
+.tvoyCatListGrid {
+    top: 30px;
+    height: 375px
+}
+
+.tvoyCatListGridItemCont {
+    top: 0;
+    height: 30px
+}
+
+.tvoyCatListGrid,
+.tvoyCatListGridItemCont {
+    left: 0;
+    width: 526px
+}
+
+.tvoyCatListGridItemBgSelect,
+.tvoyCatListGridItemBgUnSelect {
+    width: 526px;
+    height: 30px;
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px
+}
+
+.tvoyCatListGridTitleTxtSelect,
+.tvoyCatListGridTitleTxtUnSelect {
+    left: 5px
+}
+
+.tvoyCatListGridYearTxtSelect,
+.tvoyCatListGridYearTxtUnSelect {
+    left: 308px
+}
+
+.tvoyCatListGridTitleTxtSelect,
+.tvoyCatListGridTitleTxtUnSelect,
+.tvoyCatListGridYearTxtSelect,
+.tvoyCatListGridYearTxtUnSelect {
+    top: 3px;
+    width: 218px;
+    height: 30px;
+    font-size: 22px
+}
+
+.tvoyCatstyleRating {
+    top: 8px;
+    left: 400px;
+    width: 15px;
+    height: 15px
+}
+
+.tvoyCatItemPosition {
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8*/
+}
+
+.tvoyCatListCoverImage {
+    top: 30px;
+    left: 550px;
+    width: 201px;
+    height: 298px;
+    border-radius: 4px
+}
+
+.tvoyCatListArrowDown {
+    top: 350px;
+    left: 720px;
+    width: 23px;
+    height: 8px
+}
+
+.tvoyCatListArrowDown,
+.tvoyCatListArrowUp {
+    border-image: none
+}
+
+.tvoyCatListArrowUp,
+.ModuleProgramsArrowUp {
+    background: url(../../../../../Common/Resources/Images/1.0/arrow_up.png) no-repeat
+}
+
+.tvoyCatListArrowUp,
+.ModuleProgramsArrowUp {
+    top: 5px
+}
+
+.tvoyCatListArrowDown,
+.ModuleProgramsArrowDown {
+    top: 318px;
+    background: url(../../../../../Common/Resources/Images/1.0/arrow_down.png) no-repeat
+}
+
+.tvoyCatListArrowUp,
+.ModuleProgramsArrowUp,
+.ModuleProgramsArrowDown {
+    left: 720px;
+    width: 23px;
+    height: 8px
+}
+
+.ModuleProgramsItemPosition {
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8*/
+}
+
+.ModuleProgramsGridStyle {
+    width: 780px;
+    height: 293px;
+    top: 21px;
+    left: 0
+}
+
+.ModuleProgramsGridItemCont {
+    top: 0;
+    left: 0;
+    width: 780px;
+    height: 32px
+}
+
+.tvoyCatListGridItemBgSelect,
+.ModuleProgramsGridItemBgSelect {
+    /*background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+    background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d;
+}
+
+.tvoyCatListGridItemBgUnSelect,
+.ModuleProgramsGridItemBgUnSelect {
+    background: #00274d
+}
+
+.ModuleProgramsGridItemBgSelected {
+    /*background: #333*/
+    background: #666E84;
+}
+
+.ModuleProgramsGridItemBgSelect,
+.ModuleProgramsGridItemBgUnSelect,
+.ModuleProgramsGridItemBgSelected {
+    width: 755px;
+    height: 32px;
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px
+}
+
+.ModuleProgramsGridItemLeftTxtSelect,
+.ModuleProgramsGridItemLeftTxtUnSelect,
+.ModuleProgramsGridItemLeftTxtSelected {
+    top: 3px;
+    left: 5px;
+    width: 630px;
+    height: 33px;
+    font-weight: 700;
+    font-size: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ModuleProgramsGridItemRightTxtSelect,
+.ModuleProgramsGridItemRightTxtUnSelect,
+.ModuleProgramsGridItemRightTxtSelected {
+    top: 3px;
+    left: 658px;
+    width: 91px;
+    height: 33px;
+    font-weight: 700;
+    font-size: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.tvoyCatListGridYearTxtUnSelect,
+.tvoyCatListGridTitleTxtUnSelect,
+.ModuleProgramsGridItemLeftTxtUnSelect,
+.ModuleProgramsGridItemRightTxtUnSelect {
+    /*color: #F6F6F6*/
+    color: #cccccc;
+}
+
+.tvoyCatItemPosition,
+.ModuleProgramsItemPosition,
+.tvoyCatListGridYearTxtSelect,
+.tvoyCatListGridTitleTxtSelect,
+.ModuleProgramsGridItemLeftTxtSelect,
+.ModuleProgramsGridItemLeftTxtSelected,
+.ModuleProgramsGridItemRightTxtSelect,
+.ModuleProgramsGridItemRightTxtSelected {
+    /*color: #ffffff*/
+    color: #cccccc;
+}

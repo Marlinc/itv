@@ -1,0 +1,15 @@
+.ScenarioItemDetailStyle,
+.backgroundScenarioItemDetailStyle {
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px
+}
+
+.tvoyItemDetLogoImg {
+    height: 40px;
+    width: 94px;
+    left: 1052px;
+    top: 620px;
+    /*background: url("../../../../../Common/Resources/Images/1.0/logoKpn.png") no-repeat*/
+}

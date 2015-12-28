@@ -1,0 +1,193 @@
+.HelpModuleZapBannerExtendedStyle {
+    top: 180px;
+    left: 112px;
+    width: 1064px;
+    height: 479px;
+    border-radius: 10px
+}
+
+.HelpZapBannerExtTitleStyle {
+    top: 25px;
+    left: 295px;
+    width: 730px;
+    height: 50px;
+    color: #000;
+    font-weight: 700;
+    font-size: 21px
+}
+
+.HelpZapBannerExtVodDescStyle {
+    color: #000;
+    font-size: 18px;
+    height: 214px;
+    left: 295px;
+    top: 90px;
+    width: 730px
+}
+
+.HelpZapBannerExtVodAddInfoStyle {
+    height: 60px;
+    left: 295px;
+    top: 90px;
+    width: 730px;
+    color: #000;
+    font-size: 18px
+}
+
+.HelpZapBannerExtBg {
+    top: 0;
+    left: 0;
+    width: 1064px;
+    height: 479px;
+    background: url("./Apps/Common/Resources/Images/1.0/zapBanner/zapbanner_bg_large.png")
+}
+
+.HelpZapBannerExtVodRectStyle {
+    top: 20px;
+    left: 280px;
+    width: 764px;
+    height: 295px;
+    background: #ccc;
+    border: 0;
+    border-radius: 12px
+}
+
+.HelpZapBannerExtVodRectStyleFocused {
+    top: 16px;
+    left: 276px;
+    width: 759px;
+    height: 290px;
+    border: 6px solid #60b400;
+    border-radius: 12px
+}
+
+.HelpZapBannerExtMenuListStyle {
+    top: 167px;
+    left: 130px;
+    width: 248px;
+    height: 360px
+}
+
+.HelpZapBannerExtIconImg1Style {
+    top: 30px;
+    left: 850px;
+    width: 28px;
+    height: 28px;
+    background: url("./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png") no-repeat;
+    border-image: none
+}
+
+.HelpZapbannerExtendedItemDetModuleMenuListGrid {
+    top: 33px;
+    width: 248px;
+    height: 296px
+}
+
+.HelpZapbannerExtendedItemDetModuleMenuListGridItemCont {
+    width: 248px;
+    height: 30px
+}
+
+.HelpItemDetModuleMenuListGridItemBgSelectZapbanner {
+    background: #9dd53a; /* Old browsers */
+    background: linear-gradient(to bottom, #54b42f 50%, #399913 50%); /* W3C */
+    /*  background: -webkit-linear-gradient(top, #54b42f 50%, #399913 50%);  */
+}
+
+.HelpItemDetModuleMenuListGridItemBgUnSelectZapbanner {
+    background: #dee1e7
+}
+
+.HelpItemDetModuleMenuListGridItemBgSelectedZapbanner {
+    background: #787878
+}
+
+.HelpItemDetModuleMenuListGridItemBgSelectZapbanner,
+.HelpItemDetModuleMenuListGridItemBgUnSelectZapbanner,
+.HelpItemDetModuleMenuListGridItemBgSelectedZapbanner {
+    width: 248px;
+    height: 30px;
+    border: 0;
+    border-radius: 10px
+}
+
+.HelpItemDetpinButtonitemStartMaskImgSelectZapbanner {
+    left: 0;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png") no-repeat;
+    border-image: none
+}
+
+.HelpItemDetpinButtonitemEndMaskImgSelectZapbanner {
+    background: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png") no-repeat
+}
+
+.HelpItemDetpinButtonitemMiddleMaskImgSelectZapbanner {
+    background: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png") no-repeat
+}
+
+.HelpItemDetpinButtonitemStartMaskImgUnselectZapbanner {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_first_element_unselect_sbs6.png") no-repeat;
+    border-image: none
+}
+
+.HelpItemDetpinButtonitemEndMaskImgUnselectZapbanner {
+    background: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_last_element_unselect_sbs6.png") no-repeat
+}
+
+.HelpItemDetpinButtonitemMiddleMaskImgUnselectZapbanner {
+    background: url("./Apps/Common/Resources/Images/1.0/pinButton/pin_button_middle_element_unselect_sbs6.png") no-repeat
+}
+
+.HelpItemDetpinButtonitemEndMaskImgSelectZapbanner,
+.HelpItemDetpinButtonitemMiddleMaskImgSelectZapbanner,
+.HelpItemDetpinButtonitemEndMaskImgUnselectZapbanner,
+.HelpItemDetpinButtonitemMiddleMaskImgUnselectZapbanner {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    border-image: none
+}
+
+.HelpItemDetModuleMenuListGridTitleTxtSelectZapbanner,
+.HelpItemDetModuleMenuListGridTitleTxtSelectedZapbanner {
+    width: 248px;
+    height: 30px;
+    color: #fff
+}
+
+.HelpItemDetpinButtonitemMaskTxtUnSelectZapbanner {
+    width: 21px;
+    height: 21px;
+    color: #fff
+}
+
+.HelpItemDetModuleMenuListGridTitleTxtUnSelectZapbanner {
+    width: 248px;
+    height: 30px;
+    color: #000
+}
+
+.HelpItemDetModuleMenuListGridTitleTxtSelectZapbanner,
+.HelpItemDetModuleMenuListGridTitleTxtUnSelectZapbanner,
+.HelpItemDetModuleMenuListGridTitleTxtSelectedZapbanner,
+.HelpItemDetpinButtonitemMaskTxtUnSelectZapbanner {
+    top: 2px;
+    left: 5px;
+    font-weight: 700;
+    font-size: 22px
+}
+
+.HelpTvoyItemContRatingStyleZapbanner {
+    height: 32px;
+    left: 756px;
+    top: 55px;
+    width: 280px
+}

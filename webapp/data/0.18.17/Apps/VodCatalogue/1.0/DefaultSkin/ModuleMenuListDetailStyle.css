@@ -1,0 +1,245 @@
+.ItemDetModuleMenuListStyle {
+    top: 258px;
+    left: 123px;
+    width: 248px;
+    height: 360px;
+}
+
+.ItemDetModuleMenuListGrid {
+    left: 0px;
+    top: 48px;
+    width: 248px;
+    height: 296px;
+}
+
+.ItemDetModuleMenuListGridItemCont {
+    width: 248px;
+    height: 32px;
+}
+
+.ItemDetModuleMenuListGridTitleTxtSelect {
+    left: 5px;
+    width: 248px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ItemDetModuleMenuListGridTitleTxtUnSelect {
+    left: 5px;
+    width: 248px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ItemDetModuleMenuListGridTitleTxtSelected {
+    left: 5px;
+    width: 248px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ItemDetpinButtonitemStartMaskImgUnSelect {
+    left: 0px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png") no-repeat;
+    border: none;
+}
+
+.ItemDetpinButtonitemEndMaskImgUnSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png") no-repeat;
+    border: none;
+}
+
+.ItemDetpinButtonitemMiddleMaskImgUnSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png") no-repeat;
+    border: none;
+}
+
+.ItemDetpinButtonitemStartMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 27px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_first_element_select.png") no-repeat;
+    border: none;
+}
+
+.ItemDetpinButtonitemEndMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_last_element_select.png") no-repeat;
+    border: none;
+}
+
+.ItemDetpinButtonitemMiddleMaskImgSelect {
+    left: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    background: url("../../../Common/Resources/Images/1.0/pinButton/pin_button_middle_element_select.png") no-repeat;
+    border: none;
+}
+
+.ItemDetpinButtonitemMaskTxtSelect {
+    top: 3px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.ItemDetpinButtonitemMaskTxtUnSelect {
+    top: 3px;
+    left: 5px;
+    width: 21px;
+    height: 21px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.ItemDetModuleMenuListArrowDown {
+    top: 349px;
+    left: 111px;
+    width: 23px;
+    height: 8px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat;
+}
+
+.ItemDetModuleMenuListArrowUp {
+    top: 35px;
+    left: 111px;
+    width: 23px;
+    height: 8px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat;
+}
+
+.ItemDetModuleMenuListMenuListTopElemItemCont {
+    top: 0px;
+    left: 0px;
+    width: 248px;
+    height: 32px;
+}
+
+.ItemDetModuleMenuListMenuListTopElemTitleTxtSelect {
+    top: 3px;
+    left: 5px;
+    width: 248px;
+    height: 32px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect {
+    top: 3px;
+    left: 5px;
+    width: 248px;
+    height: 32px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ItemDetModuleMenuListMenuListTopElemTitleTxtSelected {
+    top: 3px;
+    left: 5px;
+    width: 248px;
+    height: 32px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemCont {
+    width: 248px;
+    height: 64px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemImage {
+    height: 56px;
+    width: auto;
+    top: 4px;
+    right: 2px;
+    image-rendering: optimizeQuality;
+    /*?*/
+    -ms-interpolation-mode: bicubic;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemBgSelect,
+.ItemDetModuleMenuListMenuListTopElemItemBgSelect,
+.ItemDetModuleMenuListGridItemBgSelect {
+    width: 248px;
+    height: 32px;
+    background: #24730d;
+    border-radius: 4px;
+    background-size: 100% 100%;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemBgUnSelect,
+.ItemDetModuleMenuListMenuListTopElemItemBgUnSelect,
+.ItemDetModuleMenuListGridItemBgUnSelect {
+    width: 248px;
+    height: 32px;
+    background: #00274d;
+    border-radius: 4px;
+    background-size: 100% 100%;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemBgSelected,
+.ItemDetModuleMenuListMenuListTopElemItemBgSelected,
+.ItemDetModuleMenuListGridItemBgSelected {
+    width: 248px;
+    height: 32px;
+    background: #666e84;
+    border-radius: 4px;
+    background-size: 100% 100%;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemBgSelect {
+    height: 64px;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemBgUnSelect {
+    height: 64px;
+}
+
+.ItemDetModuleMenuListMenuListBottomElemItemBgSelected {
+    height: 64px;
+}
+

@@ -1,0 +1,2928 @@
+{
+  "applicationProp": {
+    "id": "applicationTVOY",
+    "style": "appTVOYStyle"
+  },
+  "subskinCategoryConf": {
+    "timeoutCall": 5000,
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/RTL": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_RTL.css",
+      "bkgImgId": "BackGround_rtl"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/RTL": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_RTL.css",
+      "bkgImgId": "BackGround_rtl"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/KIJK": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_KIJK.css",
+      "bkgImgId": "BackGround_kijk"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/KIJK": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_KIJK.css",
+      "bkgImgId": "BackGround_kijk"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/SBS9": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_KIJK.css",
+      "bkgImgId": "BackGround_sbs9"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/SBS9": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_KIJK.css",
+      "bkgImgId": "BackGround_sbs9"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/SBS6": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_SBS6.css",
+      "bkgImgId": "BackGround_sbs6"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/SBS6": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_SBS6.css",
+      "bkgImgId": "BackGround_sbs6"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/NET5": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_NET5.css",
+      "bkgImgId": "BackGround_net5"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/NET5": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_NET5.css",
+      "bkgImgId": "BackGround_net5"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Veronica": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_VERONICA.css",
+      "bkgImgId": "BackGround_veronica"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Veronica": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_VERONICA.css",
+      "bkgImgId": "BackGround_veronica"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/OUTTV": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_OUTTV.css",
+      "bkgImgId": "BackGround_outtv"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/OUTTV": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_OUTTV.css",
+      "bkgImgId": "BackGround_outtv"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Eurosport": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_EUROSPORT.css",
+      "bkgImgId": "BackGround_eurosport"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eurosport": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_EUROSPORT.css",
+      "bkgImgId": "BackGround_eurosport"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/13thStreet": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_13THSTREET.css",
+      "bkgImgId": "BackGround_13thStreet"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/13thStreet": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_13THSTREET.css",
+      "bkgImgId": "BackGround_13thStreet"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Syfy": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_SYFY.css",
+      "bkgImgId": "BackGround_syfy"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Syfy": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_SYFY.css",
+      "bkgImgId": "BackGround_syfy"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_DYN/DiscoveryChannel": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_DISCOVERYCHANNEL.css",
+      "bkgImgId": "BackGround_discoverychannel"
+    },
+    "/TVoY_UTC/TVoY_SENDER_NMC_RULE/DiscoveryChannel": {
+      "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_DISCOVERYCHANNEL.css",
+      "bkgImgId": "BackGround_discoverychannel"
+    }
+    /*,
+         "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Disney": {
+         "cssFileToApply": "./Apps/PG/1.0/DefaultSkin/appstyle_DISNEY.css",
+         "bkgImgId": "BackGround_disney"
+         }*/
+  },
+  "startScenario": "ScenarioTVOY",
+  "catalogScenarioList": {
+    "Catalogue": "ScenarioTVOY",
+    "Detail": "ScenarioItemDetail",
+    "pgSearchResult": "ScenarioItemDetail",
+    "Play": "ScenarioZapbanner",
+    "playvodlci": "ScenarioZapbanner",
+    "playvodiml": "ScenarioZapbanner",
+    "playvodott": "ScenarioZapbanner"
+  },
+  "scenarios": {
+    "ScenarioTVOY": {
+      "id": "ScenarioTVOY",
+      "parent": "applicationTVOY",
+      "preventDestroy": true,
+      "background": "background_default_pg",
+      "style": "ScenarioTVOYStyle",
+      "preventSubSkin": true
+    },
+    "ScenarioItemDetail": {
+      "id": "ScenarioItemDetail",
+      "parent": "applicationTVOY",
+      "preventDestroy": true,
+      "background": "background_default_pg",
+      "style": "ScenarioItemDetailStyle",
+      "preventSubSkin": true
+    },
+    "ScenarioZapbanner": {
+      "id": "ScenarioZapbanner",
+      "parent": "applicationTVOY",
+      "preventDestroy": true,
+      "background": "",
+      "style": "ScenarioZapbannerStyle",
+      "preventSubSkin": false,
+      "skipHistory": false
+    }
+  },
+  "isOttEnabled": true,
+  "isOttFooterButtonEnabled": true,
+  "precachedScenarios": [
+    "ScenarioTVOY",
+    "ScenarioItemDetail"
+  ],
+  "ScenarioTVOYConf": {
+    "tvoyItemChanNumTxt": {
+      "style": "tvoyItemChanNumTxt"
+    },
+    "changeElemMenuIdentifier": "Gemist",
+    "reloadDetailedInfoAreaInterval": 500,
+    "rootCategoryObject": {
+      "categoryId": 5030,
+      "path": "/TVoY_UTC/TVoY_NMC_DYN",
+      "name": "root",
+      "isPCSafe": true,
+      "isLeaf": false
+    },
+    "popupInteractiveMessageBookMarkArray": [
+      "bookmark_popup_title",
+      "bookmark_popup_message",
+      "bookmark_popup_confirm_button",
+      "bookmark_popup_cancel_button"
+    ],
+    "leftMenu": {
+      "style": "leftMenuTVoY",
+      "distHorImgageGrid": 0,
+      "distVerImgageGrid": 5,
+      "numRowsToScroll": 8,
+      "timeToScroll": 0,
+      "numColumnInRow": 1,
+      "numVisibleRows": 8,
+      "timeToUpdateCursor": 0,
+      "isScrollBarShow": false,
+      "timeUpdateInfo": 0,
+      "item": {
+        "styleItemCont": {
+          "style": "leftMenuBtContTVoY",
+          "x": 0,
+          "y": 0,
+          "w": 246,
+          "h": 32
+        },
+        "styleItemBgSelect": {
+          "style": "leftMenuBtBgSelectTVoY"
+        },
+        "styleItemBgUnSelect": {
+          "style": "leftMenuBtBgUnSelectTVoY"
+        },
+        "styleItemBgSelected": {
+          "style": "leftMenuBtBgSelectedTVoY"
+        },
+        "styleItemTxtSelect": {
+          "style": "leftMenuBtTxtSelectTVoY"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "leftMenuBtTxtUnSelectTVoY"
+        },
+        "styleItemTxtSelected": {
+          "style": "leftMenuBtTxtSelectedTVoY"
+        }
+      },
+      "scrollBar": {
+        "style": "",
+        "scrollBarContent": ""
+      }
+    },
+    "hour": {
+      "style": "hour"
+    },
+    "date": {
+      "style": "date"
+    },
+    "rectHeaderinfo": {
+      "style": "rectHeaderinfoStyle"
+    },
+    "titleMess": {
+      "style": "titleInfoTVoYStyle"
+    },
+    "subtitleMess": {
+      "style": "subtitleInfoTVoYStyle"
+    },
+    "logoChannel": {
+      "style": "logoChannelStyle"
+    },
+    "breadCrumbs": {
+      "style": "breadCrumbTxt"
+    },
+    "breadCrumbBackImg": {
+      "style": "breadCrumbBackImg",
+      "url": "../../../../../Apps/Common/Resources/Images/1.0/nav_back.png"
+    },
+    "tvoyCatBreadcrumb": {
+      "styleItemCont": {
+        "style": "tvoyCatbreadcrumbStyleItemCont",
+        "left": 410,
+        "h": 30,
+        "w": 650
+      },
+      "styleItemText": {
+        "style": "tvoyCatbreadcrumbStyleItemText",
+        "w": 80
+      },
+      "styleItemImg": {
+        "style": "tvoyCatbreadcrumbStyleItemImg",
+        "w": 28
+      },
+      "innerSpacing": 10
+    },
+    "tvoyCatBannerImg": {
+      "style": "tvoyCatBannerImg"
+    },
+    "tvoyCatModuleMenuList": {
+      "id": "tvoyCatModuleMenuList",
+      "style": "tvoyCatModuleMenuListStyle"
+    },
+    "tvoyCatModuleMenuListConf": {
+      "grid": {
+        "style": "tvoyCatModuleMenuListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 3,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "styleItemCont": {
+            "nameLabelTxt": "displayName",
+            "nameLabelTxt2": "name",
+            "style": "tvoyCatModuleMenuListGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 34
+          },
+          "styleItemBgSelect": {
+            "style": "tvoyCatModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "tvoyCatModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "tvoyCatModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "tvoyCatModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "tvoyCatModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "tvoyCatModuleMenuListGridTitleTxtSelected"
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "tvoyCatModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "tvoyCatModuleMenuListArrowUp"
+      },
+      "MenuListTopElem": {
+        "styleItemCont": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemItemCont"
+        },
+        "styleItemBgSelect": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemTitleTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemTitleTxtUnSelect"
+        },
+        "styleItemTxtSelected": {
+          "style": "tvoyCatModuleMenuListMenuListTopElemTitleTxtSelected"
+        }
+      }
+    },
+    "tvoyCatModuleInfo": {
+      "id": "tvoyCatModuleInfo",
+      "style": "tvoyCatModuleInfoStyle"
+    },
+    "tvoyCatModuleInfoConf": {
+      "daysValidityGapConf": 7,
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_fullhd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fullhd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "label_Price_Gratis": "ItemDetModuleInfo_price_gratis",
+      "label_PublicationValidity": "ItemDetModuleInfo_label_PublicationValidity",
+      "label_PurchaseValidity": "ItemDetModuleInfo_label_PurchaseValidity",
+      "label_min": "ItemDetModuleInfo_label_min",
+      "label_minutes": "ItemDetModuleInfo_label_minutes",
+      "label_hour": "ItemDetModuleInfo_label_hour",
+      "label_per": "ItemDetModuleInfo_label_per",
+      "label_lday": "ItemDetModuleInfo_label_lDay",
+      "label_ldays": "ItemDetModuleInfo_label_lDays",
+      "label_lhour": "ItemDetModuleInfo_label_lHour",
+      "label_lhours": "ItemDetModuleInfo_label_lHours",
+      "label_lmin": "ItemDetModuleInfo_label_lMin",
+      "label_lmins": "ItemDetModuleInfo_label_lMins",
+      "label_euro": "ItemDetModuleInfo_label_euro",
+      "label_met": "ItemDetModuleInfo_label_met",
+      "label_regie": "ItemDetModuleInfo_label_regie",
+      "catalogGrid_NoDesc": "catalogGrid_NoDesc",
+      "ItemInfoTitleTxt": {
+        "style": "tvoyCatItemInfoTitleTxtStyle"
+      },
+      "ItemInfoDurationTxt": {
+        "style": "tvoyCatItemInfoDurationTxtStyle"
+      },
+      "ItemInfoPriceLblTxt": {
+        "style": "tvoyCatItemInfoPriceLblTxtStyle"
+      },
+      "ItemInfoPriceTxt": {
+        "style": "tvoyCatItemInfoPriceTxtStyle"
+      },
+      "ItemInfoPriceValLblTxt": {
+        "style": "tvoyCatItemInfoPriceValLblTxtStyle"
+      },
+      "ItemInfoPriceValxt": {
+        "style": "tvoyCatItemInfoPriceValTxtStyle"
+      },
+      "ItemInfoEndPurchValLblTxt": {
+        "style": "tvoyCatItemInfoEndPurchValLblTxtStyle"
+      },
+      "ItemInfoEndPurchValTxt": {
+        "style": "tvoyCatItemInfoEndPurchValTxtStyle"
+      },
+      "ItemInfoEndValLblTxt": {
+        "style": "tvoyCatItemInfoEndValLblTxtStyle"
+      },
+      "ItemInfoEndValLblSelectTxt": {
+        "style": "tvoyCatItemInfoEndValLblTxtSelectStyle"
+      },
+      "ItemInfoEndValTxt": {
+        "style": "tvoyCatItemInfoEndValTxtStyle"
+      },
+      "ItemInfoEndValSelectTxt": {
+        "style": "tvoyCatItemInfoEndValTxtSelectStyle"
+      },
+      "ItemInfoDesc2LinesTxt": {
+        "style": "tvoyCatItemInfoDesc2LinesTxtStyle"
+      },
+      "ItemInfoCastTxt": {
+        "style": "tvoyCatItemInfoCastTxtStyle"
+      },
+      "ItemInfoLogoImg": {
+        "style": "tvoyCatItemInfoLogoImgStyle",
+        "safeSetUrl": true
+      },
+      "ItemInfoRating": {
+        "startPosition": 10,
+        "widthRatingImage": 25,
+        "style": "tvoyCatItemInfoRatingImgStyle"
+      },
+      "ItemInfoPCLockImg": {
+        "style": "tvoyCatItemInfoPCLockImgStyle"
+      },
+      "ItemInfoER1Img": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoER2Img": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoER3Img": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoER4Img": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoER5Img": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoER6Img": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoPCLevelImg": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoHDImg": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoDolbyImg": {
+        "style": "tvoyCatItemInfoER1ImgStyle"
+      },
+      "ItemInfoChannelBlocked": {
+        "style": "tvoyCatItemInfoChannelBlockedStyle"
+      },
+      "ItemInfoChannelSubscribed": {
+        "style": "tvoyCatItemInfoChannelSubscribedStyle"
+      },
+      "itemContRating": {
+        "style": "tvoyItemContRatingStyle"
+      }
+    },
+    "tvoyCatModuleCatalogList": {
+      "id": "tvoyCatModuleCatalogList",
+      "style": "tvoyCatModuleCatalogListStyle"
+    },
+    "tvoyCatModuleCatalogListConf": {
+      "grid": {
+        "style": "tvoyCatListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "styleItemCont": {
+            "style": "tvoyCatListGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 33
+          },
+          "styleItemBgSelect": {
+            "style": "tvoyCatListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "tvoyCatListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "tvoyCatListGridItemBgSelected"
+          },
+          "styleItemTitleTxtSelect": {
+            "style": "tvoyCatListGridTitleTxtSelect"
+          },
+          "styleItemTitleTxtUnSelect": {
+            "style": "tvoyCatListGridTitleTxtUnSelect"
+          },
+          "styleItemYearTxtSelect": {
+            "style": "tvoyCatListGridYearTxtSelect"
+          },
+          "styleItemYearTxtUnSelect": {
+            "style": "tvoyCatListGridYearTxtUnSelect"
+          },
+          "styleRating": {
+            "style": "tvoyCatstyleRating",
+            "widthRatingImage": 15,
+            "startPosition": 400
+          }
+        },
+        "scrollBar": {
+          "style": "tvoyCatListGridScrollBar",
+          "scrollBarContent": ""
+        }
+      },
+      "showItemPosition": false,
+      "itemPosition": {
+        "style": "tvoyCatItemPosition"
+      },
+      "coverImage": {
+        "style": "tvoyCatListCoverImage",
+        "lockedUrl": "./Apps/Common/Resources/Images/1.0/locked_large.png"
+      },
+      "arrowDown": {
+        "style": "tvoyCatListArrowDown"
+      },
+      "arrowUp": {
+        "style": "tvoyCatListArrowUp"
+      }
+    },
+    "tvoyCatModuleCatalogGrid": {
+      "id": "tvoyCatModuleCatalogGrid",
+      "style": "tvoyCatModuleCatalogGridStyle"
+    },
+    "tvoyCatModuleCatalogGridConf": {
+      "grid": {
+        "style": "tvoyCatModuleCatalogGrid",
+        "distHorImgageGrid": 47,
+        "distVerImgageGrid": 12,
+        "numColumnInRow": 6,
+        "numVisibleRows": 2,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": true,
+        "timeUpdateInfo": 1000,
+        "timeToScroll": 0,
+        "item": {
+          "styleItemCont": {
+            "h": 245,
+            "w": 142
+          },
+          "styleItemSelect": {
+            "style": "tvoyCatModuleCatalogGridItemSelect"
+          },
+          "styleItemUnSelect": {
+            "style": "tvoyCatModuleCatalogGridItemUnSelect"
+          },
+          "styleItemImg": {
+            "style": "tvoyCatModuleCatalogGridItemImg",
+            "lockedUrl": "./Apps/Common/Resources/Images/1.0/locked_large.png"
+          },
+          "styleItemTxt": {
+            "style": "tvoyCatModuleCatalogGridItemTxt",
+            "styleDecor": "",
+            "startPositionTxt": 0,
+            "timeScroll": 0
+          }
+        },
+        "scrollBar": {
+          "style": "tvoyCatModuleCatalogGridScrollBar",
+          "scrollBarSpace": 495,
+          "ScrollBarHeight": 14,
+          "startY": 9,
+          "arrowDown": {
+            "style": "tvoyCatModuleCatalogGridArrowDown",
+            "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+          },
+          "arrowUp": {
+            "style": "tvoyCatModuleCatalogGridArrowUp",
+            "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+          }
+        }
+      },
+      "catGridPosTxt": {
+        "style": "tvoyCatGridPosTxt"
+      }
+    },
+    "tvoyCatHourTxt": {
+      "style": "tvoyCatHourTxt"
+    },
+    "tvoyCatDataTxt": {
+      "style": "tvoyCatDateTxt"
+    },
+    "tvoyCatLogoImg": {
+      "style": "tvoyCatLogoImg"
+    },
+    "buttonBlue": {
+      "style": "buttonBlue",
+      "url": "./Apps/Common/Resources/Images/1.0/button_blue.png"
+    },
+    "buttonBlueTxt": {
+      "style": "buttonBlueTxt"
+    },
+    "buttonNavigate": {
+      "style": "buttonNavigate",
+      "url": "./Apps/Common/Resources/Images/1.0/nav_arrows_updown.png"
+    },
+    "buttonNavigateTxt": {
+      "style": "buttonNavigateTxt"
+    },
+    "buttonOk": {
+      "style": "buttonOk",
+      "url": "./Apps/Common/Resources/Images/1.0/nav_ok.png"
+    },
+    "buttonOkTxt": {
+      "style": "buttonOkTxt"
+    },
+    "buttonOkLeft": {
+      "style": "buttonOkLeft"
+    },
+    "logoKpn": {
+      "style": "logoKpn",
+      "url": "./Apps/Common/Resources/Images/1.0/logoKpn.png"
+    },
+    "buttonTVoY": {
+      "styleItemCont": {
+        "style": "buttonTVoYCont",
+        "h": 138,
+        "w": 100
+      },
+      "styleItemBgSelect": {
+        "style": "buttonTVoYBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "buttonTVoYBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "buttonTVoYBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "buttonTVoYTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "buttonTVoYTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "buttonTVoYTxtSelected"
+      }
+    },
+    "loading": {
+      "style": "loadingTxt"
+    },
+    "ModuleRight": {
+      "id": "ModuleRightGrid",
+      "style": "ModuleRightStyle"
+    },
+    "ModuleRightPrograms": {
+      "id": "ModuleRightPrograms",
+      "style": "ModuleRightStyle"
+    },
+    "ModuleRightEpisodes": {
+      "id": "ModuleRightEpisodes",
+      "style": "ModuleRightStyle"
+    },
+    "ModulePerZenderConf": {
+      "grid": {
+        "style": "ModulePerZenderGrid",
+        "distHorImgageGrid": 32,
+        "distVerImgageGrid": 10,
+        "numRowsToScroll": 8,
+        "timeToScroll": 0,
+        "numColumnInRow": 6,
+        "numVisibleRows": 2,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": false,
+        "timeUpdateInfo": 0,
+        "item": {
+          "styleItemCont": {
+            "style": "ModulePerZenderGridItemCont",
+            "h": 138,
+            "w": 100
+          },
+          "styleItemSelect": {
+            "style": "ModulePerZenderGridItemSelect",
+            "styleOTT": "ModulePerZenderGridItemSelectOTT"
+          },
+          "styleItemTxt": {
+            "isPresent": "true",
+            "label": "displayName",
+            "label2": "name",
+            "style": "ModulePerZenderGridItemTxt"
+          },
+          "styleItemTxtWrapper": {
+            "style": "ModulePerZenderGridItemTxtWrapper"
+          },
+          "styleItemImg": {
+            "label": "tvoyName",
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+            "style": "ModulePerZenderGridItemImg",
+            "styleOTT": "ModulePerZenderGridItemImgOTT",
+            "ottGridImgPrefPath": "./Apps/PG/1.0/DefaultSkin/images/gridElements/",
+            "ottGridImgExt": ".png",
+            "safeSetUrl": true
+          },
+          "styleItemContImg": {
+            "style": "ModulePerZenderGridItemContImg",
+            "styleOTT": "ModulePerZenderGridItemContImgOTT"
+          },
+          /*
+                        MODIFICARE PER CAMBIARE LE LOC DEI CHANNEL - DEMO - replace space with "_" and key start with "_"
+                     */
+          "CoverChannelMap": {
+            "_net5": "net5",
+            "_sbs": "sbs",
+            "_sbs6": "sbs6",
+            "_veronica": "veronica"
+          }
+        },
+        "scrollBar": {
+          "style": "",
+          "scrollBarContent": ""
+        }
+      },
+      "itemPosition": {
+        "style": "ModulePerZenderItemPosition"
+      },
+      "arrowDown": {
+        "style": "ModulePerZenderArrowDown",
+        "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+      },
+      "arrowUp": {
+        "style": "ModulePerZenderArrowUp",
+        "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+      }
+    },
+    "ModuleProgramsConf": {
+      "grid": {
+        "style": "ModuleProgramsGridStyle",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 8,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": false,
+        "timeUpdateInfo": 0,
+        "item": {
+          "styleItemCont": {
+            "style": "ModuleProgramsGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 32
+          },
+          "styleItemBgSelect": {
+            "style": "ModuleProgramsGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ModuleProgramsGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ModuleProgramsGridItemBgSelected"
+          },
+          "styleItemLeftTxtSelect": {
+            "style": "ModuleProgramsGridItemLeftTxtSelect"
+          },
+          "styleItemLeftTxtUnSelect": {
+            "defaultTitle": "VIDEO NIET BESCHIKBAAR",
+            "style": "ModuleProgramsGridItemLeftTxtUnSelect"
+          },
+          "styleItemLeftTxtSelected": {
+            "style": "ModuleProgramsGridItemLeftTxtSelected"
+          },
+          "styleItemRightTxtSelect": {
+            "style": "ModuleProgramsGridItemRightTxtSelect"
+          },
+          "styleItemRightTxtUnSelect": {
+            "style": "ModuleProgramsGridItemRightTxtUnSelect"
+          },
+          "styleItemRightTxtSelected": {
+            "style": "ModuleProgramsGridItemRightTxtSelected"
+          }
+        },
+        "scrollBar": {
+          "style": "",
+          "scrollBarContent": ""
+        }
+      },
+      "itemPosition": {
+        "style": "ModuleProgramsItemPosition"
+      },
+      "arrowDown": {
+        "style": "ModuleProgramsArrowDown",
+        "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+      },
+      "arrowUp": {
+        "style": "ModuleProgramsArrowUp",
+        "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+      }
+    },
+    "ModuleEpisodesListConf": {
+      "grid": {
+        "style": "ModuleEpisodesGridStyle",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 8,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": false,
+        "timeUpdateInfo": 0,
+        "item": {
+          "daysArray": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "styleItemCont": {
+            "style": "ModuleEpisodesGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 32
+          },
+          "styleItemBgSelect": {
+            "style": "ModuleEpisodesGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ModuleEpisodesGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ModuleEpisodesGridItemBgSelected"
+          },
+          "styleItemLeftTxtSelect": {
+            "style": "ModuleEpisodesGridItemLeftTxtSelect"
+          },
+          "styleItemLeftTxtUnSelect": {
+            "defaultTitle": "VIDEO NIET BESCHIKBAAR",
+            "style": "ModuleEpisodesGridItemLeftTxtUnSelect"
+          },
+          "styleItemLeftTxtSelected": {
+            "style": "ModuleProgramsGridItemLeftTxtSelected"
+          },
+          "styleItemRightTxtSelect": {
+            "style": "ModuleEpisodesGridItemRightTxtSelect"
+          },
+          "styleItemRightTxtUnSelect": {
+            "style": "ModuleEpisodesGridItemRightTxtUnSelect"
+          },
+          "styleItemRightTxtSelected": {
+            "style": "ModuleEpisodesGridItemRightTxtSelected"
+          },
+          "styleItemSchedTxtSelect": {
+            "style": "ModuleEpisodesGridItemSchedTxtSelect"
+          },
+          "styleItemSchedTxtUnSelect": {
+            "style": "ModuleEpisodesGridItemSchedTxtUnSelect"
+          },
+          "styleItemSchedTxtSelected": {
+            "style": "ModuleEpisodesGridItemSchedTxtSelected"
+          }
+        },
+        "scrollBar": {
+          "style": "",
+          "scrollBarContent": ""
+        }
+      },
+      "itemPosition": {
+        "style": "ModuleEpisodesItemPosition"
+      },
+      "arrowDown": {
+        "style": "ModuleEpisodesArrowDown",
+        "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+      },
+      "arrowUp": {
+        "style": "ModuleEpisodesArrowUp",
+        "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+      }
+    },
+    "hasLiveVideo": "Y",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "optionMenuConfStartViewFocusLeft": [
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfStartViewFocusRight": [
+      "MyPackages",
+      "WatchTV",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfPGListViewCategoriesListRightPanel": [
+      "ToonAfleveringen",
+      "WatchTV",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfPGListViewCategoriesListLeftPanel": [
+      "WatchTV",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfPGListViewEpisodesSortByTimeLeftMenu": [
+      "WatchTV",
+      "OrderAZ",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfPGListViewEpisodesSortByTimeRightMenu": [
+      "option_menu_more_info",
+      "WatchTV",
+      "OrderAZ",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfPGListViewEpisodesSortByAZLeftMenu": [
+      "WatchTV",
+      "OrderTime",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "optionMenuConfPGListViewEpisodesSortByAZRightMenu": [
+      "option_menu_more_info",
+      "WatchTV",
+      "OrderTime",
+      "ProgrammaSearch",
+      "SearchInAll"
+    ],
+    "gridElementsCategories": {
+      /* name of the category without uppercase and particular characters (space, - , etc) */
+      "channelsfilter": {},
+      "broadcastersfilter": {}
+    },
+    "ottElementsCategories": {
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN": {
+        "ottListToRetrieve": "channels"
+      },
+      "/TVoY_UTC/TVoY_BROADCASTER_NMC_DYN": {
+        "ottListToRetrieve": "broadcasters"
+      }
+    },
+    "replace_subcategories_string": "##",
+    "replace_currentCategoryName_string": "$$",
+    "buildCompleteTimePath": "@@",
+    "fakePathString": "fakepath",
+    "hardcodedMenuItems": {
+      "/TVoY_UTC/TVoY_NMC_DYN": {
+        "hardcodedMenuToRetrieve": "root"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Eredivisie Live": {
+        "hardcodedMenuToRetrieve": "eredivisielive"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Eurosport": {
+        "hardcodedMenuToRetrieve": "eurosport"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/NET5": {
+        "hardcodedMenuToRetrieve": "net5"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/OUTTV": {
+        "hardcodedMenuToRetrieve": "outtv"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/SBS6": {
+        "hardcodedMenuToRetrieve": "sbs6"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Syfy": {
+        "hardcodedMenuToRetrieve": "syfy"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/RTL": {
+        "hardcodedMenuToRetrieve": "rtl"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/MTV": {
+        "hardcodedMenuToRetrieve": "mtv"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/NationalGeographic": {
+        "hardcodedMenuToRetrieve": "nationalgeographic"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Sport1": {
+        "hardcodedMenuToRetrieve": "sport1"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Uitzending Gemist": {
+        "hardcodedMenuToRetrieve": "uitzendinggemist"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Veronica": {
+        "hardcodedMenuToRetrieve": "veronica"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/MeidenVanHolland": {
+        "hardcodedMenuToRetrieve": "meidenvanholland"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/DiscoveryChannel": {
+        "hardcodedMenuToRetrieve": "discoverychannel"
+      },
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN/ComedyCentral": {
+        "hardcodedMenuToRetrieve": "comedycentral"
+      }
+    },
+    "showMenuInLeftPanel": [
+      "/TVoY_UTC/TVoY_SENDER_NMC_DYN",
+      "/TVoY_UTC/TVoY_BROADCASTER_NMC_DYN"
+    ],
+    "forceShowMenuLeftPanel": {
+      "channelsfilter": {},
+      "broadcastersfilter": {}
+    },
+    "forceShowBreadcrumb": {
+      "Sunday": {},
+      "Monday": {},
+      "Tuesday": {},
+      "Wednesday": {},
+      "Thursday": {},
+      "Friday": {},
+      "Saturday": {},
+      "TVoY_SENDER_NMC_DYN": {},
+      "TVoY_BROADCASTER_NMC_DYN": {},
+      "Alle Programmas": {}
+    },
+    "forceShowBreadcrumbSections": {
+      "root": {},
+      "Alle dagen": {}
+    },
+    "root": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "ChannelsFilter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN",
+          "action": "",
+          "updateMenuList": false,
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 1,
+          "elem": "BroadcastersFilter",
+          "path": "/TVoY_UTC/TVoY_BROADCASTER_NMC_DYN",
+          "action": "",
+          "updateMenuList": false,
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_NMC_RULE/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "updateMenuList": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_NMC_RULE/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "updateMenuList": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_NMC_RULE/",
+          "action": "",
+          "updateMenuList": true,
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 5,
+          "elem": "##"
+        },
+        {
+          "pos": 6,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "searchElement": {
+      "pos": 6,
+      "elem": "ProgrammaSearch",
+      "path": "",
+      "action": "programma_search"
+    },
+    "eredivisielive": {
+      "hardcodedSubItems": [
+        {
+          "pos": 1,
+          "elem": "##"
+        },
+        {
+          "pos": 2,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eredivisie Live/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eredivisie Live/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eredivisie Live/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 5,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "eurosport": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eurosport/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eurosport/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Eurosport/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "net5": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/NET5/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/NET5/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/NET5/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "SBS6Filter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN/SBS6",
+          "action": "changeElem",
+          "elemToShow": "sbs6",
+          "categoryId": 5693,
+          "isPCSafe": true
+        },
+        {
+          "pos": 5,
+          "elem": "VeronicaFilter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Veronica",
+          "action": "changeElem",
+          "elemToShow": "veronica",
+          "categoryId": 5830,
+          "isPCSafe": true
+        },
+        {
+          "pos": 6,
+          "elem": "VeamerFilter",
+          "action": "changeElem",
+          "elemToShow": "veamer",
+          "categoryId": 5830,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "outtv": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/OUTTV/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/OUTTV/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/OUTTV/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "sbs6": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/SBS6/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/SBS6/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/SBS6/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "Net5Filter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN/NET5",
+          "action": "changeElem",
+          "elemToShow": "net5",
+          "categoryId": 5830,
+          "isPCSafe": true
+        },
+        {
+          "pos": 5,
+          "elem": "VeronicaFilter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN/Veronica",
+          "action": "changeElem",
+          "elemToShow": "veronica",
+          "categoryId": 5830,
+          "isPCSafe": true
+        },
+        {
+          "pos": 6,
+          "elem": "VeamerFilter",
+          "action": "changeElem",
+          "elemToShow": "veamer",
+          "categoryId": 5830,
+          "isPCSafe": true
+        },
+        {
+          "pos": 7,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "rtl": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/RTL/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/RTL/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/RTL/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "mtv": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "nationalgeographic": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "sport1": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Sport1/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Sport1/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Sport1/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "uitzendinggemist": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Uitzending Gemist/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Uitzending Gemist/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Uitzending Gemist/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "veronica": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Veronica/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Veronica/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/Veronica/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "SBS6Filter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN/SBS6",
+          "action": "changeElem",
+          "elemToShow": "sbs6",
+          "categoryId": 5693,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "Net5Filter",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_DYN/NET5",
+          "action": "changeElem",
+          "elemToShow": "net5",
+          "categoryId": 5830
+        },
+        {
+          "pos": 5,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "meidenvanholland": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/MeidenVanHolland/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/MeidenVanHolland/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/MeidenVanHolland/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "discoverychannel": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/DiscoveryChannel/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/DiscoveryChannel/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/DiscoveryChannel/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "comedycentral": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/comedycentral/",
+          "action": "setDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/comedycentral/",
+          "action": "setPrevDayName",
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/comedycentral/",
+          "action": "",
+          "updateMenuList": true,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "alledagen": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##",
+          "path": "",
+          "action": "createDaysSubcategoryMenu"
+        },
+        {
+          "pos": 1,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "AllDaysElementCompareString": "AllDays",
+    "defaultitem": {
+      "hardcodedSubItems": [
+        {
+          "pos": 0,
+          "elem": "##"
+        },
+        {
+          "pos": 1,
+          "elem": "Today",
+          "path": "@@",
+          "action": "setDayName",
+          "updateMenuList": false,
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 2,
+          "elem": "Yesterday",
+          "path": "@@",
+          "action": "setPrevDayName",
+          "updateMenuList": false,
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 3,
+          "elem": "AllDays",
+          "path": "/TVoY_UTC/TVoY_SENDER_NMC_RULE/$$/",
+          "action": "",
+          "updateMenuList": true,
+          "isLeaf": false,
+          "isPCSafe": true
+        },
+        {
+          "pos": 4,
+          "elem": "ProgrammaSearch",
+          "path": "",
+          "action": "programma_search"
+        }
+      ]
+    },
+    "TMDaysConf": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "footerConfiguration": {
+      "FooterElementOpties": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementOptiesItemContStyle"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementOptiesImgItemStyle"
+        },
+        "txtCont": {
+          "txt": "tvoyCatLabelFooterElementOpties",
+          "style": "tvoyCatFooterElementOptiesTxtContStyle"
+        }
+      },
+      "OTTFooterElement": {
+        "itemCont": {
+          "style": "tvoyCatOTTFooterElementItemContStyle"
+        },
+        "imgItem": {
+          "style": "tvoyCatOTTFooterElementImgItemStyle"
+        },
+        "txtCont": {
+          "txt": "ott_footer_element_text",
+          "style": "tvoyCatOTTFooterElementTxtContStyle"
+        }
+      },
+      "FooterElementPlayLeft1stElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementPlayLeftItemContStyle1stElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementPlayLeftImgItemStyle1stElement"
+        },
+        "txtCont": {
+          "style": "tvoyCatFooterElementPlayLeftTxtContStyle1stElement"
+        }
+      },
+      "FooterElementPlayRight1stElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementPlayLeftItemContStyle1stElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementPlayLeftImgItemStyle1stElement"
+        },
+        "txtCont": {
+          "style": "tvoyCatFooterElementPlayLeftTxtContStyle1stElement"
+        }
+      },
+      /*"FooterElementPlayRight1stElement": {
+                "itemCont": {
+                    "style": "tvoyCatFooterElementPlayRightItemContStyle1stElement"
+                },
+                "imgItem": {
+                    "style": "tvoyCatFooterElementPlayRightImgItemStyle1stElement"
+                },
+                "txtCont": {
+                    "txt": "vodCatLabelFooterElementPlayRight",
+                    "style": "tvoyCatFooterElementPlayRightTxtContStyle1stElement"
+                }
+            },*/
+      "FooterElementNavAll1stElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementNavItemAllContStyle1stElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementNavImgItemAllStyle1stElement"
+        },
+        "txtCont": {
+          "txt": "tvoyCatLabelFooterElementNav",
+          "style": "tvoyCatFooterElementNavTxtContAllStyle1stElement"
+        }
+      },
+      "FooterElementNavUpDown1stElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementNavItemContStyle1stElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementNavImgItemStyle1stElement"
+        },
+        "txtCont": {
+          "txt": "tvoyCatLabelFooterElementNav",
+          "style": "tvoyCatFooterElementNavTxtContStyle1stElement"
+        }
+      },
+      "FooterElementOKLeft2ndElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementOkLeftItemContStyle2ndElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementOkLeftImgItemStyle2ndElement"
+        },
+        "txtCont": {
+          "style": "tvoyCatFooterElementOkLeftTxtContStyle2ndElement"
+        }
+      },
+      "FooterElementOKRight2ndElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementOKRightItemContStyle2ndElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementOKRightImgItemStyle2ndElement"
+        },
+        "txtCont": {
+          "txt": "tvoyCatLabelFooterElementOKRight",
+          "style": "tvoyCatFooterElementOKRightTxtContStyle2ndElement"
+        }
+      },
+      "FooterElementNavUpDown2ndElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementNavItemContStyle2ndElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementNavImgItemStyle2ndElement"
+        },
+        "txtCont": {
+          "txt": "tvoyCatLabelFooterElementNav",
+          "style": "tvoyCatFooterElementNavTxtContStyle2ndElement"
+        }
+      },
+      "FooterElementOKLeft3rdElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementOkLeftItemContStyle3rdElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementOkLeftImgItemStyle3rdElement"
+        },
+        "txtCont": {
+          "style": "tvoyCatFooterElementOkLeftTxtContStyle3rdElement"
+        }
+      },
+      "FooterElementOKRight3rdElement": {
+        "itemCont": {
+          "style": "tvoyCatFooterElementOKRightItemContStyle3rdElement"
+        },
+        "imgItem": {
+          "style": "tvoyCatFooterElementOKRightImgItemStyle3rdElement"
+        },
+        "txtCont": {
+          "txt": "tvoyCatLabelFooterElementOKRight",
+          "style": "tvoyCatFooterElementOKRightTxtContStyle3rdElement"
+        }
+      }
+    }
+  },
+  "ScenarioItemDetailConf": {
+    "hasLiveVideo": "Y",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "showChannelImage": true,
+    "Context_sensitive_help": [
+      "scenariohelp",
+      "PG",
+      "KijKen"
+    ],
+    "optionMenuConf": [
+      "WatchTV",
+      "SearchInProgrammaGemist",
+      "SearchInAll"
+    ],
+    "breadcrumbCatalogueDefault": [
+      "Start",
+      "ProgrammaGemist"
+    ],
+    "popupInteractiveMessageBookMarkArray": [
+      "bookmark_popup_title",
+      "bookmark_popup_message",
+      "bookmark_popup_confirm_button",
+      "bookmark_popup_cancel_button"
+    ],
+    "label_bestel": "itemDet_label_bestel",
+    "label_Show": "itemDet_label_Show",
+    "label_Watch_Trailer": "itemDet_label_Watch_Trailer",
+    "label_Watch_Use_Voucher": "itemDet_label_Use_Voucher",
+    "label_Watch_Less_Info": "itemDet_label_Less_Info",
+    "showRatingIcons": false,
+    "showContentChannelInfo": true,
+    "menuTopButton": {
+      "isPresent": true,
+      "txtButton": "ProgrammaGemistMainMenu",
+      "inputObjTopButton": [
+        "Catalogue"
+      ]
+    },
+    "label_SmartView_footer": "ott_footer_element_text",
+    "label_SmartView": "label_SmartView",
+    "label_SmartView_close": "label_SmartView_close",
+    "label_Therm": "label_Therm",
+    "Txt_Therm": "Txt_Therm",
+    "label_Programma_info": "label_Programma_info",
+    "footerElementsDetail": {
+      "ItemDetContFooter": {
+        "style": "tvoyContFooterStyle"
+      },
+      "ItemDetTxtButtonBlue": {
+        "txt": "tvoyCatLabelFooterElementOpties",
+        "style": "tvoyItemDetTxtBlueStyle"
+      },
+      "ItemDetButtonBlue": {
+        "isPresent": true,
+        "style": "ItemDetButtonBlueStyle"
+      },
+      "menuLeftCode": {
+        "txt": "tvoyDetfooter_menu_left_txt",
+        "style": "tvoyMenuLeftCodeStyle"
+      },
+      "menuLeftCodeCut": {
+        "txt": "tvoyDetfooter_menu_left_txt",
+        "style": "tvoyMenuLeftCodeCutStyle"
+      },
+      "buttonOk": {
+        "isPresent": true,
+        "style": "tvoyButtonOkStyle"
+      },
+      "buttonOkTxtCut": {
+        "style": "tvoyButtonOkTxtCutStyle"
+      },
+      "buttonOkTxt": {
+        "style": "tvoyButtonOkTxtStyle"
+      },
+      "buttonYellow": {
+        "isPresent": false,
+        "style": "tvoyButtonYellowStyle"
+      },
+      "buttonYellowTxt": {
+        "txt": "tvoyDetfooter_button_yellow_txt",
+        "style": "tvoyButtonYellowTxtStyle"
+      },
+      "buttonNavigate": {
+        "isPresent": true,
+        "style": "tvoyButtonNavigateStyle"
+      },
+      "buttonNavigateTxt": {
+        "txt": "tvoyDetfooter_button_navigate_txt",
+        "style": "tvoyButtonNavigateTxtStyle"
+      }
+    },
+    "footerElementsDetailOtt": {
+      "ItemDetContFooter": {
+        "style": "tvoyContFooterStyle"
+      },
+      "ItemDetTxtButtonBlue": {
+        "txt": "tvoyCatLabelFooterElementOpties",
+        "style": "tvoyItemDetTxtBlueStyle"
+      },
+      "ItemDetButtonBlue": {
+        "isPresent": true,
+        "style": "ItemDetButtonBlueStyle"
+      },
+      "menuLeftCode": {
+        "txt": "tvoyDetfooter_menu_left_txt",
+        "style": "tvoyMenuLeftCodeStyle"
+      },
+      "menuLeftCodeCut": {
+        "txt": "tvoyDetfooter_menu_left_txt",
+        "style": "tvoyMenuLeftCodeCutStyle"
+      },
+      "buttonOk": {
+        "isPresent": true,
+        "style": "tvoyButtonOkStyle"
+      },
+      "buttonOkTxtCut": {
+        "style": "tvoyButtonOkTxtCutStyle"
+      },
+      "buttonOkTxt": {
+        "style": "tvoyButtonOkTxtStyle"
+      },
+      "buttonYellow": {
+        "isPresent": false,
+        "style": "tvoyButtonYellowStyle"
+      },
+      "buttonYellowTxt": {
+        "txt": "tvoyDetfooter_button_yellow_txt",
+        "style": "tvoyButtonYellowTxtStyle"
+      },
+      "buttonNavigate": {
+        "isPresent": true,
+        "style": "tvoyButtonNavigateStyle"
+      },
+      "buttonNavigateTxt": {
+        "txt": "tvoyDetfooter_button_navigate_txt",
+        "style": "tvoyButtonNavigateTxtStyle"
+      }
+    },
+    "ItemDetHourTxt": {
+      "style": "tvoyItemDetHourTxt"
+    },
+    "ItemDetDataTxt": {
+      "style": "tvoyItemDetDateTxt"
+    },
+    "ItemDetLogoImg": {
+      "style": "tvoyItemDetLogoImg"
+    },
+    "ItemDetChanNumTxt": {
+      "style": "tvoyItemDetChanNumTxt"
+    },
+    "ItemDetBreadcrumb": {
+      "styleItemCont": {
+        "style": "tvoyItemDetbreadcrumbStyleItemCont",
+        "left": 410,
+        "h": 30,
+        "w": 650
+      },
+      "styleItemText": {
+        "style": "tvoyItemDetbreadcrumbStyleItemText",
+        "w": 80
+      },
+      "styleItemImg": {
+        "style": "tvoyItemDetbreadcrumbStyleItemImg",
+        "w": 28
+      },
+      "innerSpacing": 10
+    },
+    "ItemDetModuleInfo": {
+      "style": "tvoyItemDetModuleInfoStyle",
+      "id": "tvoyItemDetModuleInfo"
+    },
+    "ItemDetModuleInfoConf": {
+      "daysValidityGapConf": 7,
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_fullhd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fullhd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "label_Price_Gratis": "ItemDetModuleInfo_price_gratis",
+      "label_PublicationValidity": "ItemDetModuleInfo_label_PublicationValidity",
+      "label_PurchaseValidity": "ItemDetModuleInfo_label_PurchaseValidity",
+      "label_min": "ItemDetModuleInfo_label_min",
+      "label_minutes": "ItemDetModuleInfo_label_minutes",
+      "label_hour": "ItemDetModuleInfo_label_hour",
+      "label_per": "ItemDetModuleInfo_label_per",
+      "label_lday": "ItemDetModuleInfo_label_lDay",
+      "label_ldays": "ItemDetModuleInfo_label_lDays",
+      "label_lhour": "ItemDetModuleInfo_label_lHour",
+      "label_lhours": "ItemDetModuleInfo_label_lHours",
+      "label_lmin": "ItemDetModuleInfo_label_lMin",
+      "label_lmins": "ItemDetModuleInfo_label_lMins",
+      "label_euro": "ItemDetModuleInfo_label_euro",
+      "label_met": "ItemDetModuleInfo_label_met",
+      "label_regie": "ItemDetModuleInfo_label_regie",
+      "ItemInfoTitleTxt": {
+        "style": "tvoyItemDetItemInfoTitleTxtStyle"
+      },
+      "ItemInfoDurationTxt": {
+        "style": "tvoyItemDetItemInfoDurationTxtStyle"
+      },
+      "ItemInfoPriceLblTxt": {
+        "style": "tvoyItemDetItemInfoPriceLblTxtStyle"
+      },
+      "ItemInfoPriceTxt": {
+        "style": "tvoyItemDetItemInfoPriceTxtStyle"
+      },
+      "ItemInfoPriceValLblTxt": {
+        "style": "tvoyItemDetItemInfoPriceValLblTxtStyle"
+      },
+      "ItemInfoPriceValxt": {
+        "style": "tvoyItemDetItemInfoPriceValTxtStyle"
+      },
+      "ItemInfoEndPurchValLblTxt": {
+        "style": "tvoyItemDetItemInfoEndPurchValLblTxtStyle"
+      },
+      "ItemInfoEndPurchValTxt": {
+        "style": "tvoyItemDetItemInfoEndPurchValTxtStyle"
+      },
+      "ItemInfoEndValLblTxt": {
+        "style": "tvoyItemDetItemInfoEndValLblTxtStyle"
+      },
+      "ItemInfoEndValLblSelectTxt": {
+        "style": "tvoyItemDetItemInfoEndValLblTxtSelectStyle"
+      },
+      "ItemInfoEndValTxt": {
+        "style": "tvoyItemDetItemInfoEndValTxtStyle"
+      },
+      "ItemInfoEndValSelectTxt": {
+        "style": "tvoyItemDetItemInfoEndValTxtSelectStyle"
+      },
+      "ItemInfoDesc2LinesTxt": {
+        "style": "tvoyItemDetItemInfoDesc2LinesTxtStyle"
+      },
+      "ItemInfoCastTxt": {
+        "style": "tvoyItemDetItemInfoCastTxtStyle"
+      },
+      "ItemInfoLogoImg": {
+        "style": "tvoyItemDetItemInfoLogoImgStyle"
+      },
+      "ItemInfoRating": {
+        "startPosition": 10,
+        "widthRatingImage": 25,
+        /*"url_star_full_black": "./Apps/Common/Resources/Images/1.0/rating/star_full_black.png",
+                "url_star_half_black": "./Apps/Common/Resources/Images/1.0/rating/star_half_black.png",
+                "url_star_gray": "./Apps/Common/Resources/Images/1.0/rating/star_gray.png",*/
+        "style": "tvoyItemDetItemInfoRatingImgStyle"
+      },
+      "ItemInfoPCLockImg": {
+        "style": "tvoyItemDetItemInfoPCLockImgStyle"
+      },
+      "ItemInfoER1Img": {
+        "style": "tvoyItemDetItemInfoER1ImgStyle"
+      },
+      "ItemInfoChannelBlocked": {
+        "style": "tvoyItemDetItemInfoChannelBlockedStyle"
+      },
+      "ItemInfoChannelSubscribed": {
+        "style": "tvoyItemDetItemInfoChannelSubscribedStyle"
+      },
+      "itemContRating": {
+        "style": "tvoyItemContRatingStyle"
+      }
+    },
+    "ItemDetModuleMenuList": {
+      "id": "ItemDetModuleMenuList",
+      "style": "tvoyItemDetModuleMenuListStyle"
+    },
+    "ItemDetModuleMenuListConf": {
+      "grid": {
+        "style": "tvoyItemDetModuleMenuListGrid",
+        "topMargin": 48,
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "hidePinStructure": true,
+          "numOfMiddleElements": 2,
+          "marginRightSide": 15,
+          "styleItemCont": {
+            "style": "tvoyItemDetModuleMenuListGridItemCont",
+            "w": 246,
+            "h": 30
+          },
+          "styleItemBgSelect": {
+            "style": "tvoyItemDetModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "tvoyItemDetModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "tvoyItemDetModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "tvoyItemDetModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "tvoyItemDetModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "tvoyItemDetModuleMenuListGridTitleTxtSelected"
+          },
+          "styleItemStartMaskImgSelect": {
+            "style": "tvoyItemDetpinButtonitemStartMaskImgSelect",
+            "width": 27
+          },
+          "styleItemEndMaskImgSelect": {
+            "style": "tvoyItemDetpinButtonitemEndMaskImgSelect",
+            "width": 24
+          },
+          "styleItemMiddleMaskImgSelect": {
+            "style": "tvoyItemDetpinButtonitemMiddleMaskImgSelect",
+            "width": 24
+          },
+          "styleItemStartMaskImgUnselect": {
+            "style": "tvoyItemDetpinButtonitemStartMaskImgUnselect",
+            "width": 27
+          },
+          "styleItemEndMaskImgUnselect": {
+            "style": "tvoyItemDetpinButtonitemEndMaskImgUnselect",
+            "width": 24
+          },
+          "styleItemMiddleMaskImgUnselect": {
+            "style": "tvoyItemDetpinButtonitemMiddleMaskImgUnselect",
+            "width": 24
+          },
+          "styleItemMaskTxtSelect": {
+            "style": "tvoyItemDetpinButtonitemMaskTxtSelect"
+          },
+          "styleItemMaskTxtUnselect": {
+            "style": "tvoyItemDetpinButtonitemMaskTxtUnSelect"
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "tvoyItemDetModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "tvoyItemDetModuleMenuListArrowUp"
+      },
+      "MenuListTopElem": {
+        "styleItemCont": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemItemCont"
+        },
+        "styleItemBgSelect": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemTitleTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect"
+        },
+        "styleItemTxtSelected": {
+          "style": "tvoyItemDetModuleMenuListMenuListTopElemTitleTxtSelected"
+        }
+      },
+      "MenuListBottomElem": {
+        "styleItemCont": {
+          "style": "tvoyItemDetModuleMenuListMenuListBottomElemItemCont",
+          "h": 64
+        },
+        "styleItemBgSelect": {
+          "style": "tvoyItemDetModuleMenuListMenuListBottomElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "tvoyItemDetModuleMenuListMenuListBottomElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "tvoyItemDetModuleMenuListMenuListBottomElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": ""
+        },
+        "styleItemTxtUnSelect": {
+          "style": ""
+        },
+        "styleItemTxtSelected": {
+          "style": ""
+        },
+        "styleItemImage": {
+          "style": "tvoyItemDetModuleMenuListMenuListBottomElemItemImage",
+          "safeSetUrl": true,
+          "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty_apps.png"
+        }
+      }
+    },
+    "ItemDetModuleItemDetails": {
+      "id": "tvoyItemDetModuleItemDetails",
+      "style": "tvoyItemDetModuleItemDetailsStyle"
+    },
+    "ItemDetModuleItemDetailsConf": {
+      "ItemDetInfoRect": {
+        "style": "tvoyItemDetRectInfoStyle",
+        "styleFocusOn": "tvoyItemDetRectInfoFocusOnStyle",
+        "styleFocusOff": "tvoyItemDetRectInfoFocusOffStyle"
+      },
+      "ItemDetTitleTxt": {
+        "style": "tvoyItemDetTitleTxtStyle"
+      },
+      "ItemDetDescTxt": {
+        "style": "tvoyItemDetDescTxtStyle",
+        "styleDecor": "tvoyItemDetDescTxtStyleDecorStyle",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "ItemDetRightImg": {
+        "style": "tvoyItemDetRightImgStyle"
+      },
+      "ItemDetLeftImg": {
+        "style": "tvoyItemDetLeftImgStyle"
+      },
+      "ItemDetUpImg": {
+        "style": "tvoyItemDetUpImgStyle"
+      },
+      "ItemDetDownImg": {
+        "style": "tvoyItemDetDownImgStyle"
+      },
+      "ItemDetCoverImg": {
+        "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+        "style": "tvoyItemDetCoverImgStyle",
+        "safeSetUrl": true
+      },
+      "itemDetInfoContentMeerTv": {
+        "style": "tvoyItemDetInfoContentMeerTv",
+        "loadingMessage": "loadingMessageMeerTv",
+        "emptyMessage": "emptyMessageMeerTv"
+      },
+      "horizontalGrid": {
+        "style": "tvoyStyleHorizontalGridCont",
+        "numVisibleImages": 4,
+        "item": {
+          "styleItemCont": {
+            "style": "tvoyItemDetModuleItemDetailsHorizontalGridItemCont",
+            "h": 120,
+            "w": 120
+          },
+          "styleItemSelect": {
+            "style": "tvoyItemDetModuleItemDetailsHorizontalGridItemSelect",
+            "styleOTT": "tvoyItemDetModuleItemDetailsHorizontalGridItemSelect"
+          },
+          "styleItemTxt": {
+            "isPresent": false,
+            "label": "title",
+            "style": "tvoyItemDetModuleItemDetailsHorizontalGridItemTxt"
+          },
+          "styleItemTxtWrapper": {
+            "style": ""
+          },
+          "styleItemImg": {
+            "label": "iconURL",
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty_apps.png",
+            "style": "tvoyItemDetModuleItemDetailsHorizontalGridItemImg",
+            "safeSetUrl": true
+          },
+          "styleItemContImg": {
+            "style": ""
+          }
+        },
+        "arrowRightImg": {
+          "style": "tvoyHorizontalGridArrowRightImgStyle"
+        }
+      },
+      "grid": {
+        "style": "tvoyItemDetModuleItemDetailsGrid",
+        "distHorImgageGrid": 14,
+        "distVerImgageGrid": 0,
+        "numRowsToScroll": 2,
+        "timeToScroll": 0,
+        "numColumnInRow": 5,
+        "numVisibleRows": 2,
+        "timeToUpdateCursor": 0,
+        "isScrollBarShow": false,
+        "timeUpdateInfo": 0,
+        "item": {
+          "styleItemCont": {
+            "style": "tvoyItemDetModuleItemDetailsGridItemCont",
+            "h": 140,
+            "w": 140
+          },
+          "styleItemSelect": {
+            "style": "tvoyItemDetModuleItemDetailsGridItemSelect",
+            "styleOTT": "tvoyItemDetModuleItemDetailsGridItemSelect"
+          },
+          "styleItemTxt": {
+            "isPresent": false,
+            "label": "title",
+            "style": "tvoyItemDetModuleItemDetailsGridItemTxt"
+          },
+          "styleItemTxtWrapper": {
+            "style": "tvoyListOttGridItemTxtWrapper"
+          },
+          "styleItemImg": {
+            "label": "iconURL",
+            "defaultImgUrl": "./Apps/Common/Resources/Images/1.0/empty.png",
+            "style": "tvoyItemDetModuleItemDetailsGridItemImg",
+            "safeSetUrl": true
+          },
+          "styleItemContImg": {
+            "style": "tvoyListOttGridItemContImg"
+          }
+        },
+        "scrollBar": {
+          "style": "",
+          "scrollBarContent": ""
+        },
+        "arrowDownImg": {
+          "style": "tvoyItemDetGridArrowDownImgStyle"
+        },
+        "arrowUpImg": {
+          "style": "tvoyItemDetGridArrowUpImgStyle"
+        }
+      }
+    },
+    "ItemDetTxtBlue": {
+      "txt": "Opties",
+      "style": "tvoyItemDetTxtBlueStyle"
+    },
+    "ItemDetButtonBlue": {
+      "style": "tvoyItemDetButtonBlueStyle"
+    },
+    "menuLeftCode": {
+      "txt": "0-9: Voer betaalcode in",
+      "style": "menuLeftCodeStyle"
+    },
+    "buttonOk": {
+      "style": "tvoyButtonOkStyle"
+    },
+    "buttonOkTxt": {
+      "style": "tvoyButtonOkTxtStyle"
+    },
+    "buttonYellow": {
+      "isPresent": false,
+      "style": "tvoyButtonYellowStyle"
+    },
+    "buttonYellowTxt": {
+      "txt": ": Mijn gehuurde video's",
+      "style": "tvoyButtonYellowTxtStyle"
+    },
+    "buttonNavigate": {
+      "style": "tvoyButtonNavigateStyle"
+    },
+    "buttonNavigateTxt": {
+      "txt": ": Vorige/Volgende",
+      "style": "tvoyButtonNavigateTxtStyle"
+    }
+  },
+  "ScenarioZapbannerConf": {
+    "hasLiveVideo": "N",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "fullscreenVideoPosition": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "showChannelImage": true,
+    "showChannelDetailedInfo": true,
+    "startGidsTimeout": 400,
+    "popupInteractiveMessageBookMarkArray": [
+      "bookmark_popup_title",
+      "bookmark_popup_message",
+      "bookmark_popup_confirm_button",
+      "bookmark_popup_cancel_button"
+    ],
+    "popupInteractiveMessageStopVodArray": [
+      "stopVod_popup_title",
+      "stopVod_popup_message",
+      "stopVod_popup_confirm_button",
+      "stopVod_popup_cancel_button"
+    ],
+    "popupInteractiveMessageWrongSkipTimeArray": [
+      "skipTime_popup_title",
+      "skipTime_popup_message",
+      "skipTime_popup_confirm_button"
+    ],
+    "leftRightSkipTimeValue": [
+      0
+      0,
+      0
+      0,
+      30
+    ],
+    "popupInteractiveMessageWrongShowTimer": 2000,
+    "ItemDetModuleMenuList": {
+      "id": "ItemDetModuleMenuList",
+      "style": "ItemDetModuleMenuListStyle"
+    },
+    "ItemDetModuleMenuListConf": {
+      "grid": {
+        "style": "tvoyItemDetModuleMenuListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "hidePinStructure": true,
+          "numOfMiddleElements": 2,
+          "marginRightSide": 15,
+          "styleItemCont": {
+            "style": "ItemDetModuleMenuListGridItemCont",
+            "w": 246,
+            "h": 30
+          },
+          "styleItemBgSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ItemDetModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelected"
+          },
+          "styleItemStartMaskImgSelect": {
+            "style": "ItemDetpinButtonitemStartMaskImgSelect",
+            "width": 27
+          },
+          "styleItemEndMaskImgSelect": {
+            "style": "ItemDetpinButtonitemEndMaskImgSelect",
+            "width": 24
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "ItemDetModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "ItemDetModuleMenuListArrowUp"
+      }
+    },
+    "ModuleZapBannerMini": {
+      "id": "ModuleZapBannerMini",
+      "style": "tvoyModuleZapBannerMiniStyle"
+    },
+    "ModuleZapBannerMiniConf": {
+      "zapBannerMiniTitle": {
+        "style": "tvoyzapBannerMiniTitleStyle"
+      },
+      "zapBannerMiniChannelNumber": {
+        "style": "tvoyzapBannerMiniChannelNumberStyle"
+      },
+      "zapBannerMiniChannelName": {
+        "style": "tvoyzapBannerMiniChannelNameStyle"
+      },
+      "zapBannerMiniVodTime": {
+        "style": "tvoyzapBannerMiniVodTimeStyle"
+      },
+      "zapBannerMiniCurrPos": {
+        "style": "tvoyzapBannerMiniCurrPosStyle"
+      },
+      "zapBannerMiniPlaySpeed": {
+        "style": "tvoyzapBannerMiniPlaySpeedStyle"
+      },
+      "zapBannerMiniPlaySpeedVisualArray": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "zapBannerMiniPlaySpeedArray": [
+        200,
+        400,
+        800,
+        1600,
+        3200,
+        6400
+      ],
+      "zapBannerMiniTime": {
+        "style": "tvoyzapBannerMiniTimeStyle"
+      },
+      "zapBannerMiniBg": {
+        "style": "tvoyzapBannerMiniBg"
+      },
+      "zapBannerMiniTPImage": {
+        "style": "tvoyzapBannerMiniTPImageStyle"
+      },
+      "zapBannerMiniChannelLogoImage": {
+        "style": "zapBannerMiniCHLogoImageStyle"
+      },
+      "zapBannerMiniChannelRect": {
+        "style": "tvoyzapBannerMiniChannelRectStyle"
+      },
+      "zapBannerMiniVodRect": {
+        "style": "tvoyzapBannerMiniVodRectStyle"
+      },
+      "zapBannerMiniSkipToTimeRect": {
+        "itemCont": {
+          "style": "tvoyzapBannerMiniSkipToTimeRectStyle"
+        },
+        "imgPrev": {
+          "style": "tvoyzapbannerImgPrevStyle"
+        },
+        "txtCont": {
+          "style": "tvoyzapbannerMinitxtContStyle"
+        },
+        "imgNext": {
+          "style": "tvoyzapbannerMiniImgNextStyle"
+        }
+      },
+      "pbItemCont": {
+        "pbContainer": {
+          "style": "tvoyzapBannerMiniProgressbarContainerStyle"
+        },
+        "pbCont": {
+          "style": "tvoyzapBannerMiniProgressbarRectStyle",
+          "width": 477
+        },
+        "past": {
+          "style": "tvoyzapBannerMiniProgressbarPastSpaceRectStyle"
+        },
+        "currPos": {
+          "style": "tvoyzapBannerMiniProgressbarCurrPosRectStyle",
+          "width": 3
+        }
+      },
+      "zapBannerFooterConf": {
+        "buttonOkZapbannerMini": {
+          "style": "tvoybuttonOkStyleZapbannerMini"
+        },
+        "buttonOkTxtZapbannerMini": {
+          "style": "tvoybuttonOkTxtStyleZapbannerMini"
+        },
+        "buttonYellowZapbannerMini": {
+          "style": "tvoybuttonYellowStyleZapbannerMini"
+        },
+        "buttonYellowTxtZapbannerMini": {
+          "txt": "",
+          "style": "tvoybuttonYellowTxtStyleZapbannerMini"
+        },
+        "zapbannerFooterYellowButtonOpen": {
+          "label": "open_zapbanner_details"
+        },
+        "zapbannerFooterYellowButtonClose": {
+          "label": "close_zapbanner_details"
+        }
+      }
+    },
+    "ModuleZapBannerExtended": {
+      "id": "ModuleZapBannerExtended",
+      "style": "tvoyModuleZapBannerExtendedStyle"
+    },
+    "ModuleZapBannerExtendedConf": {
+      "zapBannerExtTitle": {
+        "style": "tvoyzapBannerExtTitleStyle"
+      },
+      "zapBannerExtVodDesc": {
+        "style": "tvoyzapBannerExtVodDescStyle",
+        "styleDecor": "",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "zapBannerExtVodAddInfo": {
+        "style": "tvoyzapBannerExtVodAddInfoStyle",
+        "styleDecor": "",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "zapBannerExtBg": {
+        "style": "tvoyzapBannerExtBg"
+      },
+      "zapBannerExtVodRectFocus": {
+        "style": "tvoyzapBannerExtVodRectStyle",
+        "styleFocusOn": "tvoyzapBannerExtVodRectFocusOnStyle",
+        "styleFocusOff": "tvoyzapBannerExtVodRectFocusOffStyle"
+      },
+      "zapBannerExtMenuList": {
+        "id": "zapBannerExtMenuList",
+        "style": "tvoyzapBannerExtMenuListStyle"
+      },
+      "zapBannerExtMenuListConf": {
+        "menuVoices": [
+          "watch_vod"
+          /* "rented_videos"*/
+        ],
+        "menuOptionalVoices": [
+          "more_info"
+        ],
+        "grid": {
+          "style": "tvoyzapbannerExtendedItemDetModuleMenuListGrid",
+          "distHorImgageGrid": 0,
+          "distVerImgageGrid": 5,
+          "numRowsToScroll": 1,
+          "timeToScroll": 0,
+          "numColumnInRow": 1,
+          "numVisibleRows": 6,
+          "timeToUpdateCursor": 40,
+          "isScrollBarShow": false,
+          "item": {
+            "hidePinStructure": true,
+            "numOfMiddleElements": 2,
+            "marginRightSide": 15,
+            "styleItemCont": {
+              "style": "tvoyzapbannerExtendedItemDetModuleMenuListGridItemCont",
+              "w": 246,
+              "h": 30
+            },
+            "styleItemBgSelect": {
+              "style": "tvoyItemDetModuleMenuListGridItemBgSelectZapbanner"
+            },
+            "styleItemBgUnSelect": {
+              "style": "tvoyItemDetModuleMenuListGridItemBgUnSelectZapbanner"
+            },
+            "styleItemBgSelected": {
+              "style": "tvoyItemDetModuleMenuListGridItemBgSelectedZapbanner"
+            },
+            "styleItemTxtSelect": {
+              "style": "tvoyItemDetModuleMenuListGridTitleTxtSelectZapbanner"
+            },
+            "styleItemTxtUnSelect": {
+              "style": "tvoyItemDetModuleMenuListGridTitleTxtUnSelectZapbanner"
+            },
+            "styleItemTxtSelected": {
+              "style": "tvoyItemDetModuleMenuListGridTitleTxtSelectedZapbanner"
+            },
+            "styleItemStartMaskImgSelect": {
+              "style": "tvoyItemDetpinButtonitemStartMaskImgSelectZapbanner",
+              "width": 27
+            },
+            "styleItemEndMaskImgSelect": {
+              "style": "tvoyItemDetpinButtonitemEndMaskImgSelectZapbanner",
+              "width": 24
+            },
+            "styleItemMiddleMaskImgSelect": {
+              "style": "tvoyItemDetpinButtonitemMiddleMaskImgSelectZapbanner",
+              "width": 24
+            },
+            "styleItemStartMaskImgUnselect": {
+              "style": "tvoyItemDetpinButtonitemStartMaskImgUnselectZapbanner",
+              "width": 27
+            },
+            "styleItemEndMaskImgUnselect": {
+              "style": "tvoyItemDetpinButtonitemEndMaskImgUnselectZapbanner",
+              "width": 24
+            },
+            "styleItemMiddleMaskImgUnselect": {
+              "style": "tvoyItemDetpinButtonitemMiddleMaskImgUnselectZapbanner",
+              "width": 24
+            },
+            "styleItemMaskTxtUnselect": {
+              "style": "tvoyItemDetpinButtonitemMaskTxtUnSelectZapbanner"
+            }
+          }
+        },
+        "MenuListArrowDown": {
+          "style": "ItemDetModuleMenuListArrowDown"
+        },
+        "MenuListArrowUp": {
+          "style": "ItemDetModuleMenuListArrowUp"
+        },
+        "MenuListTopElem": {
+          "styleItemCont": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemCont"
+          },
+          "styleItemBgSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtSelected"
+          }
+        }
+      },
+      "OptionMenuConf": {
+        "slideTime": 600,
+        "menuH": 380,
+        "menuW": 384,
+        "optMenu": {
+          "menuElement": [
+            {
+              "label": "option_menu_more_info",
+              "status": "MoreInfo"
+            },
+            {
+              "label": "option_menu_watch_video",
+              "status": "WatchVideo"
+            },
+            {
+              "label": "option_menu_rented_items",
+              "status": "RentedItems"
+            },
+            {
+              "label": "option_menu_watch_tv",
+              "status": "WatchTV"
+            },
+            {
+              "label": "SearchInProgrammaGemist",
+              "status": "SearchInProgrammaGemist"
+            }
+          ],
+          "hasLiveVideo": "Y"
+        },
+        "bgImage": {
+          "style": "ScenarioOptionMenuBgStyle",
+          "url": "./Apps/Common/Resources/Images/1.0/backgrounds/commonOverlayBkg.png"
+        },
+        "OptMenuList": {
+          "style": "optMenuLeftMenuMessages",
+          "distHorImgageGrid": 0,
+          "distVerImgageGrid": 5,
+          "numRowsToScroll": 1,
+          "timeToScroll": 0,
+          "numColumnInRow": 1,
+          "numVisibleRows": 8,
+          "timeToUpdateCursor": 0,
+          "isScrollBarShow": false,
+          "item": {
+            "styleItemCont": {
+              "style": "optMenuLeftMenuBtCont",
+              "x": 0,
+              "y": 0,
+              "w": 246,
+              "h": 32
+            },
+            "styleItemBgSelect": {
+              "style": "optMenuLeftMenuBtBgSelect"
+            },
+            "styleItemBgUnSelect": {
+              "style": "optMenuLeftMenuBtBgUnSelect"
+            },
+            "styleItemTxtSelect": {
+              "style": "optMenuLeftMenuBtTxtSelect"
+            },
+            "styleItemTxtUnSelect": {
+              "style": "optMenuLeftMenuBtTxtUnSelect"
+            }
+          },
+          "scrollBar": {
+            "style": "gridScrollBar",
+            "scrollBarContent": ""
+          }
+        },
+        "arrowDown": {
+          "style": "optMenuArrowDown",
+          "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+        },
+        "arrowUp": {
+          "style": "optMenuArrowUp",
+          "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+        },
+        "toonOpties": {
+          "style": "optMenuToonOpties",
+          "url": "./Apps/Common/Resources/Images/1.0/button_blue.png"
+        },
+        "toonOptiesTxt": {
+          "style": "optMenuToonOptiesTxt"
+        },
+        "toonOptiesTxtText": "toon_opties_txt"
+      },
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_fullhd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fullhd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "ItemInfoER1Img": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoER2Img": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoER3Img": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoER4Img": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoER5Img": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoER6Img": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoPCLevelImg": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoHDImg": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "ItemInfoDolbyImg": {
+        "style": "TVOYzapBannerExtIconImg1Style"
+      },
+      "itemContRating": {
+        "style": "tvoyItemContRatingStyleZapbanner"
+      }
+    },
+    "ModuleZapBannerNotification": {
+      "id": "ModuleZapBannerNotification",
+      "style": "tvoyModuleZapBannerNotificationStyle"
+    },
+    "ModuleZapBannerNotificationConf": {
+      "notificationIconMail": {
+        "style": "tvoyNotificationIconMailStyle"
+      },
+      "notificationNewMsgText": {
+        "style": "tvoyNotificationNewMsgTextStyle"
+      },
+      "notificationOpenMsgText": {
+        "style": "tvoyNotificationOpenMsgTextStyle"
+      },
+      "notificationHelpMsgText": {
+        "style": "tvoyNotificationHelpMsgTextStyle"
+      },
+      "notificationIconRedButton": {
+        "style": "tvoyNotificationIconRedButtonStyle"
+      }
+    }
+  }
+}

@@ -1,0 +1,1420 @@
+{
+  "applicationProp": {
+    "id": "Help",
+    "style": "appHelpStyle"
+  },
+  "startScenario": "",
+  "HelpScenarioList": {
+    "scenariohelp": "ScenarioHelp",
+    "help": "ScenarioHelp",
+    "play": "ScenarioZapbanner"
+  },
+  "precachedScenarios": [],
+  "scenarios": {
+    "ScenarioHelp": {
+      "id": "ScenarioHelp",
+      "parent": "Help",
+      "preventDestroy": true,
+      "background": "background_0",
+      "style": "ScenarioHelpStyle"
+    },
+    "ScenarioZapbanner": {
+      "id": "ScenarioZapbanner",
+      "parent": "Help",
+      "preventDestroy": false,
+      "preventSubSkin": false,
+      "background": "",
+      "style": "HelpScenarioZapbannerStyle"
+    }
+  },
+  "ScenarioHelpConf": {
+    "hasLiveVideo": "Y",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "helpItmSortParam": "BY_NAME",
+    "optionMenuConf": [
+      "WatchTV",
+      "SearchInAll"
+    ],
+    "hour": {
+      "style": "hour"
+    },
+    "date": {
+      "style": "date"
+    },
+    "ItemDetChanNumTxt": {
+      "style": "ItemDetChanNumTxt"
+    },
+    "helpContextConf": {
+      "default": [
+        {
+          "label": "Gids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Gids.html",
+          "default": true
+        },
+        {
+          "label": "Videotheek",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Videotheek.html",
+          "default": false
+        },
+        {
+          "label": "Zenderlijsten",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Zenderlijsten.html",
+          "default": false
+        },
+        {
+          "label": "Zenders verbergen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Zenders%20verbergen.html",
+          "default": false
+        },
+        {
+          "label": "Opnemen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/npvr/Opnemen.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Live tv pauzeren",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/pltv/Live%20tv%20pauzeren.html",
+          "pkType": "PVR",
+          "pkSubtype": "PAUSE",
+          //[1026],
+          "default": false
+        },
+        {
+          "label": "Begin Gemist",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/sotv/Begin%20gemist.html",
+          "pkType": "PVR",
+          "pkSubtype": "SOTV",
+          //[1607],
+          "default": false
+        },
+        {
+          "label": "Méér TV",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/ottap/App%20Plein.html",
+          "pkType": "WWW",
+          "pkSubtype": "OTTAP",
+          //[1487],
+          "default": false
+        },
+        {
+          "label": "TV Connect",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Smart%20Control.html",
+          "default": false,
+          "check": "routed"
+        },
+        {
+          "label": "TV-ontvanger test",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/TV-ontvanger%20test.html",
+          "default": false
+        },
+        {
+          "label": "Mijn berichten",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Mijn_berichten.html",
+          "default": false
+        },
+        {
+          "label": "Zappen met zenderlijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/default/Zappen%20met%20zenderlijst.html",
+          "default": false
+        }
+      ],
+      "EPGHorizontal": [
+        {
+          "label": "Andere zenderlijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/Andere%20zenderlijst.html",
+          "default": true
+        },
+        {
+          "label": "Herinnering",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/Herinnering.html",
+          "default": false
+        },
+        {
+          "label": "Horizontale gids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/Horizontale%20gids.html",
+          "default": false
+        },
+        {
+          "label": "Huidige tijdstip",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/Huidige%20tijdstip.html",
+          "default": false
+        },
+        {
+          "label": "Naar Verticale gids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/Naar%20Verticale%20gids.html",
+          "default": false
+        },
+        {
+          "label": "Opnemen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/npvr/Opnemen.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Begin Gemist",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGHorizontal/sotv/Begin%20gemist.html",
+          "pkType": "PVR",
+          "pkSubtype": "SOTV",
+          //[1607],
+          "default": false
+        }
+      ],
+      "EPGVertical": [
+        {
+          "label": "Verticale gids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/Verticale%20gids.html",
+          "default": false
+        },
+        {
+          "label": "Andere zenderlijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/Andere%20zenderlijst.html",
+          "default": true
+        },
+        {
+          "label": "Herinnering",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/Herinnering.html",
+          "default": false
+        },
+        {
+          "label": "Huidige tijdstip",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/Huidige%20tijdstip.html",
+          "default": false
+        },
+        {
+          "label": "Naar Horizont. gids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/Naar%20Horizont.%20gids.html",
+          "default": false
+        },
+        {
+          "label": "Opnemen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/npvr/Opnemen.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Begin Gemist",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/EPGVertical/sotv/Begin%20gemist.html",
+          "pkType": "PVR",
+          "pkSubtype": "SOTV",
+          //[1607],
+          "default": false
+        }
+      ],
+      "PinPopup": [
+        {
+          "label": "Pin Popup",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PinPopup/Pincode.html",
+          "default": false,
+          "movieId": 500
+        },
+        {
+          "label": "Popup 22914027",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PinPopup/Purchase%20Popup.html",
+          "default": true,
+          "movieId": 22914027
+        },
+        {
+          "label": "XXX",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PinPopup/Pincode.html",
+          "default": false
+        },
+        {
+          "label": "Popup 501",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PinPopup/Purchase%20Popup.html",
+          "default": false,
+          "movieId": 501
+        },
+        {
+          "label": "Popup 12208",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PinPopup/Purchase%20Popup.html",
+          "default": false,
+          "movieId": 12208
+        },
+        {
+          "label": "Popup 506",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PinPopup/Purchase%20Popup.html",
+          "default": false,
+          "movieId": 506
+        }
+      ],
+      "menu": [
+        {
+          "label": "Gids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Gids.html",
+          "default": true
+        },
+        {
+          "label": "Instellingen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Instellingen.html",
+          "default": false
+        },
+        {
+          "label": "Mijn service",
+          /*Mijn info */
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Mijn%20info.html",
+          "default": false
+        },
+        {
+          "label": "Programma Gemist",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Programma%20Gemist.html",
+          "default": false
+        },
+        {
+          "label": "Radio",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Radio.html",
+          "default": false
+        },
+        {
+          "label": "Videotheek",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Videotheek.html",
+          "default": false
+        },
+        {
+          "label": "Zoeken",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/Zoeken.html",
+          "default": false
+        },
+        /* {
+             "label": "Mijn opnames",
+             "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/cpvr/Mijn%20opnames.html",
+             "pkType": "PVR",
+             "pkSubtype": "CPVR",
+             "default": false
+         },*/
+        {
+          "label": "Opnemen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/npvr/Opnemen.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Méér TV",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/menu/ottap/App%20Plein.html",
+          "pkType": "WWW",
+          "pkSubtype": "OTTAP",
+          "default": false,
+          "check": "routed"
+        }
+      ],
+      "parentalBlock": [
+        {
+          "label": "Geblokkeerd programma",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/parentalBlock/Geblokkeerd%20programma.html",
+          "default": true
+        }
+      ],
+      "PG": [
+        {
+          "label": "Kijken",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PG/Kijken.html",
+          "default": true
+        },
+        {
+          "label": "Programma Gemist",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PG/Programma%20Gemist.html",
+          "default": false
+        },
+        {
+          "label": "Programma Kiezen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PG/Programma%20Kiezen.html",
+          "default": false
+        },
+        {
+          "label": "Uitzending Kiezen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PG/Uitzending%20Kiezen.html",
+          "default": false
+        }
+        /*{
+            "label": "Kortingscode",
+            "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PG/Kortingscode.html",
+            "default": false
+        }*/
+      ],
+      "Popup": [
+        {
+          "label": "Pincode",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/pincode/Pincode.html",
+          "default": true
+        },
+        {
+          "label": "Tips",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/pincode/Tips.html",
+          "default": false
+        },
+        {
+          "label": "Voorwaarden",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/pincode/Voorwaarden.html",
+          "default": false
+        }
+      ],
+      "PVR": [
+        {
+          "label": "Geplande opnames",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/Geplande%20opnames.html",
+          "default": true
+        },
+        {
+          "label": "Opname bekijken",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/Opname%20bekijken.html",
+          "default": false
+        },
+        /*  {
+              "label": "De opnamelijst",
+              "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/cpvr/De%20opnamelijst.html",
+              "pkType": "PVR",
+              "pkSubtype": "CPVR",//[146],
+              "default": false
+          },
+          {
+              "label": "Opname conflicten",
+              "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/cpvr/Opname%20conflicten.html",
+              "pkType": "PVR",
+              "pkSubtype": "CPVR",//[146],
+              "default": false
+          },
+          {
+              "label": "Tijdopname",
+              "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/cpvr/Tijdopname.html",
+              "pkType": "PVR",
+              "pkSubtype": "CPVR",//[146],
+              "default": false
+          },*/
+        {
+          "label": "De opnamelijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/npvr/De%20opnamelijst.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Opname conflicten",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/npvr/Opname%20conflicten.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Bijna verlopen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/PVR/npvr/Bijna%20verlopen.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        }
+      ],
+      "registration": [
+        {
+          "label": "Aanmelden",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/registration/Aanmelden.html",
+          "default": true
+        }
+      ],
+      "reminderConflict": [
+        {
+          "label": "Herinnering conflict",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/reminderConflict/Herinnering%20conflict.html",
+          "default": true
+        }
+      ],
+      "search": [
+        {
+          "label": "Zoeken",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/search/Zoeken.html",
+          "default": true
+        }
+      ],
+      "settingsCompanion": [
+        /*ToBe verified if is "Smart Control"*/
+        {
+          "label": "TV Connect",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsCompanion/TV%20Connect.html",
+          "default": true
+        }
+      ],
+      /*Beeldscherm Instellingen*/
+      "settingsMessage": [
+        /*Berichten instellingen*/
+        /*si deve chiamare come la help directory che torna dall'obj*/
+        {
+          "label": "Berichten instellingen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsMessage/message.html",
+          "default": true
+        }
+      ],
+      "settingsDisplay": [
+        {
+          "label": "Type aansluitkabel",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsDisplay/Type%20aansluitkabel.html",
+          "default": true
+        },
+        {
+          "label": "Resolutie",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsDisplay/Beeldschermresolutie.html",
+          "default": false
+        },
+        {
+          "label": "Verhouding",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsDisplay/Beeldschermverhouding.html",
+          "default": false
+        },
+        {
+          "label": "Beeld bij 4:3",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsDisplay/BeeldBij43Uitzending.html",
+          "default": false
+        },
+        {
+          "label": "HD-optie",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsGeneral/HD-optie.html",
+          "default": false
+        }
+      ],
+      /*Zenderlijst Instellingen*/
+      "settingsFavourites": [
+        {
+          "label": "Alle zenders",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsFavourites/Alle%20zenders.html",
+          "default": true
+        },
+        {
+          "label": "Hernoemen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsFavourites/Hernoemen.html",
+          "default": false
+        },
+        {
+          "label": "Nieuwe zenderlijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsFavourites/Nieuwe%20zenderlijst.html",
+          "default": false
+        },
+        {
+          "label": "Zender toevoegen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsFavourites/Zender%20toevoegen.html",
+          "default": false
+        }
+      ],
+      "settingsGeneral": [
+        /*{
+            "label": "HD-optie",
+            "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsGeneral/HD-optie.html",
+            "default": true
+        },*/
+        {
+          "label": "Minigids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsGeneral/Minigids.html",
+          "default": true
+        },
+        {
+          "label": "TV-ontvanger Test",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsGeneral/TV-ontvanger%20test.html",
+          "default": false
+        }
+        /*,
+                        {
+                            "label": "Berichten instellingen",
+                            "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsMessage/message.html",
+                            "default": true
+                        }*/
+      ],
+      /*Zenders Verbergen*/
+      "settingsHidden": [
+        {
+          "label": "Zender deblokkeren",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsHidden/Zender%20deblokkeren.html",
+          "default": true
+        },
+        {
+          "label": "Zender verbergen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsHidden/Zender%20verbergen.html",
+          "default": false
+        }
+      ],
+      "settingsMain": [
+        {
+          "label": "Instellingen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsMain/Instellingen.html",
+          "default": true
+        }
+      ],
+      /*Kinderslot Instellingen*/
+      "settingsParental": [
+        {
+          "label": "Kinderslot",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsParental/Kinderslot.html",
+          "default": true
+        },
+        {
+          "label": "Pincode",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsParental/Pincode.html",
+          "default": false
+        }
+      ],
+      /*Energiegebruik Instellingen*/
+      "settingsStandby": [
+        {
+          "label": "Energiegebr. inst.",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/settingsStandby/Energiegebr.%20inst..html",
+          "default": true
+        }
+      ],
+      "VOD": [
+        {
+          "label": "Kijken",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/VOD/Kijken.html",
+          "default": true
+        },
+        {
+          "label": "Videotheek",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/VOD/Videotheek.html",
+          "default": false
+        },
+        {
+          "label": "Video huren",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/VOD/Video%20huren.html",
+          "default": false
+        },
+        {
+          "label": "Weergave",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/VOD/Weergave.html",
+          "default": false
+        }
+      ],
+      "zapBanner": [
+        {
+          "label": "Minigids",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/Minigids.html",
+          "default": true
+        },
+        {
+          "label": "Progr. opnemen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/npvr/Progr.%20opnemen.html",
+          "pkType": "PVR",
+          "pkSubtype": "NPVR",
+          //[946],
+          "default": false
+        },
+        {
+          "label": "Live tv pauzeren",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/pltv/Live%20tv%20pauzeren.html",
+          "pkType": "PVR",
+          "pkSubtype": "PAUSE",
+          //[1026],
+          "default": false
+        },
+        {
+          "label": "Progr. terugspoelen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/pltv/Progr.%20terugspoelen.html",
+          "pkType": "PVR",
+          "pkSubtype": "PAUSE",
+          //[1026],
+          "default": false
+        },
+        {
+          "label": "Begin Gemist",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/sotv/Begin%20gemist.html",
+          "pkType": "PVR",
+          "pkSubtype": "SOTV",
+          //[1607],
+          "default": false
+        },
+        {
+          "label": "Méér TV",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/ottap/App%20Plein.html",
+          "pkType": "WWW",
+          "pkSubtype": "OTTAP",
+          //[1487],
+          "default": false
+        },
+        {
+          "label": "Zappen met zenderlijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBanner/Zappen%20met%20zenderlijst.html",
+          "subscriptionCheck": [],
+          "default": false
+        }
+      ],
+      "zapBannerRadio": [
+        {
+          "label": "Radiozender kiezen",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBannerRadio/Radiozender%20kiezen.html",
+          "default": true
+        },
+        {
+          "label": "Zappen met zenderlijst",
+          "url": "./Apps/Help/1.0/DefaultSkin/HelpContent/zapBannerRadio/Zappen%20met%20zenderlijst.html",
+          "default": false
+        }
+      ]
+    },
+    "breadcrumb": {
+      "styleItemCont": {
+        "style": "breadcrumbStyleItemCont",
+        "left": 410,
+        "h": 30,
+        "w": 760
+      },
+      "styleItemText": {
+        "style": "breadcrumbStyleItemText",
+        "w": 80
+      },
+      "styleItemImg": {
+        "style": "breadcrumbStyleItemImg",
+        "w": 28
+      },
+      "innerSpacing": 10
+    },
+    "banner": {
+      "style": "bannerStyle"
+    },
+    "footer": {
+      "footerElements": [
+        {
+          "itemCont": {
+            "style": "blueButFooterStyleItemCont"
+          },
+          "imgItem": {
+            "style": "blueButFooterStyleItemImg"
+          },
+          "txtCont": {
+            "style": "blueButFooterStyleItemText",
+            "text": "toon_opties_txt"
+          }
+        },
+        {
+          "itemCont": {
+            "style": "okFooterStyleItemCont"
+          },
+          "imgItem": {
+            "style": "okFooterStyleItemImg"
+          },
+          "txtCont": {
+            "style": "okFooterStyleItemText",
+            "text": ""
+          }
+        },
+        {
+          "itemCont": {
+            "style": "leftArrowFooterStyleItemCont"
+          },
+          "imgItem": {
+            "style": "leftArrowFooterStyleItemImg"
+          },
+          "txtCont": {
+            "style": "leftArrowFooterStyleItemText",
+            "text": "footer_back_txt"
+          }
+        },
+        {
+          "itemCont": {
+            "style": "navigatieFooterStyleItemCont"
+          },
+          "imgItem": {
+            "style": "navigatieFooterStyleItemImg"
+          },
+          "txtCont": {
+            "style": "navigatieFooterStyleItemText",
+            "text": "footer_navigation_txt"
+          }
+        },
+        {
+          "itemCont": {
+            "style": "homeFooterStyleItemCont"
+          },
+          "imgItem": {
+            "style": "homeFooterStyleItemImg"
+          },
+          "txtCont": {
+            "style": "homeFooterStyleItemText",
+            "text": "footer_home_txt"
+          }
+        }
+      ]
+    },
+    "logoKpn": {
+      "style": "logoKpn",
+      "url": "./Apps/Common/Resources/Images/1.0/logoKpn.png"
+    },
+    "htmlArea": {
+      "rectHtmlAreaUnselected": {
+        "style": "htmlAreaRectStyleUnselected"
+      },
+      "rectHtmlAreaSelected": {
+        "style": "htmlAreaRectStyleSelected"
+      },
+      "htmlAreaSelected": {
+        "style": "htmlAreaStyle"
+      },
+      "htmlAreaUnselected": {
+        "style": "htmlAreaStyle"
+      },
+      "htmlContentArea": {
+        "style": "htmlAreaStyle"
+      },
+      "leftArrowHtmlArea": {
+        "style": "leftArrowHtmlAreaStyle"
+      },
+      "styleDecor": "",
+      "startPositionTxt": 0,
+      "timeScroll": 0,
+      "htmlAreaHeight": 275
+    },
+    "htmlAreaVideoHelp": {
+      "rectHtmlAreaUnselected": {
+        "style": "htmlAreaRectWithVideoStyleUnselected"
+      },
+      "rectHtmlAreaSelected": {
+        "style": "htmlAreaRectWithVideoStyleSelected"
+      },
+      "htmlAreaSelected": {
+        "style": "htmlAreaWithVideoStyle"
+      },
+      "htmlAreaUnselected": {
+        "style": "htmlAreaWithVideoStyle"
+      },
+      "htmlContentArea": {
+        "style": "htmlAreaWithVideoStyle"
+      },
+      "leftArrowHtmlArea": {
+        "style": "leftArrowHtmlAreaStyle"
+      },
+      "imageVideoHelp": {
+        "style": "imageVideoHelpStyle"
+      },
+      "txtVideoHelp": {
+        "style": "txtVideoHelpStyle"
+      },
+      "playVideoHelp": {
+        "style": "playVideoHelpStyle"
+      },
+      "videoHelpBckGrndUrl": "./Apps/Help/1.0/DefaultSkin/images/HelpVideoBackground.png",
+      "videoHelpFocusedPlayUrl": "./Apps/Help/1.0/DefaultSkin/images/playICON2.png",
+      "videoHelpUnfocusedPlayUrl": "./Apps/Help/1.0/DefaultSkin/images/playICON1.png",
+      "styleDecor": "",
+      "startPositionTxt": 0,
+      "timeScroll": 0
+    },
+    "helpListArrowDown": {
+      "style": "helpListArrowDown",
+      "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+    },
+    "helpListArrowUp": {
+      "style": "helpListArrowUp",
+      "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+    },
+    "helpMenuList": {
+      "cont": {
+        "id": "helpMenuList",
+        "style": "helpMenuListStyle"
+      },
+      "grid": {
+        "id": "helpMenuGrid",
+        "style": "helpMenuListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 2,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "styleItemCont": {
+            "nameLabelTxt": "name",
+            "style": "helpMenuListGridItemCont",
+            "x": 0,
+            "y": 0,
+            "w": 526,
+            "h": 33
+          },
+          "styleItemBgSelect": {
+            "style": "helpMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "helpMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "helpMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "helpMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "helpMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "helpMenuListGridTitleTxtSelected"
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "helpMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "helpMenuListArrowUp"
+      },
+      "MenuListTopElem": {
+        "styleItemCont": {
+          "style": "helpMenuListMenuListTopElemItemCont"
+        },
+        "styleItemBgSelect": {
+          "style": "helpMenuListMenuListTopElemItemBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "helpMenuListMenuListTopElemItemBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "helpMenuListMenuListTopElemItemBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": "helpMenuListMenuListTopElemTitleTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "helpMenuListMenuListTopElemTitleTxtUnSelect"
+        },
+        "styleItemTxtSelected": {
+          "style": "helpMenuListMenuListTopElemTitleTxtSelected"
+        }
+      }
+    },
+    "helpListMenu": {
+      "id": "HelpList",
+      "style": "leftMenu"
+    },
+    "arrowDownHtmlArea": {
+      "style": "arrowDownHtmlArea",
+      "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+    },
+    "arrowUpHtmlArea": {
+      "style": "arrowUpHtmlArea",
+      "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+    },
+    "toonOptiesTxtText": "toon_opties_txt",
+    "footerBackText": "footer_back_txt",
+    "footerNavigationText": "footer_navigation_txt",
+    "footerHomeText": "footer_home_txt"
+  },
+  "ScenarioZapbannerConf": {
+    "hasLiveVideo": "N",
+    "liveVideoPosition": [
+      123,
+      93,
+      248,
+      140
+    ],
+    "fullscreenVideoPosition": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "showChannelImage": true,
+    "showChannelDetailedInfo": true,
+    "startGidsTimeout": 400,
+    "popupInteractiveMessageBookMarkArray": [
+      "bookmark_popup_title",
+      "bookmark_popup_message",
+      "bookmark_popup_confirm_button",
+      "bookmark_popup_cancel_button"
+    ],
+    "popupInteractiveMessageStopVodArray": [
+      "stopVod_popup_title",
+      "stopVod_popup_message",
+      "stopVod_popup_confirm_button",
+      "stopVod_popup_cancel_button"
+    ],
+    "popupInteractiveMessageWrongSkipTimeArray": [
+      "skipTime_popup_title",
+      "skipTime_popup_message",
+      "skipTime_popup_confirm_button"
+    ],
+    "leftRightSkipTimeValue": [
+      0
+      0,
+      0
+      0,
+      30
+    ],
+    "popupInteractiveMessageWrongShowTimer": 2000,
+    "ItemDetModuleMenuList": {
+      "id": "ItemDetModuleMenuList",
+      "style": "ItemDetModuleMenuListStyle"
+    },
+    "ItemDetModuleMenuListConf": {
+      "grid": {
+        "style": "tvoyItemDetModuleMenuListGrid",
+        "distHorImgageGrid": 0,
+        "distVerImgageGrid": 5,
+        "numRowsToScroll": 1,
+        "timeToScroll": 0,
+        "numColumnInRow": 1,
+        "numVisibleRows": 8,
+        "timeToUpdateCursor": 40,
+        "isScrollBarShow": false,
+        "item": {
+          "hidePinStructure": true,
+          "numOfMiddleElements": 2,
+          "marginRightSide": 15,
+          "styleItemCont": {
+            "style": "ItemDetModuleMenuListGridItemCont",
+            "w": 246,
+            "h": 30
+          },
+          "styleItemBgSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ItemDetModuleMenuListGridItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ItemDetModuleMenuListGridItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "ItemDetModuleMenuListGridTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "ItemDetModuleMenuListGridTitleTxtSelected"
+          },
+          "styleItemStartMaskImgSelect": {
+            "style": "ItemDetpinButtonitemStartMaskImgSelect",
+            "width": 27
+          },
+          "styleItemEndMaskImgSelect": {
+            "style": "ItemDetpinButtonitemEndMaskImgSelect",
+            "width": 24
+          }
+        }
+      },
+      "MenuListArrowDown": {
+        "style": "ItemDetModuleMenuListArrowDown"
+      },
+      "MenuListArrowUp": {
+        "style": "ItemDetModuleMenuListArrowUp"
+      }
+    },
+    "ModuleZapBannerMini": {
+      "id": "ModuleZapBannerMini",
+      "style": "HelpModuleZapBannerMiniStyle"
+    },
+    "ModuleZapBannerMiniConf": {
+      "zapBannerMiniTitle": {
+        "style": "HelpZapBannerMiniTitleStyle"
+      },
+      "zapBannerMiniChannelNumber": {
+        "style": "zapBannerMiniChannelNumberStyle"
+      },
+      "zapBannerMiniChannelName": {
+        "style": "zapBannerMiniChannelNameStyle"
+      },
+      "zapBannerMiniVodTime": {
+        "style": "HelpZapBannerMiniVodTimeStyle"
+      },
+      "zapBannerMiniCurrPos": {
+        "style": "HelpZapBannerMiniCurrPosStyle"
+      },
+      "zapBannerMiniPlaySpeed": {
+        "style": "HelpZapBannerMiniPlaySpeedStyle"
+      },
+      "zapBannerMiniPlaySpeedVisualArray": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "zapBannerMiniPlaySpeedArray": [
+        200,
+        400,
+        800,
+        1600,
+        3200,
+        6400
+      ],
+      "zapBannerMiniTime": {
+        "style": "HelpZapBannerMiniTimeStyle"
+      },
+      "zapBannerMiniBg": {
+        "style": "HelpZapBannerMiniBg"
+      },
+      "zapBannerMiniTPImage": {
+        "style": "HelpZapBannerMiniTPImageStyle"
+      },
+      "zapBannerMiniChannelLogoImage": {
+        "style": "zapBannerMiniCHLogoImageStyle"
+      },
+      "zapBannerMiniChannelRect": {
+        "style": "HelpZapBannerMiniChannelRectStyle"
+      },
+      "zapBannerMiniVodRect": {
+        "style": "HelpZapBannerMiniVodRectStyle"
+      },
+      "zapBannerMiniSkipToTimeRect": {
+        "itemCont": {
+          "style": "HelpZapBannerMiniSkipToTimeRectStyle"
+        },
+        "imgPrev": {
+          "style": "HelpZapbannerImgPrevStyle"
+        },
+        "txtCont": {
+          "style": "HelpZapbannerMinitxtContStyle"
+        },
+        "imgNext": {
+          "style": "HelpZapbannerMiniImgNextStyle"
+        }
+      },
+      "pbItemCont": {
+        "pbContainer": {
+          "style": "HelpZapBannerMiniProgressbarContainerStyle"
+        },
+        "pbCont": {
+          "style": "HelpZapBannerMiniProgressbarRectStyle",
+          "width": 477
+        },
+        "past": {
+          "style": "HelpZapBannerMiniProgressbarPastSpaceRectStyle"
+        },
+        "currPos": {
+          "style": "HelpZapBannerMiniProgressbarCurrPosRectStyle",
+          "width": 4
+        }
+      },
+      "zapBannerFooterConf": {
+        "buttonOkZapbannerMini": {
+          "style": "HelpButtonOkStyleZapbannerMini"
+        },
+        "buttonOkTxtZapbannerMini": {
+          "style": "HelpButtonOkTxtStyleZapbannerMini"
+        },
+        "buttonYellowZapbannerMini": {
+          "style": "HelpButtonYellowStyleZapbannerMini"
+        },
+        "buttonYellowTxtZapbannerMini": {
+          "txt": "",
+          "style": "HelpButtonYellowTxtStyleZapbannerMini"
+        },
+        "zapbannerFooterYellowButtonOpen": {
+          "label": "open_zapbanner_details"
+        },
+        "zapbannerFooterYellowButtonClose": {
+          "label": "close_zapbanner_details"
+        }
+      }
+    },
+    "ModuleZapBannerExtended": {
+      "id": "ModuleZapBannerExtended",
+      "style": "HelpModuleZapBannerExtendedStyle"
+    },
+    "ModuleZapBannerExtendedConf": {
+      "zapBannerExtTitle": {
+        "style": "HelpZapBannerExtTitleStyle"
+      },
+      "zapBannerExtVodTime": {
+        "style": "zapBannerExtVodTimeStyle"
+      },
+      "zapBannerExtVodDesc": {
+        "style": "HelpZapBannerExtVodDescStyle",
+        "styleDecor": "",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "zapBannerExtVodAddInfo": {
+        "style": "HelpZapBannerExtVodAddInfoStyle",
+        "styleDecor": "",
+        "startPositionTxt": 0,
+        "timeScroll": 0
+      },
+      "zapBannerExtBg": {
+        "style": "HelpZapBannerExtBg"
+      },
+      "zapBannerExtVodRect": {
+        "style": "HelpZapBannerExtVodRectStyle"
+      },
+      "zapBannerExtVodRectFocus": {
+        "style": "HelpZapBannerExtVodRectStyleFocused"
+      },
+      "zapBannerExtMenuList": {
+        "id": "zapBannerExtMenuList",
+        "style": "HelpZapBannerExtMenuListStyle"
+      },
+      "zapBannerExtMenuListConf": {
+        "menuVoices": [
+          "watch_vod",
+          "rented_videos"
+        ],
+        "menuOptionalVoices": [
+          "more_info"
+        ],
+        "grid": {
+          "style": "HelpZapbannerExtendedItemDetModuleMenuListGrid",
+          "distHorImgageGrid": 0,
+          "distVerImgageGrid": 5,
+          "numRowsToScroll": 1,
+          "timeToScroll": 0,
+          "numColumnInRow": 1,
+          "numVisibleRows": 6,
+          "timeToUpdateCursor": 40,
+          "isScrollBarShow": false,
+          "item": {
+            "hidePinStructure": true,
+            "numOfMiddleElements": 2,
+            "marginRightSide": 15,
+            "styleItemCont": {
+              "style": "HelpZapbannerExtendedItemDetModuleMenuListGridItemCont",
+              "w": 246,
+              "h": 30
+            },
+            "styleItemBgSelect": {
+              "style": "HelpItemDetModuleMenuListGridItemBgSelectZapbanner"
+            },
+            "styleItemBgUnSelect": {
+              "style": "HelpItemDetModuleMenuListGridItemBgUnSelectZapbanner"
+            },
+            "styleItemBgSelected": {
+              "style": "HelpItemDetModuleMenuListGridItemBgSelectedZapbanner"
+            },
+            "styleItemTxtSelect": {
+              "style": "HelpItemDetModuleMenuListGridTitleTxtSelectZapbanner"
+            },
+            "styleItemTxtUnSelect": {
+              "style": "HelpItemDetModuleMenuListGridTitleTxtUnSelectZapbanner"
+            },
+            "styleItemTxtSelected": {
+              "style": "HelpItemDetModuleMenuListGridTitleTxtSelectedZapbanner"
+            },
+            "styleItemStartMaskImgSelect": {
+              "style": "HelpItemDetpinButtonitemStartMaskImgSelectZapbanner",
+              "width": 27
+            },
+            "styleItemEndMaskImgSelect": {
+              "style": "HelpItemDetpinButtonitemEndMaskImgSelectZapbanner",
+              "width": 24
+            },
+            "styleItemMiddleMaskImgSelect": {
+              "style": "HelpItemDetpinButtonitemMiddleMaskImgSelectZapbanner",
+              "width": 24
+            },
+            "styleItemStartMaskImgUnselect": {
+              "style": "HelpItemDetpinButtonitemStartMaskImgUnselectZapbanner",
+              "width": 27
+            },
+            "styleItemEndMaskImgUnselect": {
+              "style": "HelpItemDetpinButtonitemEndMaskImgUnselectZapbanner",
+              "width": 24
+            },
+            "styleItemMiddleMaskImgUnselect": {
+              "style": "HelpItemDetpinButtonitemMiddleMaskImgUnselectZapbanner",
+              "width": 24
+            },
+            "styleItemMaskTxtUnselect": {
+              "style": "HelpItemDetpinButtonitemMaskTxtUnSelectZapbanner"
+            }
+          }
+        },
+        "MenuListArrowDown": {
+          "style": "ItemDetModuleMenuListArrowDown"
+        },
+        "MenuListArrowUp": {
+          "style": "ItemDetModuleMenuListArrowUp"
+        },
+        "MenuListTopElem": {
+          "styleItemCont": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemCont"
+          },
+          "styleItemBgSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemBgSelect"
+          },
+          "styleItemBgUnSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemBgUnSelect"
+          },
+          "styleItemBgSelected": {
+            "style": "ItemDetModuleMenuListMenuListTopElemItemBgSelected"
+          },
+          "styleItemTxtSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtSelect"
+          },
+          "styleItemTxtUnSelect": {
+            "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtUnSelect"
+          },
+          "styleItemTxtSelected": {
+            "style": "ItemDetModuleMenuListMenuListTopElemTitleTxtSelected"
+          }
+        }
+      },
+      "OptionMenuConf": {
+        "slideTime": 600,
+        "menuH": 380,
+        "menuW": 384,
+        "optMenu": {
+          "menuElement": [
+            {
+              "label": "option_menu_more_info",
+              "status": "MoreInfo"
+            },
+            {
+              "label": "option_menu_watch_video",
+              "status": "WatchVideo"
+            },
+            {
+              "label": "option_menu_rented_items",
+              "status": "RentedItems"
+            },
+            {
+              "label": "option_menu_watch_tv",
+              "status": "WatchTV"
+            },
+            {
+              "label": "option_menu_go_guide",
+              "status": "Guide"
+            },
+            {
+              "label": "option_menu_search_videotheek",
+              "status": "SearchInVideotheek"
+            },
+            {
+              "label": "option_menu_search_all",
+              "status": "SearchInAll"
+            }
+          ],
+          "hasLiveVideo": "Y"
+        },
+        "bgImage": {
+          "style": "ScenarioOptionMenuBgStyle",
+          "url": "./Apps/Common/Resources/Images/1.0/backgrounds/commonOverlayBkg.png"
+        },
+        "OptMenuList": {
+          "style": "optMenuLeftMenuMessages",
+          "distHorImgageGrid": 0,
+          "distVerImgageGrid": 5,
+          "numRowsToScroll": 1,
+          "timeToScroll": 0,
+          "numColumnInRow": 1,
+          "numVisibleRows": 8,
+          "timeToUpdateCursor": 0,
+          "isScrollBarShow": false,
+          "item": {
+            "styleItemCont": {
+              "style": "optMenuLeftMenuBtCont",
+              "x": 0,
+              "y": 0,
+              "w": 246,
+              "h": 32
+            },
+            "styleItemBgSelect": {
+              "style": "optMenuLeftMenuBtBgSelect"
+            },
+            "styleItemBgUnSelect": {
+              "style": "optMenuLeftMenuBtBgUnSelect"
+            },
+            "styleItemTxtSelect": {
+              "style": "optMenuLeftMenuBtTxtSelect"
+            },
+            "styleItemTxtUnSelect": {
+              "style": "optMenuLeftMenuBtTxtUnSelect"
+            }
+          },
+          "scrollBar": {
+            "style": "gridScrollBar",
+            "scrollBarContent": ""
+          }
+        },
+        "arrowDown": {
+          "style": "optMenuArrowDown",
+          "url": "./Apps/Common/Resources/Images/1.0/arrow_down.png"
+        },
+        "arrowUp": {
+          "style": "optMenuArrowUp",
+          "url": "./Apps/Common/Resources/Images/1.0/arrow_up.png"
+        },
+        "toonOpties": {
+          "style": "optMenuToonOpties",
+          "url": "./Apps/Common/Resources/Images/1.0/button_blue.png"
+        },
+        "toonOptiesTxt": {
+          "style": "optMenuToonOptiesTxt"
+        },
+        "toonOptiesTxtText": "toon_opties_txt"
+      },
+      "icon_Age_6_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_6.png",
+      "icon_Age_9_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_9.png",
+      "icon_Age_12_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_12.png",
+      "icon_Age_16_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_16.png",
+      "icon_Age_20_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_18.png",
+      "icon_Age_all_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_age_all.png",
+      "icon_hd_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_hd.png",
+      "icon_dolby_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_dolby.png",
+      "icon_ER_G_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_violence.png",
+      "icon_ER_S_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_sex.png",
+      "icon_ER_A_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_fear.png",
+      "icon_ER_H_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_drugs.png",
+      "icon_ER_D_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_discrimination.png",
+      "icon_ER_T_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_offensive_language.png",
+      "lock_image_url": "./Apps/Common/Resources/Images/1.0/vodIcons/icon_content_protected.png",
+      "ItemInfoER1Img": {
+        "style": "HelpZapBannerExtIconImg1Style"
+      },
+      "ItemInfoER2Img": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoER3Img": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoER4Img": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoER5Img": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoER6Img": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoPCLevelImg": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoHDImg": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "ItemInfoDolbyImg": {
+        "style": "zapBannerExtIconImg1Style"
+      },
+      "itemContRating": {
+        "style": "HelpTvoyItemContRatingStyleZapbanner"
+      }
+    },
+    "ModuleZapBannerNotification": {
+      "id": "ModuleZapBannerNotification",
+      "style": "HelpModuleZapBannerNotificationStyle"
+    },
+    "ModuleZapBannerNotificationConf": {
+      "notificationIconMail": {
+        "style": "notificationIconMailStyle"
+      },
+      "notificationNewMsgText": {
+        "style": "notificationNewMsgTextStyle"
+      },
+      "notificationOpenMsgText": {
+        "style": "notificationOpenMsgTextStyle"
+      },
+      "notificationHelpMsgText": {
+        "style": "notificationOpenMsgTextStyle"
+      },
+      "notificationIconRedButton": {
+        "style": "notificationIconRedButtonStyle"
+      }
+    }
+  }
+}

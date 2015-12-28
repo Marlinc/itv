@@ -1,0 +1,210 @@
+/* img rating */
+.starstyle {
+    /*
+     height: 17px;
+     width: auto;*/
+    margin-left: 2px;
+}
+
+.vodCatstyleRating {
+    top: 8px;
+    left: 428px;
+    width: auto;
+    height: auto;
+}
+
+/* img rating */
+
+/*
+// old -
+.vodCatstyleRating{
+    top : 4px;
+    left: 428px;
+    width: 116px;
+    height: 24px;
+}
+*/
+
+.vodCatModuleCatalogListStyle {
+    left: 401px;
+    top: 290px;
+    width: 780px;
+    height: 390px;
+}
+
+.vodCatListGrid {
+    left: 0px;
+    top: 30px;
+    width: 526px;
+    height: 300px;
+}
+
+.vodCatListGridItemCont {
+    width: 547px;
+    height: 32px;
+}
+
+.vodCatListGridItemBgSelect {
+    /* background: linear-gradient(to bottom, #00274d 50%,#00162a 50%);
+     background: -webkit-linear-gradient(top,#00274d 50%,#00162a 50%);*/
+    background: #24730d;
+}
+
+.vodCatListGridItemBgUnSelect {
+    background: #00274d;
+}
+
+.vodCatListGridItemBgSelect,
+.vodCatListGridItemBgUnSelect {
+    width: 548px;
+    height: 32px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.vodCatListGridTitleTxtSelect,
+.vodCatListGridYearTxtSelect {
+    color: #ccc;
+}
+
+.vodCatListGridTitleTxtUnSelect,
+.vodCatListGridYearTxtUnSelect {
+    color: #ccc;
+}
+
+.vodCatListGridTitleTxtSelect,
+.vodCatListGridTitleTxtUnSelect {
+    top: 3px;
+    left: 5px;
+    height: 32px;
+    font-size: 22px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 335px;
+}
+
+.vodCatListGridYearTxtUnSelect,
+.vodCatListGridYearTxtSelect {
+    top: 4px;
+    left: 345px;
+    width: 81px;
+    height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.vodCatItemPosition {
+    top: 0px;
+    left: 0px;
+    color: #ccc;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8;*/
+}
+
+.vodCatListCoverImage {
+    top: 30px;
+    left: 556px;
+    width: 200px;
+    height: 300px;
+}
+
+.vodCatListArrowDown {
+    top: 335px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat;
+}
+
+.vodCatListArrowUp {
+    top: 13px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat;
+}
+
+.vodCatListArrowDown,
+.vodCatListArrowUp {
+    left: 507px;
+    width: 28px;
+    height: 8px;
+}
+
+.vodCatListOttGrid {
+    width: 780px;
+    height: 290px;
+    top: 30px
+}
+
+.vodCatListOttGridItemCont {
+    width: 95px;
+    height: 140px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% auto
+}
+
+.vodCatListOttGridItemContImg {
+    width: 95px;
+    height: 140px;
+    position: relative;
+    z-index: 2
+}
+
+.vodCatListOttGridItemSelect {
+    width: 85px;
+    height: 130px;
+    border: 5px solid #24730d;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0;
+    z-index: 3
+}
+
+.vodCatListOttGridItemSelectOTT {
+    width: 85px;
+    height: 85px;
+    border: 5px solid #24730d;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0;
+    z-index: 3
+}
+
+.vodCatListOttGridItemContImg,
+.vodCatListOttGridItemTxtWrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+.vodCatListOttGridItemContImgOTT {
+    vertical-align: top;
+}
+
+.vodCatListOttGridItemContImgOTT {
+    width: 95px;
+    height: 95px;
+}
+
+.vodCatListOttGridItemImgOTT {
+    width: 93px;
+    height: 93px;
+}
+
+.vodCatListOttGridItemTxt {
+    left: -4px;
+    width: 90px;
+    color: #FFF;
+    font-size: 15px;
+    text-align: center
+}
+
+.vodCatListOttGridItemImg {
+    width: 93px;
+}
+
+.vodCatListOttGridItemImg {
+    width: 93px;
+    height: 100%;
+    vertical-align: middle
+}

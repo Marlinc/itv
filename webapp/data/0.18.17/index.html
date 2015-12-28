@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title></title>
+</head>
+<style type="text/css">
+
+    /*@font-face {
+        font-family: 'myriad';
+        src: url('Apps/Common/Resources/Fonts/1.0/myriadb.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'myriad';
+        src: url('Apps/Common/Resources/Fonts/1.0/myriadi.ttf') format('truetype');
+        font-weight: inherit;
+        font-style: normal;
+    }*/
+
+    @font-face {
+        font-family: 'myriad_pc';
+        src: url('Apps/Common/Resources/Fonts/1.0/myriad.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .pc * {
+        font-family: "myriad_pc"
+    }
+
+    .nsn * {
+        font-family: "Myriad Web";
+    }
+
+</style>
+<script src="fw_start.js"></script>
+<body bgcolor="transparent" style="overflow:hidden" onunload="fw.destroy()">
+<div id="precacheImages" style="position:absolute; display: none; top:0; left:0; z-index:0"></div>
+<div id="background" style="position:absolute; top:0; left:0; z-index:0"></div>
+<div id="canvas" style="position:absolute; top:0; left:0; z-index:1"></div>
+<div id="banner" style="position:absolute; top:0; left:0; z-index:2"></div>
+<div id="overlay"
+     style="position:absolute; top:0; left:0; z-index:3; width: 1280px; height: 720px; background: rgba(0, 0, 0, 0.5);">
+</div>
+<div id="popup"
+     style="position:absolute; top:0; left:0; z-index:4; width: 1280px; height: 720px; background: rgba(0, 0, 0, 0.5); ">
+</div>
+</body>
+</html>

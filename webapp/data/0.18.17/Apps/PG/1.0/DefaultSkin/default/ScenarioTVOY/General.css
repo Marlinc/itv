@@ -1,0 +1,38 @@
+.ScenarioTVOYStyle {
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 720px
+}
+
+.tvoyCatLogoImg {
+    height: 40px;
+    width: 94px;
+    left: 1056px;
+    top: 617px
+}
+
+.tvoyCatHourTxt {
+    left: 86px
+}
+
+.tvoyCatDateTxt {
+    left: 275px
+}
+
+.ModuleRightStyle {
+    left: 394px;
+    top: 285px;
+    width: 755px;
+    height: 375px
+}
+
+.tvoyCatHourTxt,
+.tvoyCatDateTxt {
+    top: 60px;
+    width: 100px;
+    /*color: #FFF;*/
+    color: #cccccc;
+    font-size: 24px;
+    text-align: right;
+}

@@ -1,0 +1,13 @@
+.tvoyItemDetChanNumTxt {
+    top: 100px;
+    left: 190px;
+    width: 90px;
+    font-weight: 700;
+    background: #00274d;
+    /*color:#fff;*/
+    color: #cccccc;
+    font-size: 30px;
+    text-align: center;
+    text-underline-position: auto;
+    border-radius: 10px
+}

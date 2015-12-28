@@ -1,0 +1,256 @@
+.ScenarioZapbannerStyle,
+.emptyBackGroundStyle {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+.ModuleZapBannerMiniStyle {
+    top: 180px;
+    left: 112px;
+    width: 1064px;
+    height: 479px;
+}
+
+.zapBannerMiniTitleStyle {
+    top: 354px;
+    height: 34px;
+    color: #ccc;
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold
+}
+
+.zapBannerMiniChannelNumberStyle {
+    left: 25px;
+    width: 200px
+}
+
+.zapBannerMiniChannelNameStyle {
+    left: 80px;
+    width: 170px
+}
+
+.zapBannerMiniChannelNumberStyle,
+.zapBannerMiniChannelNameStyle {
+    font-size: 23px;
+    font-weight: bold;
+    height: 30px;
+    top: 321px
+}
+
+.zapBannerMiniTitleStyle {
+    left: 309px;
+    width: 582px
+}
+
+.zapBannerMiniVodTimeStyle {
+    left: 300px;
+    width: 582px
+}
+
+.zapBannerMiniCurrPosStyle {
+    left: 910px;
+    width: 90px
+}
+
+.zapBannerMiniPlaySpeedStyle {
+    left: 1018px;
+    width: 40px;
+    top: 400px;
+    height: 30px;
+    color: #ccc;
+    font-size: 18px;
+}
+
+.zapBannerMiniTPImageStyle {
+    left: 988px;
+    top: 398px; /*397px;*/
+}
+
+.zapBannerMiniVodTimeStyle,
+.zapBannerMiniCurrPosStyle {
+    top: 400px;
+    height: 30px
+}
+
+.zapBannerMiniVodTimeStyle,
+.zapBannerMiniCurrPosStyle,
+.zapBannerMiniTPImageStyle {
+    color: #ccc;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.zapBannerMiniCHLogoImageStyle {
+    height: 66px;
+    width: 147px;
+    left: 70px;
+    top: 358px;
+}
+
+.zapBannerMiniTimeStyle {
+    left: 960px;
+    top: 444px;
+    width: 80px;
+    height: 30px;
+    font-size: 22px;
+    text-align: right
+}
+
+.zapBannerMiniBg {
+    width: 1064px;
+    height: 479px;
+    background-image: url(../../../Common/Resources/Images/1.0/zapBanner/zapbanner_bg_small_KPN.png)
+}
+
+.zapBannerMiniChannelRectStyle {
+    left: 20px;
+    width: 247px
+}
+
+.zapBannerMiniVodRectStyle {
+    left: 293px;
+    width: 755px
+}
+
+.zapBannerMiniChannelRectStyle,
+.zapBannerMiniVodRectStyle {
+    top: 350px;
+    height: 81px;
+    background: #00274d;
+    /* border-radius: 4px*/
+}
+
+.imgPrevStyle {
+    background: url(../../../Common/Resources/Images/1.0/trickPlay/tp_rewind.png) no-repeat;
+    top: 1px;
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+}
+
+.zapbannerMinitxtContStyle {
+    font-size: 22px;
+    vertical-align: text-top;
+    left: 3px;
+}
+
+.imgNextStyle {
+    background: url(../../../Common/Resources/Images/1.0/trickPlay/tp_forward.png) no-repeat;
+    height: 28px;
+    width: 28px;
+    top: 1px;
+    vertical-align: middle;
+    left: 4px;
+}
+
+.zapBannerMiniProgressbarContainerStyle,
+.zapBannerMiniProgressbarRectStyle {
+    width: 477px
+}
+
+.zapBannerMiniSkipToTimeRectStyle {
+    top: 350px;
+    left: 898px;
+    border-radius: 4px;
+    font-size: 22px;
+    width: 150px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.zapBannerMiniProgressbarRectStyle,
+.zapBannerMiniProgressbarPastSpaceRectStyle {
+    left: 0;
+    height: 13px;
+    top: 2px
+}
+
+.zapBannerMiniProgressbarRectStyle {
+    background: #000;
+}
+
+.zapBannerMiniSkipToTimeRectStyle,
+.zapBannerMiniProgressbarPastSpaceRectStyle {
+    /* background: linear-gradient(to bottom, #54b42f 50%, #399913 50%);
+     background: -webkit-linear-gradient(top, #54b42f 50%, #399913 50%);
+     background: -o-linear-gradient(top, #54b42f 50%, #399913 50%)*/
+    /*background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+    background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d;
+}
+
+.zapBannerMiniProgressbarContainerStyle {
+    top: 403px;
+    left: 421px;
+    height: 18px
+}
+
+.zapBannerMiniBg,
+.zapBannerMiniProgressbarCurrPosRectStyle {
+    top: 0;
+    left: 0
+}
+
+/* usato?? */
+.currentTimeStyle {
+    left: 419px;
+    top: 583px;
+}
+
+.zapBannerMiniProgressbarCurrPosRectStyle,
+.currentTimeStyle {
+    height: 18px;
+    width: 3px;
+    background: #ccc;
+}
+
+.buttonOkTxtStyleZapbannerMini {
+    left: 325px
+}
+
+.buttonOkStyleZapbannerMini {
+    left: 293px;
+    background: url(../../../Common/Resources/Images/1.0/nav_ok.png) no-repeat
+}
+
+.buttonYellowStyleZapbannerMini {
+    left: 17px;
+    background: url(../../../Common/Resources/Images/1.0/button_yellow.png) no-repeat
+}
+
+.buttonOkStyleZapbannerMini,
+.buttonYellowStyleZapbannerMini {
+    top: 443px;
+    width: 28px;
+    height: 28px
+}
+
+.buttonYellowTxtStyleZapbannerMini {
+    left: 47px
+}
+
+.buttonOkTxtStyleZapbannerMini,
+.buttonYellowTxtStyleZapbannerMini {
+    top: 443px;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8*/
+}
+
+.zapBannerMiniSkipToTimeRectStyle,
+.buttonOkTxtStyleZapbannerMini,
+.buttonYellowTxtStyleZapbannerMini,
+.zapbannerMinitxtContStyle,
+.zapBannerMiniChannelNumberStyle,
+.zapBannerMiniChannelNameStyle,
+.zapBannerMiniTimeStyle {
+    color: #cccccc
+}

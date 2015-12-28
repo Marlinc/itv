@@ -1,0 +1,205 @@
+.ModulePerZenderArrowDown {
+    top: 314px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat
+}
+
+.ModulePerZenderArrowUp {
+    top: 6px;
+    background: url("../../../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat
+}
+
+.ModulePerZenderArrowDown,
+.ModulePerZenderArrowUp {
+    left: 720px;
+    width: 23px;
+    height: 8px
+}
+
+.ModulePerZenderGrid {
+    width: 780px;
+    height: 290px;
+    top: 20px
+}
+
+.ModulePerZenderGridItemCont {
+    width: 95px;
+    height: 140px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: 100% auto
+}
+
+.ModulePerZenderGridItemContImgOTT {
+    width: 95px;
+    height: 95px;
+}
+
+.ModulePerZenderGridItemImgOTT {
+    width: 94px;
+    height: 94px;
+
+}
+
+/*
+.ModulePerZenderGridItemCont{
+ width:95px; height:140px; border-radius:10px; background-repeat:no-repeat; background-size:100% auto}
+  */
+.ModulePerZenderGridItemContImg {
+    width: 95px;
+    height: 140px;
+    position: relative;
+    z-index: 2
+}
+
+.ModulePerZenderGridItemSelect {
+    width: 85px;
+    height: 130px;
+    border: 5px solid #24730d;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0;
+    z-index: 3
+}
+
+.ModulePerZenderGridItemSelectOTT {
+    width: 85px;
+    height: 85px;
+    border: 5px solid #24730d;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    top: 0;
+    z-index: 3
+}
+
+.ModulePerZenderGridItemContImg,
+.ModulePerZenderGridItemTxtWrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+.ModulePerZenderGridItemContImgOTT {
+    vertical-align: top;
+}
+
+.ModulePerZenderGridItemTxt {
+    left: -91px;
+    width: 90px;
+    /*color: #FFF;*/
+    color: #cccccc;
+    font-size: 15px;
+    text-align: center
+}
+
+.ModulePerZenderGridItemImg {
+    width: 93px;
+    height: 100%;
+    vertical-align: middle;
+    position: static;
+}
+
+.tvoyCatModuleCatalogGridStyle {
+    left: 401px;
+    top: 65px;
+    width: 750px;
+    height: 600px
+}
+
+.ModulePerZenderItemPosition {
+    left: 0
+}
+
+.tvoyCatGridPosTxt {
+    left: 660px
+}
+
+.ModulePerZenderItemPosition,
+.tvoyCatGridPosTxt {
+    top: 0;
+    /*color: #FFF;*/
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    /*opacity: 0.8*/
+}
+
+.tvoyCatModuleCatalogGrid {
+    width: 750px;
+    height: 517px;
+    top: 25px
+}
+
+.tvoyCatModuleCatalogGridItemSelect {
+    background: #24730d;
+    border: 4px solid #24730d
+}
+
+.tvoyCatModuleCatalogGridItemUnSelect {
+    background-color: transparent;
+    border: 4px solid transparent
+}
+
+.tvoyCatModuleCatalogGridItemSelect,
+.tvoyCatModuleCatalogGridItemUnSelect {
+    top: 5px;
+    left: 0;
+    width: 142px;
+    height: 245px;
+    border-radius: 5px
+}
+
+.tvoyCatModuleCatalogGridItemImg {
+    top: 0;
+    left: 6px;
+    width: 130px;
+    height: 193px;
+    border-radius: 5px
+}
+
+.tvoyCatModuleCatalogGridItemTxt {
+    top: 197px;
+    left: 6px;
+    height: 45px;
+    width: 130px;
+    /*color: #FFF;*/
+    color: #cccccc;
+    background: transparent;
+    font-size: 18px;
+    text-align: center
+}
+
+.tvoyCatModuleCatalogGridScrollBar {
+    top: 9px;
+    left: 736px;
+    width: 1px;
+    height: 10px;
+    background: #CCC;
+    border: 4px solid #CCC;
+    border-radius: 5px
+}
+
+.tvoyCatModuleCatalogGridArrowUp {
+    top: 0;
+    left: 729px;
+    width: 23px;
+    height: 8px
+}
+
+.tvoyCatModuleCatalogGridArrowDown {
+    top: 508px;
+    left: 729px;
+    width: 23px;
+    height: 8px
+}
+
+.loadingTxt {
+    left: 394px;
+    top: 275px;
+    /*color: #c9c3c3;*/
+    color: #cccccc;
+    font-size: 25px;
+    text-align: left;
+    width: 500px
+}

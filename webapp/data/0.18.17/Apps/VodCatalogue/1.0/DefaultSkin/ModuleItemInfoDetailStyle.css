@@ -1,0 +1,204 @@
+.ItemDetModuleInfoStyle {
+    left: 394px;
+    top: 93px;
+    width: 755px;
+    height: 140px;
+    background: #013264;
+    border-radius: 4px;
+}
+
+.ItemDetItemInfoTitleTxtStyle {
+    top: 6px;
+    left: 8px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    width: 740px;
+    white-space: nowrap;
+}
+
+/**/
+.ItemDetItemInfoEndValLblTxtStyle {
+    top: 35px;
+    left: 499px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    width: 126px;
+}
+
+.ItemDetItemInfoEndValLblSelectTxtStyle {
+    top: 35px;
+    left: 499px;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    width: 140px;
+}
+
+.ItemDetItemInfoEndValTxtStyle {
+    top: 35px;
+    left: 624px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoEndValSelectTxtStyle {
+    top: 35px;
+    left: 635px;
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    width: auto;
+}
+
+/**/
+
+.ItemDetItemInfoDurationTxtStyle {
+    top: 35px;
+    left: 8px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoPriceLblTxtStyle {
+    top: 35px;
+    left: 112px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoPriceTxtStyle {
+    top: 35px;
+    left: 261px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoPriceValLblTxtStyle {
+    top: 35px;
+    left: 269px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoPriceValTxtStyle {
+    top: 35px;
+    left: 317px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoEndPurchValLblTxtStyle {
+    top: 35px;
+    left: 195px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoEndPurchValTxtStyle {
+    top: 35px;
+    left: 508px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.ItemDetItemInfoDesc2LinesTxtStyle {
+    top: 84px;
+    left: 8px;
+    width: 615px;
+    height: 53px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    /*letter-spacing: 1px;*/
+}
+
+.ItemDetItemInfoCastTxtStyle {
+    top: 60px;
+    left: 8px;
+    width: 615px;
+    height: 55px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* letter-spacing: 1px;*/
+}
+
+.ItemDetItemInfoRatingImgStyle {
+    top: 110px;
+    left: 10px;
+}
+
+.ItemDetItemInfoPCLockImgStyle {
+    top: 60px;
+    left: 8px;
+}
+
+.itemContRatingStyle {
+    left: 637px;
+    top: 53px;
+    width: 120px;
+    height: 90px;
+}
+
+.itemContRatingStyleExt {
+    height: 63px;
+    left: 883px;
+    top: 34px;
+    width: 161px;
+}
+
+.ItemDetItemInfoER1ImgStyle {
+    width: 28px;
+    height: 28px;
+}
+
+/* png single rating */
+.ItemDetItemInfoStyleRating {
+    top: 113px;
+    left: 6px;
+    width: auto;
+    height: auto;
+}
+
+.ItemDetItemInfoStyleRatingComposed {
+    top: 113px;
+    left: 9px;
+    width: 135px;
+    height: 24px;
+}
+
+.ItemDetItemInfoStarStyle {
+    margin-left: 2px;
+}
+
+/* png single rating */

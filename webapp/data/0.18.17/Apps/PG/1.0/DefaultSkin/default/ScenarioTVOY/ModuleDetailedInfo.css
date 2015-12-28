@@ -1,0 +1,172 @@
+.tvoyCatModuleInfoStyle {
+    left: 394px;
+    top: 93px;
+    width: 755px;
+    height: 140px;
+    /*background: #00274d;*/
+    background: #013264;
+    border: 0;
+    /*border-radius: 10px*/
+    border-radius: 4px
+}
+
+.tvoyCatItemInfoPriceTxtStyle {
+    left: 261px
+}
+
+.tvoyCatItemInfoPriceValLblTxtStyle {
+    left: 269px
+}
+
+.tvoyCatItemInfoPriceValTxtStyle {
+    left: 317px
+}
+
+.tvoyCatItemInfoEndPurchValLblTxtStyle {
+    left: 210px
+}
+
+.tvoyCatItemInfoEndPurchValTxtStyle {
+    left: 525px
+}
+
+.tvoyCatItemInfoDurationTxtStyle {
+    left: 8px
+}
+
+.tvoyCatItemInfoPriceLblTxtStyle {
+    left: 197px
+}
+
+.tvoyCatItemInfoEndPurchValTxtStyle,
+.tvoyCatItemInfoEndPurchValLblTxtStyle,
+.tvoyCatItemInfoPriceValTxtStyle,
+.tvoyCatItemInfoPriceValLblTxtStyle,
+.tvoyCatItemInfoPriceTxtStyle,
+.tvoyCatItemInfoDurationTxtStyle,
+.tvoyCatItemInfoPriceLblTxtStyle {
+    top: 35px;
+    font-weight: 700
+}
+
+.tvoyCatItemInfoEndValLblTxtSelectStyle,
+.tvoyCatItemInfoEndValLblTxtStyle {
+    top: 35px;
+    left: 431px;
+    width: 135px;
+    font-size: 22px;
+    text-align: left;
+    color: #cccccc;
+}
+
+/*Select Te huren tot*/
+.tvoyCatItemInfoEndValLblTxtSelectStyle {
+    font-weight: bold;
+}
+
+.tvoyCatItemInfoEndValTxtSelectStyle {
+    left: 563px;
+    top: 35px;
+    /*color: #f6f3f4;*/
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left
+}
+
+/*Select Te huren tot*/
+
+.tvoyCatItemInfoEndValTxtStyle {
+    top: 35px;
+    left: 558px
+}
+
+.tvoyCatItemInfoCastTxtStyle {
+    top: 60px;
+    left: 8px;
+    width: 615px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* letter-spacing: 1px;*/
+}
+
+.tvoyCatItemInfoDesc2LinesTxtStyle {
+    top: 84px;
+    left: 8px;
+    width: 615px;
+    height: 53px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    /*   letter-spacing: 1px;*/
+}
+
+.tvoyCatItemInfoLogoImgStyle {
+    width: 106px;
+    height: 47px;
+    top: 5px;
+    left: 651px
+}
+
+.tvoyCatItemInfoRatingImgStyle {
+    top: 105px;
+    left: 10px
+}
+
+.tvoyCatItemInfoPCLockImgStyle {
+    top: 60px;
+    left: 8px
+}
+
+.tvoyItemContRatingStyle {
+    left: 641px;
+    top: 50px;
+    width: 120px;
+    height: 90px;
+}
+
+.tvoyCatItemInfoER1ImgStyle {
+    width: 28px;
+    height: 28px
+}
+
+.tvoyCatItemInfoDurationTxtStyle,
+.tvoyCatItemInfoPriceLblTxtStyle,
+.tvoyCatItemInfoPriceTxtStyle,
+.tvoyCatItemInfoPriceValLblTxtStyle,
+.tvoyCatItemInfoPriceValTxtStyle,
+.tvoyCatItemInfoEndPurchValLblTxtStyle,
+.tvoyCatItemInfoEndPurchValTxtStyle,
+.tvoyCatItemInfoEndValTxtStyle,
+.tvoyCatItemInfoDesc3LinesTxtStyle {
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left
+}
+
+.tvoyCatItemInfoTitleTxtStyle {
+    left: 8px;
+    font-size: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 655px;
+    /*740px*/
+}
+
+.tvoyCatItemInfoTitleTxtStyle {
+    top: 7px;
+    /*color: #F6F6F6;*/
+    color: #cccccc;
+    font-weight: 700;
+    text-align: left
+}
+
+

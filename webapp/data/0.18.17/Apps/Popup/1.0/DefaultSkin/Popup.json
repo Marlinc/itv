@@ -1,0 +1,1150 @@
+{
+  "applicationProp": {
+    "id": "Popup",
+    "style": "appStylePopup",
+    "popupScenarioList": {
+      "message": "ScenarioMessagePopup",
+      "messageLow": "ScenarioMessagePopupLow",
+      "messageLarge": "ScenarioMessageLargePopup",
+      "interactive": "ScenarioInteractivePopup",
+      "reminderCreate": "ScenarioCreateReminderPopup",
+      "reminderConflict": "ScenarioReminderConflictPopup",
+      "parentalPIN": "ScenarioPincodePopup",
+      "rentalVoucher": "ScenarioVoucherPopup",
+      "rentalPIN": "ScenarioDiscountPopup",
+      "rentalConfirmation": "ScenarioRentConfirmPopup"
+    }
+  },
+  "precachedScenarios": [
+    "ScenarioPincodePopup",
+    "ScenarioVoucherPopup"
+  ],
+  "startScenario": "",
+  "scenarios": {
+    "ScenarioMessagePopup": {
+      "id": "ScenarioMessagePopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioMessagePopupStyle"
+    },
+    "ScenarioMessagePopupLow": {
+      "id": "ScenarioMessagePopupLow",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "",
+      "style": "ScenarioMessagePopupLowStyle"
+    },
+    "ScenarioMessageLargePopup": {
+      "id": "ScenarioMessageLargePopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioMessageLargePopupStyle"
+    },
+    "ScenarioInteractivePopup": {
+      "id": "ScenarioInteractivePopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioInteractivePopupStyle"
+    },
+    "ScenarioCreateReminderPopup": {
+      "id": "ScenarioCreateReminderPopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioCreateReminderPopupStyle"
+    },
+    "ScenarioReminderConflictPopup": {
+      "id": "ScenarioReminderConflictPopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioReminderConflictPopupStyle"
+    },
+    "ScenarioPincodePopup": {
+      "id": "ScenarioPincodePopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioPincodePopupStyle"
+    },
+    "ScenarioVoucherPopup": {
+      "id": "ScenarioVoucherPopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioVoucherPopupStyle"
+    },
+    "ScenarioDiscountPopup": {
+      "id": "ScenarioDiscountPopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioDiscountPopupStyle"
+    },
+    "ScenarioRentConfirmPopup": {
+      "id": "ScenarioRentConfirmPopup",
+      "parent": "Popup",
+      "preventDestroy": false,
+      "background": "BackGround_popUp",
+      "style": "ScenarioRentConfirmPopupStyle"
+    }
+  },
+  /*"backgrounds": [
+      {
+          "id": "backgroundPopup",
+          "style": "bgStylePopup",
+          "url": "./Apps/Common/Resources/Images/1.0/backgrounds/backgroundPopup1pixel.png",
+          "isPrecached": "Y"
+      }
+  ],*/
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioMessagePopupConf": {
+    "MsgPopupBkgImg": {
+      "style": "MsgPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_small.png"
+    },
+    "MsgPopupTitleTxt": {
+      "style": "MsgPopupTitleTxt"
+    },
+    "MsgPopupTitleTxtMaxLength": 34,
+    "MsgPopupDefaultTitleTxt": "default_msg_title_txt",
+    "MsgPopupMessageTxt": {
+      "style": "MsgPopupMessageTxt",
+      "startPositionTxt": 0
+    },
+    "MsgPopupMessageTxtMaxLength": 256,
+    "MsgPopupDefaultMessageTxt": "default_msg_message_txt",
+    "MsgPopupCloseBtn": {
+      "styleItemCont": {
+        "style": "MsgPopupCloseBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "MsgPopupCloseBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "MsgPopupCloseBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "MsgPopupCloseBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "MsgPopupCloseBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "MsgPopupCloseBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "MsgPopupCloseBtnTxtSelected"
+      }
+    },
+    "MsgPopupCloseBtnTxtMaxLength": 34
+  },
+  "ScenarioMessageLargePopupConf": {
+    "IntPopupBkgImg": {
+      "style": "IntPopupLargeBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_very_large.png"
+    },
+    "IntPopupTitleTxt": {
+      "style": "IntPopupTitleTxt"
+    },
+    "IntPopupTitleTxtMaxLength": 34,
+    "IntPopupDefaultTitleTxt": "default_interactive_title_txt",
+    "IntPopupMessageTxt": {
+      "style": "IntPopupMessageLargeTxt",
+      "startPositionTxt": 0
+    },
+    "IntPopupMessageTxtMaxLength": 256,
+    "IntPopupDefaultMessageTxt": "default_interactive_message_txt",
+    "IntPopupOKBtn": {
+      "styleItemCont": {
+        "style": "IntPopupOKBtnLargeCont"
+      },
+      "styleItemBgSelect": {
+        "style": "IntPopupOKBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "IntPopupOKBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "IntPopupOKBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "IntPopupOKBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "IntPopupOKBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "IntPopupOKBtnTxtSelected"
+      }
+    },
+    "IntPopupDefaultOKBtnTxt": "default_interactive_OK_button_txt",
+    "IntPopupOKBtnDefaultStatus": "OK",
+    "IntPopupKOBtn": {
+      "styleItemCont": {
+        "style": "IntPopupKOBtnLargeCont"
+      },
+      "styleItemBgSelect": {
+        "style": "IntPopupKOBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "IntPopupKOBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "IntPopupKOBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "IntPopupKOBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "IntPopupKOBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "IntPopupKOBtnTxtSelected"
+      }
+    },
+    "IntPopupDefaultKOBtnTxt": "default_interactive_KO_button_txt",
+    "IntPopupKOBtnDefaultStatus": "KO",
+    "IntPopupOKAndKOBtnTxtMaxLength": 34
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioMessagePopupLowConf": {
+    "MsgLPopupBkgImg": {
+      "style": "MsgLowPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_small.png"
+    },
+    "MsgLPopupTitleTxt": {
+      "style": "MsgLowPopupTitleTxt"
+    },
+    "MsgLPopupTitleTxtMaxLength": 32,
+    "MsgLPopupDefaultTitleTxt": "default_msglow_title_txt",
+    "MsgLPopupMessageTxt": {
+      "style": "MsgLowPopupMessageTxt",
+      "startPositionTxt": 0
+    },
+    "MsgLPopupMessageTxtMaxLength": 256,
+    "MsgLPopupDefaultMessageTxt": "default_msglow_message_txt",
+    "MsgLPopupCloseBtn": {
+      "styleItemCont": {
+        "style": "MsgLowPopupCloseBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "MsgLowPopupCloseBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "MsgLowPopupCloseBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "MsgLowPopupCloseBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "MsgLowPopupCloseBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "MsgLowPopupCloseBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "MsgLowPopupCloseBtnTxtSelected"
+      }
+    },
+    "MsgLPopupCloseBtnTxtMaxLength": 32
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioInteractivePopupConf": {
+    "IntPopupBkgImg": {
+      "style": "IntPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_small.png"
+    },
+    "IntPopupTitleTxt": {
+      "style": "IntPopupTitleTxt"
+    },
+    "IntPopupTitleTxtMaxLength": 34,
+    "IntPopupDefaultTitleTxt": "default_interactive_title_txt",
+    "IntPopupMessageTxt": {
+      "style": "IntPopupMessageTxt",
+      "startPositionTxt": 0
+    },
+    "IntPopupMessageTxtMaxLength": 256,
+    "IntPopupDefaultMessageTxt": "default_interactive_message_txt",
+    "IntPopupOKBtn": {
+      "styleItemCont": {
+        "style": "IntPopupOKBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "IntPopupOKBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "IntPopupOKBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "IntPopupOKBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "IntPopupOKBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "IntPopupOKBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "IntPopupOKBtnTxtSelected"
+      }
+    },
+    "IntPopupDefaultOKBtnTxt": "default_interactive_OK_button_txt",
+    "IntPopupOKBtnDefaultStatus": "OK",
+    "IntPopupKOBtn": {
+      "styleItemCont": {
+        "style": "IntPopupKOBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "IntPopupKOBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "IntPopupKOBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "IntPopupKOBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "IntPopupKOBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "IntPopupKOBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "IntPopupKOBtnTxtSelected"
+      }
+    },
+    "IntPopupDefaultKOBtnTxt": "default_interactive_KO_button_txt",
+    "IntPopupKOBtnDefaultStatus": "KO",
+    "IntPopupOKAndKOBtnTxtMaxLength": 34
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioCreateReminderPopupConf": {
+    "RemPopupBkgImg": {
+      "style": "RemPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_small.png"
+    },
+    "RemPopupIcon": {
+      "style": "RemPopupIcon",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/icon_reminder.png"
+    },
+    "RemPopupTitleTxt": {
+      "style": "RemPopupTitleTxt"
+    },
+    "RemPopupTitleTxtStaticContent": "reminderCreate_title_txt_content",
+    "RemPopupPrgTitleTxt": {
+      "style": "RemPopupPrgTitleTxt",
+      "startPositionTxt": 0
+      //vedere se serve
+    },
+    "RemPopupPrgTitleTxtMaxLength": 34,
+    //verificare che il valore impostato sia quello opportuno
+    "RemPopupDefaultPrgTitleTxt": "default_reminderCreate_program_title_txt",
+    "RemPopupPrgTimeTxt": {
+      "style": "RemPopupPrgTimeTxt"
+    },
+    "RemPopupDefaultPrgTimeTxt": "default_reminderCreate_program_time_txt",
+    "RemPopupPrgDateTxt": {
+      "style": "RemPopupPrgDateTxt"
+    },
+    "RemPopupDefaultPrgDateTxt": "default_reminderCreate_program_date_txt",
+    "RemPopupPrgChanTxt": {
+      "style": "RemPopupPrgChanTxt"
+    },
+    "RemPopupPrgChanTxtMaxLength": 15,
+    //verificare che il valore impostato sia quello opportuno
+    "RemPopupDefaultPrgChanTxt": "default_reminderCreate_program_channel_txt",
+    "RemPopupSwitchImmLblTxt": {
+      "style": "RemPopupSwitchImmLblTxt"
+    },
+    "RemPopupSwitchImmLblTxtStaticContent": "reminderCreate_switch_immediately_label_txt_content",
+    "RemPopupSwitchImmTxt": {
+      "style": "RemPopupSwitchImmTxt"
+    },
+    "RemPopupSwitchImmTxtStaticContentTrue": "reminderCreate_switch_immediately_txt_content_true",
+    "RemPopupSwitchImmTxtStaticContentFalse": "reminderCreate_switch_immediately_txt_content_false",
+    "RemPopupTimeStartLblTxt": {
+      "style": "RemPopupTimeStartLblTxt"
+    },
+    "RemPopupTimeStartLblTxtStaticContent": "reminderCreate_time_to_start_label_txt_content",
+    "RemPopupTimeStartMinTxt": {
+      "style": "RemPopupTimeStartMinTxt"
+    },
+    "RemPopupTimeStartMinTxtStaticContent": "reminderCreate_time_to_start_minutes_txt_content",
+    "RemPopupTimeStartMinsDefaultValue": "5",
+    "RemPopupSwitchImmLeftBtn": {
+      "styleItemCont": {
+        "style": "RemPopupSwitchImmLeftBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemPopupSwitchImmLeftBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemPopupSwitchImmLeftBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemPopupSwitchImmLeftBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemPopupSwitchImmLeftBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemPopupSwitchImmLeftBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemPopupSwitchImmLeftBtnTxtSelected"
+      }
+    },
+    "RemPopupSwitchImmRightBtn": {
+      "styleItemCont": {
+        "style": "RemPopupSwitchImmRightBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemPopupSwitchImmRightBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemPopupSwitchImmRightBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemPopupSwitchImmRightBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemPopupSwitchImmRightBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemPopupSwitchImmRightBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemPopupSwitchImmRightBtnTxtSelected"
+      }
+    },
+    "RemPopupTimeStartBtn": {
+      "styleItemCont": {
+        "style": "RemPopupTimeStartBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemPopupTimeStartBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemPopupTimeStartBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemPopupTimeStartBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemPopupTimeStartBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemPopupTimeStartBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemPopupTimeStartBtnTxtSelected"
+      },
+      "styleItemHighlighted": {
+        "style": "RemPopupTimeStartBtnHighlighted"
+      },
+      "styleItemHighlightedCursor": {
+        "style": "RemPopupTimeStartBtnHighlightedCursor",
+        "w": 2
+      },
+      "maxSizeHighlight": 3,
+      "xStartHighlight": 5,
+      "widthSingleHighlight": 14
+    },
+    "RemPopupOKBtn": {
+      "styleItemCont": {
+        "style": "RemPopupOKBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemPopupOKBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemPopupOKBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemPopupOKBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemPopupOKBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemPopupOKBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemPopupOKBtnTxtSelected"
+      }
+    },
+    "RemPopupOKBtnStaticContent": "reminderCreate_OK_button_txt_content",
+    "RemPopupKOBtn": {
+      "styleItemCont": {
+        "style": "RemPopupKOBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemPopupKOBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemPopupKOBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemPopupKOBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemPopupKOBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemPopupKOBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemPopupKOBtnTxtSelected"
+      }
+    },
+    "RemPopupKOBtnStaticContent": "reminderCreate_KO_button_txt_content"
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioReminderConflictPopupConf": {
+    "RemConfPopupBkgImg": {
+      "style": "RemConfPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_small.png"
+    },
+    "RemConfPopupIcon": {
+      "style": "RemConfPopupIcon",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/icon_reminder.png"
+    },
+    "RemConfPopupTitleTxt": {
+      "style": "RemConfPopupTitleTxt"
+    },
+    "RemConfPopupTitleTxtMaxLength": 34,
+    "RemConfPopupTitleTxtStaticContent": "reminderConflict_title_txt",
+    "RemConfPopupLabel1Txt": {
+      "style": "RemConfPopupLabel1Txt"
+    },
+    "RemConfPopupLabel1TxtMaxLength": 34,
+    "RemConfPopupLabel1TxtStaticContent": "reminderConflict_label1_txt",
+    "RemConfPopupLabel2Txt": {
+      "style": "RemConfPopupLabel2Txt"
+    },
+    "RemConfPopupLabel2TxtMaxLength": 34,
+    "RemConfPopupLabel2TxtStaticContent": "reminderConflict_label2_txt",
+    "RemConfPopupPrgTitleTxt": {
+      "style": "RemConfPopupPrgTitleTxt",
+      "startPositionTxt": 0
+      //vedere se serve
+    },
+    "RemConfPopupPrgTitleTxtMaxLength": 34,
+    //verificare che il valore impostato sia quello opportuno
+    "RemConfPopupDefaultPrgTitleTxt": "default_reminderConflict_program_title_txt",
+    "RemConfPopupPrgTimeTxt": {
+      "style": "RemConfPopupPrgTimeTxt"
+    },
+    "RemConfPopupDefaultPrgTimeTxt": "default_reminderConflict_program_time_txt",
+    "RemConfPopupPrgDateTxt": {
+      "style": "RemConfPopupPrgDateTxt"
+    },
+    "RemConfPopupDefaultPrgDateTxt": "default_reminderConflict_program_date_txt",
+    "RemConfPopupPrgChanTxt": {
+      "style": "RemConfPopupPrgChanTxt"
+    },
+    "RemConfPopupPrgChanTxtMaxLength": 14,
+    //verificare che il valore impostato sia quello opportuno
+    "RemConfPopupDefaultPrgChanTxt": "default_reminderConflict_program_channel_txt",
+    "RemConfPopupOKBtn": {
+      "styleItemCont": {
+        "style": "RemConfPopupOKBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemConfPopupOKBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemConfPopupOKBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemConfPopupOKBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemConfPopupOKBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemConfPopupOKBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemConfPopupOKBtnTxtSelected"
+      }
+    },
+    "RemConfPopupOKBtnTxtStaticContent": "reminderConflict_OK_button_txt",
+    "RemConfPopupOKBtnStatus": "OK",
+    "RemConfPopupKOBtn": {
+      "styleItemCont": {
+        "style": "RemConfPopupKOBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RemConfPopupKOBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RemConfPopupKOBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RemConfPopupKOBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RemConfPopupKOBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RemConfPopupKOBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RemConfPopupKOBtnTxtSelected"
+      }
+    },
+    "RemConfPopupKOBtnTxtStaticContent": "reminderConflict_KO_button_txt",
+    "RemConfPopupKOBtnStatus": "KO",
+    "RemConfPopupOKAndKOBtnTxtMaxLength": 34
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioPincodePopupConf": {
+    "PinPopupBkgImg": {
+      "style": "PinPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup__large.png"
+    },
+    "PinPopupTitleTxt": {
+      "style": "PinPopupTitleTxt"
+    },
+    "PinPopupTitleTxtMaxLength": 34,
+    "PinPopupTitleTxtParentalStaticContent": "parentalPIN_title_txt_parental",
+    "PinPopupTitleTxtParentalPinIncorrectStaticContent": "parentalPIN_title_txt_incorrectPin_parental",
+    "PinPopupTitleTxtPurchaseStaticContent": "parentalPIN_title_txt_purchase",
+    "PinPopupLabelTxt": {
+      "style": "PinPopupLabelTxt",
+      "startPositionTxt": 0
+    },
+    "PinPopupLabelTxtMaxLength": 130,
+    "PinPopupLabelTxtParentalStaticContent": "parentalPIN_label_txt_parental",
+    "PinPopupLabelTxtPurchaseStaticContent": "parentalPIN_label_txt_purchase",
+    "PinPopupLabelTxtParentalPinIncorrectStaticContent": "parentalPIN_label_txt_incorrectPin_parental",
+    "PinPopupLabelTxtPurchasePinIncorrectStaticContent": "parentalPIN_label_txt_incorrectPin_purchase",
+    "PinPopupPincodeBtn": {
+      "styleItemCont": {
+        "style": "PinPopupPincodeBtnCont",
+        "h": 30,
+        "w": 338
+      },
+      "styleItemBgSelect": {
+        "style": "PinPopupPincodeBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "PinPopupPincodeBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "PinPopupPincodeBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "PinPopupPincodeBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "PinPopupPincodeBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "PinPopupPincodeBtnTxtSelected"
+      },
+      "styleItemStartMaskImgSelect": {
+        "style": "PinPopupPincodeBtnitemStartMaskImgSelect",
+        "width": 27
+      },
+      "styleItemEndMaskImgSelect": {
+        "style": "PinPopupPincodeBtnitemEndMaskImgSelect",
+        "width": 24
+      },
+      "styleItemMiddleMaskImgSelect": {
+        "style": "PinPopupPincodeBtnitemMiddleMaskImgSelect",
+        "width": 24
+      },
+      "styleItemStartMaskImgUnselect": {
+        "style": "PinPopupPincodeBtnitemStartMaskImgUnselect",
+        "width": 27
+      },
+      "styleItemEndMaskImgUnselect": {
+        "style": "PinPopupPincodeBtnitemEndMaskImgUnselect",
+        "width": 24
+      },
+      "styleItemMiddleMaskImgUnselect": {
+        "style": "PinPopupPincodeBtnitemMiddleMaskImgUnselect",
+        "width": 24
+      },
+      "styleItemMaskTxtSelect": {
+        "style": "PinPopupPincodeBtnitemMaskTxtSelect"
+      },
+      "styleItemMaskTxtUnselect": {
+        "style": "PinPopupPincodeBtnitemMaskTxtUnSelect"
+      },
+      "numOfMiddleElements": 2,
+      "hidePinStructure": false,
+      "hidePin": true
+    },
+    "PinPopupPincodeBtnTxtParentalStaticContent": "parentalPIN_pincode_button_txt_parental",
+    "PinPopupPincodeBtnTxtPurchaseStaticContent": "parentalPIN_pincode_button_txt_purchase",
+    "PinPopupCancelBtn": {
+      "styleItemCont": {
+        "style": "PinPopupCancelBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "PinPopupCancelBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "PinPopupCancelBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "PinPopupCancelBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "PinPopupCancelBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "PinPopupCancelBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "PinPopupCancelBtnTxtSelected"
+      }
+    },
+    "PinPopupCancelBtnTxtStaticContent": "parentalPIN_cancel_button_txt",
+    "PinPopupHelpImg": {
+      "style": "PinPopupHelpImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/backICO.png"
+    },
+    "PinPopupHelpTxt": {
+      "style": "PinPopupHelpTxt"
+    },
+    "PinPopupHelpTxtStaticContent": "help_button_txt"
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioVoucherPopupConf": {
+    "VouchPopupBkgImg": {
+      "style": "VouchPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup__large.png"
+    },
+    "VouchPopupTitleTxt": {
+      "style": "VouchPopupTitleTxt"
+    },
+    "VouchPopupTitleTxtMaxLength": 34,
+    "VouchPopupTitleTxtStaticContent": "rentalVoucher_title_txt",
+    "VouchPopupLabelTxt": {
+      "style": "VouchPopupLabelTxt",
+      "startPositionTxt": 0
+    },
+    "VouchPopupLabelTxtMaxLength": 130,
+    "VouchPopupLabelTxtStaticContent": "rentalVoucher_label_txt",
+    "VouchPopupPincodeBtn": {
+      "styleItemCont": {
+        "style": "VouchPopupPincodeBtnCont",
+        "h": 30,
+        "w": 237
+      },
+      "styleItemBgSelect": {
+        "style": "VouchPopupPincodeBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "VouchPopupPincodeBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "VouchPopupPincodeBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "VouchPopupPincodeBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "VouchPopupPincodeBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "VouchPopupPincodeBtnTxtSelected"
+      },
+      "styleItemStartMaskImgSelect": {
+        "style": "VouchPopupPincodeBtnitemStartMaskImgSelect",
+        "width": 27
+      },
+      "styleItemEndMaskImgSelect": {
+        "style": "VouchPopupPincodeBtnitemEndMaskImgSelect",
+        "width": 24
+      },
+      "styleItemMiddleMaskImgSelect": {
+        "style": "VouchPopupPincodeBtnitemMiddleMaskImgSelect",
+        "width": 24
+      },
+      "styleItemStartMaskImgUnselect": {
+        "style": "VouchPopupPincodeBtnitemStartMaskImgUnselect",
+        "width": 27
+      },
+      "styleItemEndMaskImgUnselect": {
+        "style": "VouchPopupPincodeBtnitemEndMaskImgUnselect",
+        "width": 24
+      },
+      "styleItemMiddleMaskImgUnselect": {
+        "style": "VouchPopupPincodeBtnitemMiddleMaskImgUnselect",
+        "width": 24
+      },
+      "styleItemMaskTxtSelect": {
+        "style": "VouchPopupPincodeBtnitemMaskTxtSelect"
+      },
+      "styleItemMaskTxtUnselect": {
+        "style": "VouchPopupPincodeBtnitemMaskTxtUnSelect"
+      },
+      "numOfMiddleElements": 6,
+      "hidePinStructure": false,
+      "hidePin": false
+    },
+    "VouchPopupLowerCaseBtn": {
+      "styleItemCont": {
+        "style": "VouchPopupCaseBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "VouchPopupLowerCaseBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "VouchPopupLowerCaseBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "VouchPopupLowerCaseBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "VouchPopupCaseBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "VouchPopupCaseBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "VouchPopupCaseBtnTxtSelected"
+      }
+    },
+    "VouchPopupUpperCaseBtn": {
+      "styleItemCont": {
+        "style": "VouchPopupCaseBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "VouchPopupUpperCaseBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "VouchPopupUpperCaseBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "VouchPopupUpperCaseBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "VouchPopupCaseBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "VouchPopupCaseBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "VouchPopupCaseBtnTxtSelected"
+      }
+    },
+    "VouchPopupCancBtn": {
+      "styleItemCont": {
+        "style": "VouchPopupCancBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "VouchPopupCancBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "VouchPopupCancBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "VouchPopupCancBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "VouchPopupCancBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "VouchPopupCancBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "VouchPopupCancBtnTxtSelected"
+      }
+    },
+    "VouchPopupOKBtn": {
+      "styleItemCont": {
+        "style": "VouchPopupOKBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "VouchPopupOKBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "VouchPopupOKBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "VouchPopupOKBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "VouchPopupOKBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "VouchPopupOKBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "VouchPopupOKBtnTxtSelected"
+      }
+    },
+    "VouchPopupOKBtnTxtStaticContent": "rentalVoucher_ok_button_txt",
+    "VouchPopupKeyboardGrid": {
+      "style": "VouchPopupKeyboardGrid",
+      "distHorImgageGrid": 10,
+      "distVerImgageGrid": 6,
+      "numRowsToScroll": 1,
+      "timeToScroll": 0,
+      "numColumnInRow": 6,
+      "numVisibleRows": 6,
+      "timeToUpdateCursor": 40,
+      "isScrollBarShow": false,
+      "item": {
+        "styleItemCont": {
+          "style": "VouchPopupKeyboardGridCont",
+          "x": 0,
+          "y": 0,
+          "w": 30,
+          "h": 26
+        },
+        "styleItemBgSelect": {
+          "style": "VouchPopupKeyboardGridBtBgSelect"
+        },
+        "styleItemBgUnSelect": {
+          "style": "VouchPopupKeyboardGridBtBgUnSelect"
+        },
+        "styleItemBgSelected": {
+          "style": "VouchPopupKeyboardGridBtBgSelected"
+        },
+        "styleItemTxtSelect": {
+          "style": "VouchPopupKeyboardGridBtTxtSelect"
+        },
+        "styleItemTxtUnSelect": {
+          "style": "VouchPopupKeyboardGridBtTxtUnSelect"
+        },
+        "styleItemTxtSelected": {
+          "style": "VouchPopupKeyboardGridBtTxtSelected"
+        }
+      },
+      "scrollBar": {
+        "style": "gridScrollBar",
+        "scrollBarContent": ""
+      }
+    }
+  },
+  "ScenarioDiscountPopupConf": {
+    "DiscPopupBkgImg": {
+      "style": "DiscPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup_small.png"
+    },
+    "DiscPopupTitleTxt": {
+      "style": "DiscPopupTitleTxt"
+    },
+    "DiscPopupTitleTxtMaxLength": 34,
+    "DiscPopupTitleTxtStaticContent": "rentalPIN_title_txt",
+    "DiscPopupLabel1Txt": {
+      "style": "DiscPopupLabel1Txt",
+      "startPositionTxt": 0
+    },
+    "DiscPopupLabel1TxtMaxLength": 130,
+    "DiscPopupLabel1TxtStaticContent": "rentalPIN_label1_txt",
+    "DiscPopupLabel2Txt": {
+      "style": "DiscPopupLabel2Txt",
+      "startPositionTxt": 0
+    },
+    "DiscPopupLabel2TxtMaxLength": 130,
+    "DiscPopupLabel2TxtStaticContent": "rentalPIN_label2_txt",
+    "DiscPopupLabel2TxtPinIncorrectStaticContent": "rentalPIN_label2_txt_incorrectPin",
+    "DiscPopupItemTitleTxt": {
+      "style": "DiscPopupItemTitleTxt",
+      "startPositionTxt": 0
+    },
+    "DiscPopupItemTitleTxtDefault": "rentalPIN_item_title_txt_default",
+    "DiscPopupItemTitleTxtMaxLength": 34,
+    "DiscPopupPriceTxt": {
+      "style": "DiscPopupPriceTxt",
+      "startPositionTxt": 0
+    },
+    "DiscPopupPriceTxtDefault": "rentalPIN_price_txt_default",
+    "DiscPopupPriceLblTxt": {
+      "style": "DiscPopupPriceLblTxt",
+      "startPositionTxt": 0
+    },
+    "DiscPopupPriceLblTxtStaticContent": "rentalPIN_price_label_txt",
+    "DiscPopupPincodeBtn": {
+      "styleItemCont": {
+        "style": "DiscPopupPincodeBtnCont",
+        "h": 30,
+        "w": 338
+      },
+      "styleItemBgSelect": {
+        "style": "DiscPopupPincodeBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "DiscPopupPincodeBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "DiscPopupPincodeBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "DiscPopupPincodeBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "DiscPopupPincodeBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "DiscPopupPincodeBtnTxtSelected"
+      },
+      "styleItemStartMaskImgSelect": {
+        "style": "DiscPopupPincodeBtnitemStartMaskImgSelect",
+        "width": 27
+      },
+      "styleItemEndMaskImgSelect": {
+        "style": "DiscPopupPincodeBtnitemEndMaskImgSelect",
+        "width": 24
+      },
+      "styleItemMiddleMaskImgSelect": {
+        "style": "DiscPopupPincodeBtnitemMiddleMaskImgSelect",
+        "width": 24
+      },
+      "styleItemStartMaskImgUnselect": {
+        "style": "DiscPopupPincodeBtnitemStartMaskImgUnselect",
+        "width": 27
+      },
+      "styleItemEndMaskImgUnselect": {
+        "style": "DiscPopupPincodeBtnitemEndMaskImgUnselect",
+        "width": 24
+      },
+      "styleItemMiddleMaskImgUnselect": {
+        "style": "DiscPopupPincodeBtnitemMiddleMaskImgUnselect",
+        "width": 24
+      },
+      "styleItemMaskTxtSelect": {
+        "style": "DiscPopupPincodeBtnitemMaskTxtSelect"
+      },
+      "styleItemMaskTxtUnselect": {
+        "style": "DiscPopupPincodeBtnitemMaskTxtUnSelect"
+      },
+      "numOfMiddleElements": 2,
+      "hidePinStructure": false,
+      "hidePin": true
+    },
+    "DiscPopupPincodeBtnTxtStaticContent": "rentalPIN_pincode_button_txt",
+    "DiscPopupCancelBtn": {
+      "styleItemCont": {
+        "style": "DiscPopupCancelBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "DiscPopupCancelBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "DiscPopupCancelBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "DiscPopupCancelBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "DiscPopupCancelBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "DiscPopupCancelBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "DiscPopupCancelBtnTxtSelected"
+      }
+    },
+    "DiscPopupCancelBtnTxtStaticContent": "rentalPIN_cancel_button_txt",
+    "DiscPopupHelpImg": {
+      "style": "DiscPopupHelpImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/backICO.png"
+    },
+    "DiscPopupHelpTxt": {
+      "style": "DiscPopupHelpTxt"
+    },
+    "DiscPopupHelpTxtStaticContent": "help_button_txt"
+  },
+  //----------------------------------------------------------------------------------------------------------------------
+
+  "ScenarioRentConfirmPopupConf": {
+    "RentConfPopupBkgImg": {
+      "style": "RentConfPopupBkgImg",
+      "url": "./Apps/Popup/1.0/DefaultSkin/images/popup__large.png"
+    },
+    "RentConfPopupTitleTxt": {
+      "style": "RentConfPopupTitleTxt"
+    },
+    "RentConfPopupTitleTxtMaxLength": 34,
+    "RentConfPopupTitleTxtStaticContent": "rentalConfirmation_title_txt",
+    "RentConfPopupLabel1Txt": {
+      "style": "RentConfPopupLabel1Txt",
+      "startPositionTxt": 0
+    },
+    "RentConfPopupLabel1TxtMaxLength": 130,
+    "RentConfPopupLabel1TxtStaticContent": "rentalConfirmation_label1_txt",
+    "RentConfPopupLabel2Txt": {
+      "style": "RentConfPopupLabel2Txt",
+      "startPositionTxt": 0
+    },
+    "RentConfPopupLabel2TxtMaxLength": 120,
+    "RentConfPopupLabel2TxtStaticContent": "rentalConfirmation_label2_txt",
+    "RentConfPopupItemTitleTxt": {
+      "style": "RentConfPopupItemTitleTxt",
+      "startPositionTxt": 0
+    },
+    "RentConfPopupItemTitleTxtMaxLength": 34,
+    "RentConfPopupDefaulItemTitleTxt": "default_rentalConfirmation_item_title_txt",
+    "RentConfPopupNowBtn": {
+      "styleItemCont": {
+        "style": "RentConfPopupNowBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RentConfPopupNowBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RentConfPopupNowBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RentConfPopupNowBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RentConfPopupNowBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RentConfPopupNowBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RentConfPopupNowBtnTxtSelected"
+      }
+    },
+    "RentConfPopupNowBtnTxtStaticContent": "rentalConfirmation_now_button_txt",
+    "RentConfPopupNowBtnDefaultStatus": "NOW",
+    "RentConfPopupLaterBtn": {
+      "styleItemCont": {
+        "style": "RentConfPopupLaterBtnCont"
+      },
+      "styleItemBgSelect": {
+        "style": "RentConfPopupLaterBtnBgSelect"
+      },
+      "styleItemBgUnSelect": {
+        "style": "RentConfPopupLaterBtnBgUnSelect"
+      },
+      "styleItemBgSelected": {
+        "style": "RentConfPopupLaterBtnBgSelected"
+      },
+      "styleItemTxtSelect": {
+        "style": "RentConfPopupLaterBtnTxtSelect"
+      },
+      "styleItemTxtUnSelect": {
+        "style": "RentConfPopupLaterBtnTxtUnSelect"
+      },
+      "styleItemTxtSelected": {
+        "style": "RentConfPopupLaterBtnTxtSelected"
+      }
+    },
+    "RentConfPopupLaterBtnTxtStaticContent": "rentalConfirmation_later_button_txt",
+    "RentConfPopupLaterBtnDefaultStatus": "LATER"
+  }
+}

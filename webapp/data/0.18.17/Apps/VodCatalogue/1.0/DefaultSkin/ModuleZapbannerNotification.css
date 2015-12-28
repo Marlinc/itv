@@ -1,0 +1,45 @@
+.ModuleZapBannerNotificationStyle {
+    font-size: 1.2em;
+    color: #ccc;
+    /*  border-radius: 0 0 9px 0;*/
+    background: transparent url(../../../Common/Resources/Images/1.0/bg_notify.png) 401px 111px;
+    z-index: 1;
+    width: 402px;
+    height: 111px;
+    padding: 0px;
+    position: fixed;
+    top: -5px;
+    left: -407px;
+    /*  -moz-box-shadow: -2px 0 5px #aaa;
+      -webkit-box-shadow: -2px 0 5px #aaa;
+      box-shadow: 0 4px 10px #555*/
+}
+
+#notificationIconMail {
+    margin: 40px 74px 0 350px
+}
+
+#notificationIconRedButton {
+    margin: 40px 140px;
+}
+
+#notificationNewMsgText {
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+#notificationHelpMsgText {
+    color: #ccc;
+    background: url(../../../Common/Resources/Images/1.0/nav_home.png) no-repeat;
+    padding-left: 35px;
+    /*   background-size: 20px auto*/
+}
+
+#notificationOpenMsgText {
+    color: #ccc;
+    background: url(../../../Common/Resources/Images/1.0/help/nav_colorbutton_red.png) no-repeat;
+    padding-left: 10px;
+}
+
+

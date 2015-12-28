@@ -1,0 +1,374 @@
+@import url("./Apps/Help/1.0/DefaultSkin/HelpMenuList.css");
+@import url("./Apps/Help/1.0/DefaultSkin/ScenarioZapbannerMiniStyle.css");
+@import url("./Apps/Help/1.0/DefaultSkin/ScenarioZapbannerExtendedStyle.css");
+@import url("./Apps/Help/1.0/DefaultSkin/ModuleZapbannerNotification.css");
+@import url("./Apps/Help/1.0/DefaultSkin/GeneralZapbanner.css");
+
+/*@font-face {
+    font-family:'myriad';
+    src:url('./Apps/Common/Resources/Fonts/1.0/myriad.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal
+}
+
+body *{font-family:"myriad"}
+*/
+.appHelpStyle,
+.ScenarioHelpStyle,
+.bgStyleHelp {
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px
+}
+
+.ScenarioHelp_bannerStyle {
+    left: 394px;
+    top: 93px;
+    max-height: 140px;
+    max-width: 760px;
+}
+
+.hour {
+    left: 86px
+}
+
+.date {
+    left: 275px
+}
+
+.hour,
+.date {
+    top: 60px;
+    width: 100px;
+    /*color: #FFF;*/
+    color: #cccccc;
+    font-size: 24px;
+    text-align: right;
+}
+
+.bannerStyle {
+    top: 95px;
+    left: 400px;
+    max-width: 755px;
+    max-height: 140px;
+    background-repeat: no-repeat;
+    border-image: none;
+}
+
+/* Breadcrumb */
+.breadcrumbStyleItemCont {
+    top: 59px;
+    left: 405px;
+    width: 760px;
+    height: 30px;
+}
+
+.breadcrumbStyleItemText {
+    top: 0px;
+    left: 0px;
+    /*color: #969696;*/
+    color: #cccccc;
+    font-size: 24px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.breadcrumbStyleItemImg {
+    top: 1px;
+    left: 1px;
+    width: 28px;
+    height: 28px;
+    border-image: none;
+    background: url("./Apps/Common/Resources/Images/1.0/nav_back.png") no-repeat;
+}
+
+/* Breadcrumb END*/
+
+/* Digit on live video*/
+.ItemDetChanNumTxt {
+    top: 100px;
+    left: 200px;
+    width: 90px;
+    font-weight: bold;
+    background: #00274d;
+    /*color: #fff;*/
+    color: #cccccc;
+    font-size: 30px;
+    text-align: center;
+    text-underline-position: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+/*Opties*/
+.blueButFooterStyleItemCont {
+    top: 629px;
+    left: 123px;
+    width: 200px;
+    height: 28px;
+    vertical-align: middle
+}
+
+.blueButFooterStyleItemImg {
+    background: url("./Apps/Common/Resources/Images/1.0/button_blue.png") no-repeat;
+    width: 28px;
+    height: 100%;
+    vertical-align: middle
+}
+
+/*Opties END*/
+
+.okFooterStyleItemCont {
+    top: 629px;
+    left: 400px;
+    width: 200px;
+    height: 30px;
+    vertical-align: middle
+}
+
+.okFooterStyleItemText {
+    text-align: left
+}
+
+.leftArrowFooterStyleItemCont {
+    top: 629px;
+    left: 400px;
+    width: 200px;
+    height: 30px;
+    vertical-align: middle
+}
+
+.leftArrowFooterStyleItemText {
+    text-align: left
+}
+
+.navigatieFooterStyleItemCont {
+    top: 629px;
+    left: 650px;
+    width: 200px;
+    height: 30px;
+    vertical-align: middle
+}
+
+.navigatieFooterStyleItemText {
+    text-align: left
+}
+
+.homeFooterStyleItemCont {
+    top: 629px;
+    left: 830px;
+    width: 200px;
+    height: 30px;
+    vertical-align: middle
+}
+
+.homeFooterStyleItemText {
+    text-align: left
+}
+
+.okFooterStyleItemText,
+.leftArrowFooterStyleItemText {
+    width: 170px;
+    color: #cccccc;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.blueButFooterStyleItemText,
+.navigatieFooterStyleItemText,
+.homeFooterStyleItemText {
+    width: 170px;
+    left: 6px;
+    color: #cccccc;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.okFooterStyleItemImg {
+    background: url("./Apps/Common/Resources/Images/1.0/nav_ok.png") no-repeat
+}
+
+.leftArrowFooterStyleItemImg {
+    background: url("./Apps/Common/Resources/Images/1.0/arrow_left.png") no-repeat
+}
+
+.navigatieFooterStyleItemImg {
+    background: url("./Apps/Common/Resources/Images/1.0/nav_arrows_updown.png") no-repeat
+}
+
+.homeFooterStyleItemImg {
+    background: url("./Apps/Common/Resources/Images/1.0/nav_home.png") no-repeat
+}
+
+.okFooterStyleItemImg,
+.leftArrowFooterStyleItemImg,
+.navigatieFooterStyleItemImg,
+.homeFooterStyleItemImg {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle
+}
+
+/* Footer */
+
+/* HtmlAreaWithVideo*/
+.htmlAreaWithVideoStyle {
+    top: 7px;
+    left: 10px;
+    width: 530px;
+    height: 268px;
+    background-color: transparent;
+    /*color: #f6f3f4;*/
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left
+}
+
+.imageVideoHelpStyle {
+    top: 305px;
+    left: 941px;
+    width: 216px;
+    height: 298px
+}
+
+.playVideoHelpStyle {
+    top: 405px;
+    left: 973px;
+    width: 152px;
+    height: 151px;
+    background: transparent
+}
+
+.txtVideoHelpStyle {
+    top: 328px;
+    left: 973px;
+    width: 150px;
+    height: 65px;
+    /*color: #f6f3f4;*/
+    color: #cccccc;
+    font-size: 22px;
+    text-align: center;
+    /*opacity: 0.8;*/
+    vertical-align: middle
+}
+
+/* HtmlAreaWithVideo*/
+
+/* HtmlArea*/
+.htmlAreaStyle {
+    top: 7px;
+    left: 10px;
+    width: 741px;
+    height: 281px;
+    background: transparent;
+    /*color: #f6f3f4;*/
+    color: #cccccc;
+    font-size: 20px;
+    text-align: left;
+}
+
+.htmlAreaRectWithVideoStyleUnselected,
+.htmlAreaRectStyleUnselected {
+    /*border: 3px solid #00274d*/
+    border: 3px solid #00274d
+}
+
+.htmlAreaRectWithVideoStyleSelected,
+.htmlAreaRectStyleSelected {
+    border: 3px solid #24730d
+}
+
+.htmlAreaRectWithVideoStyleUnselected,
+.htmlAreaRectWithVideoStyleSelected {
+    width: 530px
+}
+
+.htmlAreaRectStyleUnselected,
+.htmlAreaRectStyleSelected {
+    width: 755px
+}
+
+.htmlAreaRectWithVideoStyleUnselected,
+.htmlAreaRectWithVideoStyleSelected,
+.htmlAreaRectStyleUnselected,
+.htmlAreaRectStyleSelected {
+    top: 306px;
+    left: 394px;
+    height: 290px;
+    /*background: #00274d;*/
+    background: #00274d;
+    /*border-radius: 10px*/
+    border-radius: 4px
+}
+
+.leftArrowHtmlAreaStyle {
+    top: 446px;
+    left: 379px;
+    width: 28px;
+    height: 28px;
+    /*opacity: 0.8;*/
+    background: url("./Apps/Common/Resources/Images/1.0/arrow_left.png") no-repeat;
+    border-image: none
+}
+
+.arrowUpHtmlArea {
+    left: 777px;
+    top: 293px;
+}
+
+.arrowDownHtmlArea {
+    left: 777px;
+    top: 607px;
+}
+
+/* HtmlArea */
+
+.logoKpn {
+    height: 40px;
+    width: 94px;
+    left: 1056px;
+    top: 617px
+}
+
+/* to change below */
+.ScenarioOptionMenuBgStyle {
+    top: 0;
+    left: 0;
+    width: 384px;
+    height: 380px
+}
+
+/* Opt Menu */
+.optMenuLeftMenuBtCont {
+    top: 0;
+    left: 0;
+    width: 248px;
+    height: 32px
+}
+
+.helpListArrowUp {
+    left: 243px;
+    top: 293px
+}
+
+.helpListArrowDown {
+    left: 243px;
+    top: 600px
+}
+
+.optMenuToonOpties {
+    left: 123px;
+    top: 342px
+}
+
+.optMenuToonOptiesTxt {
+    left: 155px;
+    top: 344px;
+    /*color: #FFF;*/
+    color: #cccccc;
+    font-size: 22px
+}
+
+/* Opt Menu */

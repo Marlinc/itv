@@ -1,0 +1,88 @@
+.tvoyItemDetButtonBlueStyle {
+    left: 123px;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background: url("../../../../../Common/Resources/Images/1.0/button_blue.png") no-repeat
+}
+
+.tvoyButtonYellowStyle {
+    left: 8px;
+    width: 40px;
+    height: 28px;
+    vertical-align: middle;
+    background: url("../../../../../Common/Resources/Images/1.0/button_yellow.png") no-repeat
+}
+
+.tvoyButtonNavigateStyle {
+    left: 8px;
+    width: 40px;
+    height: 28px;
+    vertical-align: middle;
+    background: url("../../../../../Common/Resources/Images/1.0/nav_arrows_leftright_gray.png") no-repeat
+}
+
+.tvoyItemDetButtonBlueStyle {
+    top: 627px;
+}
+
+.tvoyItemDetTxtBlueStyle {
+    left: 154px
+}
+
+.tvoyMenuLeftCodeCutStyle {
+    width: 170px;
+    left: 18px;
+}
+
+.tvoyButtonOkStyle {
+    left: 8px;
+    width: 40px;
+    height: 28px;
+    vertical-align: middle;
+    background: url("../../../../../Common/Resources/Images/1.0/nav_ok.png") no-repeat
+}
+
+.tvoyItemDetTxtBlueStyle {
+    top: 629px;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.tvoyButtonOkTxtCutStyle {
+    width: 146px;
+}
+
+.tvoyButtonOkTxtStyle {
+    width: 250px;
+}
+
+.tvoyMenuLeftCodeStyle {
+    left: 18px;
+}
+
+.tvoyMenuLeftCodeCutStyle,
+.tvoyMenuLeftCodeStyle,
+.tvoyButtonOkTxtCutStyle,
+.tvoyButtonOkTxtStyle,
+.tvoyButtonYellowTxtStyle,
+.tvoyButtonNavigateTxtStyle {
+    height: 28px;
+    vertical-align: middle;
+    color: #cccccc;
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.tvoyContFooterStyle {
+    top: 629px;
+    left: 388px;
+    width: 100%;
+    height: 28px;
+    vertical-align: middle
+}

@@ -1,0 +1,108 @@
+.vodCatModuleMenuListGrid {
+    top: 48px;
+    width: 248px;
+    height: 298px;
+}
+
+.vodCatModuleMenuListGridTitleTxtSelect,
+.vodCatModuleMenuListGridTitleTxtUnSelect,
+.vodCatModuleMenuListGridTitleTxtSelected,
+.vodCatModuleMenuListMenuListTopElemTitleTxtSelect,
+.vodCatModuleMenuListMenuListTopElemTitleTxtUnSelect,
+.vodCatModuleMenuListMenuListTopElemTitleTxtSelected {
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 229px;
+    height: 32px;
+}
+
+.vodCatModuleMenuListMenuListTopElemItemCont,
+.vodCatModuleMenuListGridItemCont,
+.vodCatModuleMenuListGridItemBgSelect,
+.vodCatModuleMenuListGridItemBgUnSelect,
+.vodCatModuleMenuListGridItemBgSelected,
+.vodCatModuleMenuListMenuListTopElemItemBgSelect,
+.vodCatModuleMenuListMenuListTopElemItemBgUnSelect,
+.vodCatModuleMenuListMenuListTopElemItemBgSelected {
+    width: 248px;
+    height: 32px;
+}
+
+.vodCatModuleMenuListGridItemBgSelect,
+.vodCatModuleMenuListGridItemBgUnSelect,
+.vodCatModuleMenuListGridItemBgSelected,
+.vodCatModuleMenuListMenuListTopElemItemBgSelect,
+.vodCatModuleMenuListMenuListTopElemItemBgUnSelect,
+.vodCatModuleMenuListMenuListTopElemItemBgSelected {
+    border: 0;
+    border-radius: 4px;
+}
+
+.vodCatModuleMenuListGridItemBgSelect,
+.vodCatModuleMenuListMenuListTopElemItemBgSelect {
+    /* I version
+    background: linear-gradient(to bottom, #00274d 50%, #00162a 50%);
+    background: -webkit-linear-gradient(top, #00274d 50%, #00162a 50%);*/
+    /* II version
+    background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+     background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);*/
+    background: #24730d;
+}
+
+.vodCatModuleMenuListGridItemBgUnSelect,
+.vodCatModuleMenuListMenuListTopElemItemBgUnSelect {
+    background: #00274d;
+}
+
+.vodCatModuleMenuListGridItemBgSelected,
+.vodCatModuleMenuListMenuListTopElemItemBgSelected {
+    /* background: #787878;*/
+    background: #666e84;
+}
+
+.vodCatModuleMenuListArrowDown,
+.vodCatModuleMenuListArrowUp {
+    left: 111px;
+    width: 23px;
+    height: 8px;
+}
+
+.vodCatModuleMenuListArrowDown {
+    top: 353px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_down.png") no-repeat;
+}
+
+.vodCatModuleMenuListArrowUp {
+    top: 35px;
+    background: url("../../../Common/Resources/Images/1.0/arrow_up.png") no-repeat;
+}
+
+.vodCatModuleMenuListMenuListTopElemItemCont {
+    top: 0px;
+    left: 0px;
+}
+
+.vodCatModuleMenuListGridTitleTxtSelect,
+.vodCatModuleMenuListGridTitleTxtSelected,
+.vodCatModuleMenuListMenuListTopElemTitleTxtSelect,
+.vodCatModuleMenuListMenuListTopElemTitleTxtSelected {
+    left: 7px;
+    color: #cccccc;
+    height: 32px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}
+
+.vodCatModuleMenuListGridTitleTxtUnSelect,
+.vodCatModuleMenuListMenuListTopElemTitleTxtUnSelect {
+    left: 7px;
+    color: #cccccc;
+    height: 32px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    vertical-align: middle;
+}

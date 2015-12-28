@@ -1,0 +1,14 @@
+{
+  "messageConf": {
+    "packageUnsubscribedMessage": "Deze optie valt niet binnen uw abonnement. Neem contact op met onze Klantenservice.",
+    "dayOfWeek": [
+      "zo",
+      "ma",
+      "di",
+      "wo",
+      "do",
+      "vr",
+      "za"
+    ]
+  }
+}

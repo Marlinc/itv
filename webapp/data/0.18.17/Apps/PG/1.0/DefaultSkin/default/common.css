@@ -1,0 +1,17 @@
+/*@font-face {
+    font-family: 'myriad';
+    src: url('../../../../Common/Resources/Fonts/1.0/myriad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body * {
+    font-family: "myriad"
+}*/
+
+.ScenarioTVOY_bannerStyle {
+    left: 394px;
+    top: 93px;
+    max-height: 140px;
+    max-width: 755px;
+}

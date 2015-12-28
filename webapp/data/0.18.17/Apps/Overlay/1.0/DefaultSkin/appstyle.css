@@ -1,0 +1,104 @@
+.appOverlayStyle {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+.bgStyleOverlay {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+.ScenarioOverlayOptionMenuStyle {
+    top: 220px;
+    left: 0;
+    width: 384px;
+    height: 380px;
+}
+
+.ScenarioOverlayOptionMenuBgStyle {
+    top: 0;
+    left: 0;
+    width: 384px;
+    height: 380px;
+}
+
+/* Left Menu Grid */
+.optOverlayMenuLeftMenuMessages {
+    top: 22px;
+    left: 126px;
+    width: 248px;
+    height: 296px;
+}
+
+.optOverlayMenuLeftMenuBtCont {
+    top: 0px;
+    left: 0px;
+    width: 248px;
+    height: 32px;
+}
+
+.optOverlayMenuLeftMenuBtBgSelect {
+    width: 248px;
+    height: 32px;
+    /*    background: linear-gradient(to bottom, #369a1e 50%,#24730d 50%);
+        background: -webkit-linear-gradient(top,#369a1e 50%,#24730d 50%);
+    */
+    background: #24730d;
+    border-radius: 4px;
+}
+
+.optOverlayMenuLeftMenuBtBgUnSelect {
+    width: 248px;
+    height: 32px;
+    background-color: #00274d;
+    border-radius: 4px;
+}
+
+.optOverlayMenuLeftMenuBtTxtSelect {
+    top: 3px;
+    left: 5px;
+    width: 248px;
+    height: 30px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.optOverlayMenuLeftMenuBtTxtUnSelect {
+    top: 3px;
+    left: 5px;
+    width: 248px;
+    height: 30px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.optOverlayMenuArrowUp {
+    left: 240px; /*243px;*/
+    top: 10px;
+}
+
+.optOverlayMenuArrowDown {
+    left: 240px; /*243px;*/
+    top: 342px;
+}
+
+.optOverlayMenuToonOpties {
+    left: 123px;
+    top: 342px;
+}
+
+.optOverlayMenuToonOptiesTxt {
+    left: 155px;
+    top: 342px;
+    color: #cccccc;
+    font-size: 23px;
+    /*opacity: 0.8;*/
+}
+
+/* Left Menu Grid */

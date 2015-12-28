@@ -1,0 +1,234 @@
+.tvoyCatFooterElementOptiesItemContStyle {
+    left: 123px
+}
+
+.tvoyCatOTTFooterElementItemContStyle {
+    left: 392px
+}
+
+.tvoyCatFooterElementPlayLeftItemContStyle1stElement {
+    width: 204px
+}
+
+.tvoyCatFooterElementPlayLeftItemContStyle1stElement,
+.tvoyCatFooterElementNavItemAllContStyle1stElement,
+.tvoyCatFooterElementNavItemContStyle1stElement,
+.tvoyCatFooterElementPlayRightItemContStyle1stElement {
+    left: 390px
+}
+
+.tvoyCatFooterElementNavItemAllContStyle1stElementTranslated,
+.tvoyCatFooterElementNavItemContStyle1stElementTranslated,
+.tvoyCatFooterElementOkLeftItemContStyle2ndElement {
+    left: 823px
+}
+
+.tvoyCatFooterElementOkLeftItemContStyle2ndElementTranslated {
+    left: 983px
+}
+
+.tvoyCatFooterElementYellowImgItemStyle {
+    background: url("../../../../../Common/Resources/Images/1.0/button_yellow.png") no-repeat
+}
+
+.tvoyCatFooterElementOptiesImgItemStyle {
+    background: url("../../../../../Common/Resources/Images/1.0/button_blue.png") no-repeat
+}
+
+.tvoyCatOTTFooterElementImgItemStyle {
+    background: url("../../../../../Common/Resources/Images/1.0/button_yellow.png") no-repeat
+}
+
+.tvoyCatFooterElementNavImgItemAllStyle1stElement, .tvoyCatFooterElementNavImgItemAllStyle1stElementTranslated {
+    background: url("../../../../../Common/Resources/Images/1.0/nav_arrows_all.png") no-repeat
+}
+
+.tvoyCatFooterElementNavImgItemStyle1stElement,
+.tvoyCatFooterElementNavImgItemStyle2ndElement,
+.tvoyCatFooterElementNavImgItemStyle1stElementTranslated,
+.tvoyCatFooterElementNavImgItemStyle2ndElementTranslated {
+    background: url("../../../../../Common/Resources/Images/1.0/nav_arrows_updown.png") no-repeat
+}
+
+.tvoyCatFooterElementOKRightImgItemStyle2ndElement,
+.tvoyCatFooterElementOkLeftImgItemStyle3rdElement,
+.tvoyCatFooterElementOKRightImgItemStyle2ndElementTranslated,
+.tvoyCatFooterElementOkLeftImgItemStyle3rdElementTranslated {
+    background: url("../../../../../Common/Resources/Images/1.0/nav_ok.png") no-repeat;
+    background-position: 0 50% !important
+}
+
+.tvoyCatFooterElementPlayRightImgItemStyle1stElement,
+.tvoyCatFooterElementPlayRightImgItemStyle1stElementTranslated {
+    background: url("../../../../../Common/Resources/Images/1.0/trickPlay/tp_play_grey.png") no-repeat
+}
+
+.tvoyCatFooterElementPlayLeftImgItemStyle1stElement,
+.tvoyCatFooterElementPlayLeftImgItemStyle1stElementTranslated {
+    background: url("../../../../../Common/Resources/Images/1.0/trickPlay/tp_play.png") no-repeat
+}
+
+.tvoyCatFooterElementOKRightImgItemStyle3rdElement {
+    background: url("../../../../../Common/Resources/Images/1.0/nav_ok.png") no-repeat;
+    background-position: 0 50% !important
+}
+
+.tvoyCatFooterElementPlayLeftImgItemStyle1stElement,
+.tvoyCatFooterElementOptiesImgItemStyle,
+.tvoyCatOTTFooterElementImgItemStyle,
+.tvoyCatFooterElementNavImgItemAllStyle1stElement,
+.tvoyCatFooterElementNavImgItemStyle1stElement,
+.tvoyCatFooterElementYellowImgItemStyle,
+.tvoyCatFooterElementOKRightImgItemStyle3rdElement,
+.tvoyCatFooterElementOkLeftImgItemStyle3rdElement,
+.tvoyCatFooterElementNavImgItemStyle2ndElement,
+.tvoyCatFooterElementOKRightImgItemStyle2ndElement,
+.tvoyCatFooterElementPlayRightImgItemStyle1stElement,
+.tvoyCatFooterElementOkLeftImgItemStyle2ndElement,
+.tvoyCatFooterElementPlayLeftImgItemStyle1stElementTranslated,
+.tvoyCatFooterElementNavImgItemAllStyle1stElementTranslated,
+.tvoyCatFooterElementNavImgItemStyle1stElementTranslated,
+.tvoyCatFooterElementOkLeftImgItemStyle3rdElementTranslated,
+.tvoyCatFooterElementNavImgItemStyle2ndElementTranslated,
+.tvoyCatFooterElementOKRightImgItemStyle2ndElementTranslated,
+.tvoyCatFooterElementPlayRightImgItemStyle1stElementTranslated,
+.tvoyCatFooterElementOkLeftImgItemStyle2ndElementTranslated {
+    width: 28px;
+    height: 100%;
+    vertical-align: middle
+}
+
+.tvoyCatFooterElementOkLeftTxtContStyle2ndElement,
+.tvoyCatFooterElementOkLeftTxtContStyle3rdElement,
+.tvoyCatFooterElementNavTxtContAllStyle1stElement,
+.tvoyCatFooterElementOptiesTxtContStyle,
+.tvoyCatOTTFooterElementTxtContStyle,
+.tvoyCatFooterElementNavTxtContStyle1stElement,
+.tvoyCatFooterElementNavTxtContStyle2ndElement,
+.tvoyCatFooterElementPlayLeftTxtContStyle1stElement,
+.tvoyCatFooterElementPlayRightTxtContStyle1stElement,
+.tvoyCatFooterElementOkLeftTxtContStyle2ndElementTranslated,
+.tvoyCatFooterElementOkLeftTxtContStyle3rdElementTranslated,
+.tvoyCatFooterElementNavTxtContAllStyle1stElementTranslated,
+.tvoyCatFooterElementNavTxtContStyle1stElementTranslated,
+.tvoyCatFooterElementNavTxtContStyle2ndElementTranslated,
+.tvoyCatFooterElementPlayLeftTxtContStyle1stElementTranslated,
+.tvoyCatFooterElementPlayRightTxtContStyle1stElementTranslated {
+    width: 170px;
+    /*height: 100%;*/
+    left: 6px;
+    color: #cccccc;
+    font-size: 22px;
+    vertical-align: middle
+}
+
+.tvoyCatFooterElementOKRightItemContStyle2ndElement {
+    left: 620px;
+    width: 230px
+}
+
+.tvoyCatFooterElementNavItemContStyle2ndElement {
+    left: 620px
+}
+
+.tvoyCatFooterElementOkLeftItemContStyle3rdElement {
+    left: 824px;
+    width: 30px
+}
+
+.tvoyCatFooterElementOKRightItemContStyle3rdElement {
+    left: 825px;
+    width: 230px
+}
+
+/* Yellow Button */
+.tvoyCatFooterElementYellowItemContStyle {
+    left: 648px;
+    width: 400px
+}
+
+.tvoyCatFooterElementOptiesItemContStyle,
+.tvoyCatOTTFooterElementItemContStyle,
+.tvoyCatFooterElementNavItemAllContStyle1stElement,
+.tvoyCatFooterElementNavItemContStyle1stElement,
+.tvoyCatFooterElementPlayLeftItemContStyle1stElement,
+.tvoyCatFooterElementPlayRightItemContStyle1stElement,
+.tvoyCatFooterElementOkLeftItemContStyle2ndElement,
+.tvoyCatFooterElementOKRightItemContStyle2ndElement,
+.tvoyCatFooterElementNavItemContStyle2ndElement,
+.tvoyCatFooterElementOkLeftItemContStyle3rdElement,
+.tvoyCatFooterElementOKRightItemContStyle3rdElement,
+.tvoyCatFooterElementYellowItemContStyle,
+.tvoyCatFooterElementNavItemAllContStyle1stElementTranslated,
+.tvoyCatFooterElementNavItemContStyle1stElementTranslated,
+.tvoyCatFooterElementOkLeftItemContStyle2ndElementTranslated {
+    top: 628px;
+    height: 28px;
+    vertical-align: middle
+}
+
+.tvoyCatFooterElementYellowTxtContStyle {
+    width: 300px
+}
+
+.tvoyCatFooterElementOKRightTxtContStyle2ndElement,
+.tvoyCatFooterElementOKRightTxtContStyle3rdElement,
+.tvoyCatFooterElementYellowTxtContStyle {
+    height: 100%;
+    /*color: #aaa;*/
+    color: #cccccc;
+    font-size: 22px;
+    vertical-align: middle
+}
+
+.tvoyCatFooterElementOKRightTxtContStyle2ndElement,
+.tvoyCatFooterElementOKRightTxtContStyle3rdElement,
+.tvoyCatFooterElementOptiesItemContStyle,
+.tvoyCatOTTFooterElementItemContStyle,
+.tvoyCatFooterElementNavItemAllContStyle1stElement,
+.tvoyCatFooterElementNavItemContStyle1stElement,
+.tvoyCatFooterElementPlayRightItemContStyle1stElement,
+.tvoyCatFooterElementOkLeftItemContStyle2ndElement,
+.tvoyCatFooterElementNavItemContStyle2ndElement {
+    width: 200px
+}
+
+.tvoyCatFooterElementPlayRightItemContStyle1stElementTranslated {
+    width: 200px;
+    top: 627px;
+    height: 30px;
+    vertical-align: middle;
+    left: 555px;
+}
+
+.tvoyCatFooterElementNavItemContStyle2ndElementTranslated {
+    width: 200px;
+    top: 627px;
+    height: 30px;
+    vertical-align: middle;
+    left: 620px;
+}
+
+.tvoyCatFooterElementOkLeftItemContStyle3rdElementTranslated {
+    top: 627px;
+    height: 30px;
+    vertical-align: middle;
+    left: 932px;
+    width: 30px;
+}
+
+.tvoyCatFooterElementOKRightItemContStyle3rdElementTranslated {
+    top: 627px;
+    height: 30px;
+    vertical-align: middle;
+    left: 825px;
+    width: 230px;
+}
+
+.tvoyCatFooterElementOKRightItemContStyle2ndElementTranslated {
+    top: 627px;
+    height: 30px;
+    vertical-align: middle;
+    left: 620px;
+    width: 230px;
+}
